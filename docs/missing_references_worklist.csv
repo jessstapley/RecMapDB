@@ -1,0 +1,67 @@
+map_id,species_name,si_author,si_year,map_length_cM,n_markers,tier,reason,best_guess_doi,best_guess_title
+RM0005,Actinidia rufa,Zhang,2015.0,2651.0,2426.0,reject,Best candidate did not match on species name and map-paper title.,10.1079/cabicompendium.66228390,Actinidia rufa
+RM0017,Allium fistulosum,Tsukazaki,2012.0,1670.0,268.0,needs_review_not_map,"Author, species and year agree but the paper is not a linkage-map paper — likely the wrong output from the right group.",10.1007/s11032-012-9752-5,QTL analysis for pseudostem pungency in bunching onion (Allium fistulosum)
+RM0020,,,,1427.0,755.0,no_candidate,Crossref returned nothing matching the species name.,,
+RM0026,Anopheles gambiae,Corbet-Detig,2015.0,166.1,38.0,needs_review_not_map,"Author, species and year agree but the paper is not a linkage-map paper — likely the wrong output from the right group.",10.1101/096289,Natural diversity of the malaria vector Anopheles gambiae
+RM0029,Anthurium ornatum,Venkat,2014.0,1233.5,85.0,reject,Best candidate did not match on species name and map-paper title.,10.1016/j.scienta.2014.08.017,"The genetic linkage maps of Anthurium species based on RAPD, ISSR and SRAP markers"
+RM0046,,,,517.2,61.0,no_candidate,Crossref returned nothing matching the species name.,,
+RM0064,Brachypodium distachyon,Corbet-Detig,2015.0,1598.0,556.0,reject,Best candidate did not match on species name and map-paper title.,10.1079/cabicompendium.112778,Brachypodium distachyon (purple false brome)
+RM0072,Caenorhabditis briggsae,Corbet-Detig,2015.0,484.4527,,reject,Best candidate did not match on species name and map-paper title.,10.1895/wormbook.1.128.1,Caenorhabditis briggsae methods
+RM0073,,,,233.287,5220.0,no_candidate,Crossref returned nothing matching the species name.,,
+RM0082,Capsella rubella,Corbet-Detig,2015.0,381.82633647,877.0,reject,Best candidate did not match on species name and map-paper title.,10.1079/cabicompendium.112944,Capsella rubella
+RM0096,Chlamys noblis,Yuan,2010.0,1608.8,117.0,reject,Best candidate did not match on species name and map-paper title.,10.2983/035.029.0126,Genetic Linkage Maps of the Noble ScallopChlamys nobilisReeve Based on Aflp and Microsatellite Markers
+RM0106,Citrus unshiu,Shimada,2014.0,990.9,706.0,reject,Best candidate did not match on species name and map-paper title.,10.1079/cabicompendium.13470,Citrus unshiu (satsuma)
+RM0108,Cochliobus sativus,Zhong,2002.0,849.4,158.0,reject,Best candidate did not match on species name and map-paper title.,10.5010/jpb.2002.29.3.151,Construction of a Genetic Linkage Map in Radish(Raphanus sativus L.) Using RAPD Markers
+RM0146,,,,1210.9,169.0,no_candidate,Crossref returned nothing matching the species name.,,
+RM0150,Drosophila melanogaster,Corbet-Detig,2015.0,105.46085,969.0,reject,Best candidate did not match on species name and map-paper title.,10.1534/genetics.116.190389,Selection on Inversion Breakpoints Favors Proximity to Pairing Sensitive Sites in Drosophila melanogaster
+RM0151,Drosophila pseudoobscura,Corbet-Detig,2015.0,53.520111655,141.0,reject,Best candidate did not match on species name and map-paper title.,10.1079/cabicompendium.19947,Drosophila pseudoobscura
+RM0160,,,,1423.17,714.0,no_candidate,Crossref returned nothing matching the species name.,,
+RM0161,Epinephelus coioides,You,2013.0,1582.7,4608.0,reject,Best candidate did not match on species name and map-paper title.,10.3750/aip2014.44.1.07,Molecular markers for parentage analysis in the grouper F1 hybrid Epinephelus coioides × Epinephelus lanceolatus (Actinopterygii: Perciformes: Serranidae)
+RM0164,Eragrostis tef,Zeid,2011.0,1277.4,,needs_review_not_map,"Author, species and year agree but the paper is not a linkage-map paper — likely the wrong output from the right group.",10.1016/j.fcr.2011.10.013,Genetic diversity in tef (Eragrostis tef) germplasm using SSR markers
+RM0170,,,,1520.0,,no_candidate,Crossref returned nothing matching the species name.,,
+RM0197,Gnathopogon caerulescens,Kakioka,2013.0,1390.9,1622.0,reject,Best candidate did not match on species name and map-paper title.,10.1186/1471-2164-14-32,"A RAD-based linkage map and comparative genomics in the gudgeons (genus Gnathopogon, Cyprinidae)"
+RM0206,,,,693.5,122.0,no_candidate,Crossref returned nothing matching the species name.,,
+RM0212,,,,2476.0,241.0,no_candidate,Crossref returned nothing matching the species name.,,
+RM0218,Homo sapiens,Corbet-Detig,2015.0,3179.9563005,276215.0,reject,Best candidate did not match on species name and map-paper title.,10.18137/rnu.het.22.07.p.015,From Homo Habllis to Homo Sapiens and Back
+RM0223,Hypsizygus marmoreus,Sun,2016.0,86.2,14.0,reject,Best candidate did not match on species name and map-paper title.,10.3390/biom10020298,Cyclic Dipeptides Mediating Quorum Sensing and Their Biological Effects in Hypsizygus Marmoreus
+RM0235,Lagerstroemia,He,2014.0,1162.1,173.0,reject,Best candidate did not match on species name and map-paper title.,10.3390/f12030322,A Genetic Linkage Map of BC2 Population Reveals QTL Associated with Plant Architecture Traits in Lagerstroemia
+RM0238,Lateolabrax japonicus,Liu,2016.0,2957.79,3000.0,reject,Best candidate did not match on species name and map-paper title.,10.1079/cabicompendium.77957,Lateolabrax japonicus (japanese seaperch)
+RM0240,Laupala,Shaw,2007.0,795.3,131.0,reject,Best candidate did not match on species name and map-paper title.,10.1093/genetics/162.3.1275,Mapping Unexplored Genomes: A Genetic Linkage Map of the Hawaiian Cricket Laupala
+RM0242,Lentinula edodes,Gong,2016.0,983.7,572.0,medium,"Plausible but unverified: species and map-paper title match, author or year does not.",10.1016/j.funbio.2014.01.001,Constructing a new integrated genetic linkage map and mapping quantitative trait loci for vegetative mycelium growth rate in Lentinula edodes
+RM0243,Lepisosteus oculatus,Corbet-Detig,2015.0,2923.736,2820.0,reject,Best candidate did not match on species name and map-paper title.,10.1080/00028487.2017.1353546,"Relative bias and precision of age estimates among calcified structures of Spotted Gar Lepisosteus oculatus, Shortnose Gar Lepisosteus platostomus, and Longnose Gar Lepisosteus osseus"
+RM0246,Leptopilina clavipes,Pannebakker,2004.0,219.9,32.0,needs_review_not_map,"Author, species and year agree but the paper is not a linkage-map paper — likely the wrong output from the right group.",10.1139/g03-137,Cytology ofWolbachia-induced parthenogenesis inLeptopilina clavipes(Hymenoptera: Figitidae)
+RM0247,Lilium,Shahin,2011.0,1627.0,411.0,reject,Best candidate did not match on species name and map-paper title.,10.18174/212113,Development of genomic resources for ornamental lilies (Lilium L.)
+RM0282,,,,1288.0,,no_candidate,Crossref returned nothing matching the species name.,,
+RM0283,Mus musculus,Corbet-Detig,2015.0,1436.348,9872.0,reject,Best candidate did not match on species name and map-paper title.,10.34756/geos.2021.17.38169,Акустическая коммуникация домовых мышей (Mus musculus)
+RM0290,Nasonia vitripennis,Beukeboom,2010.0,515.0,36.0,reject,Best candidate did not match on species name and map-paper title.,10.1534/genetics.105.044743,No Patrigenes Required for Femaleness in the Haplodiploid Wasp Nasonia vitripennis
+RM0296,,,,1124.1,320.0,no_candidate,Crossref returned nothing matching the species name.,,
+RM0309,,,,1426.93,2142.0,no_candidate,Crossref returned nothing matching the species name.,,
+RM0318,Papio anubis,Corbet-Detig,2015.0,2422.1,242.0,reject,Best candidate did not match on species name and map-paper title.,10.1079/cabicompendium.70747,Papio anubis
+RM0323,,,,580.2,354.0,no_candidate,Crossref returned nothing matching the species name.,,
+RM0333,Philomachus pugnax,Farrell,2013.0,641.6,58.0,needs_review_not_map,"Author, species and year agree but the paper is not a linkage-map paper — likely the wrong output from the right group.",10.1007/s12686-012-9639-0,"Isolation, characterization and predicted genome locations of ruff (Philomachus pugnax, AVES) microsatellite loci"
+RM0337,Phytophthora capsici,Lamour,2012.0,1654.0,1136.0,reject,Best candidate did not match on species name and map-paper title.,10.1007/978-3-662-44056-8_6,Illuminating the Phytophthora capsici Genome
+RM0342,,,,990.74,3117.0,no_candidate,Crossref returned nothing matching the species name.,,
+RM0351,Pinus sylvestris,Lind,2007.0,1468.0,358.0,reject,Best candidate did not match on species name and map-paper title.,10.1079/cabicompendium.41534,Pinus mugo x Pinus sylvestris
+RM0353,,,,1237.3,144.0,no_candidate,Crossref returned nothing matching the species name.,,
+RM0357,Plasmodium yoelii,Li,2011.0,579.2,,reject,Best candidate did not match on species name and map-paper title.,10.1079/cabicompendium.69060,Plasmodium yoelii yoelii
+RM0358,,,,1047.8,256.0,no_candidate,Crossref returned nothing matching the species name.,,
+RM0365,,,,2030.6,652.0,no_candidate,Crossref returned nothing matching the species name.,,
+RM0367,,,,4356.04,1430.0,no_candidate,Crossref returned nothing matching the species name.,,
+RM0369,Populus trichocarpa,Corbet-Detig,2015.0,2801.5,411.0,reject,Best candidate did not match on species name and map-paper title.,10.1079/cabicompendium.42991,Populus 'Charkowiensis' x Populus trichocarpa
+RM0382,,,,938.6,,no_candidate,Crossref returned nothing matching the species name.,,
+RM0383,Pungitius pungitius,Rastas,2016.0,1980.74,20054.0,reject,Best candidate did not match on species name and map-paper title.,10.1079/cabicompendium.67438,Pungitius pungitius
+RM0385,Pyrenophora teres,Ellwood,2010.0,2477.7,243.0,needs_review_not_map,"Author, species and year agree but the paper is not a linkage-map paper — likely the wrong output from the right group.",10.1186/gb-2010-11-11-r109,A first genome assembly of the barley fungal pathogen Pyrenophora teres f. teres
+RM0388,Pyrus pyrifolia,Yamamoto,2014.0,1039.0,275.0,reject,Best candidate did not match on species name and map-paper title.,10.1270/jsbbs.15085,Physical mapping of black spot disease resistance/susceptibility-related genome regions in Japanese pear (<i>Pyrus pyrifolia</i>) by BAC-FISH
+RM0389,Pyrus x,Chen,2015.0,1661.4,743.0,reject,Best candidate did not match on species name and map-paper title.,10.1016/j.scienta.2017.02.015,Construction of a high-density genetic linkage map in pear (Pyrus communis×Pyrus pyrifolia nakai) using SSRs and SNPs developed by SLAF-seq
+RM0397,Rosa hybrida,Bourke,2017.0,573.66,25695.0,reject,Best candidate did not match on species name and map-paper title.,10.1079/cabicompendium.47815,Rosa hybrida
+RM0410,,,,739.4,70.0,no_candidate,Crossref returned nothing matching the species name.,,
+RM0412,Sebastes schlegelii,Chu,2014.0,1346.85,435.0,reject,Best candidate did not match on species name and map-paper title.,10.1007/s11802-014-2301-6,A microsatellite genetic linkage map of black rockfish (Sebastes schlegeli)
+RM0422,,,,118.7,16.0,no_candidate,Crossref returned nothing matching the species name.,,
+RM0436,Struthio camelus,Huang,2008.0,365.4,35.0,reject,Best candidate did not match on species name and map-paper title.,10.1079/cabicompendium.63410,Struthio camelus (ostrich)
+RM0443,Taxodium mucronatum,Wang,2016.0,976.5,179.0,needs_review_not_map,"Author, species and year agree but the paper is not a linkage-map paper — likely the wrong output from the right group.",10.1079/cabicompendium.52619,Taxodium distichum x Taxodium mucronatum
+RM0444,,,,1683.8,39.0,no_candidate,Crossref returned nothing matching the species name.,,
+RM0449,,,,592.0,,no_candidate,Crossref returned nothing matching the species name.,,
+RM0458,,,,2879.3,9040.0,no_candidate,Crossref returned nothing matching the species name.,,
+RM0460,,,,436.0,502.0,no_candidate,Crossref returned nothing matching the species name.,,
+RM0472,Vigna subterranea,Ahmad,2016.0,608.3,238.0,reject,Best candidate did not match on species name and map-paper title.,10.51984/jopas.v17i1.92,تقييم نمو نبات البامبارا Bambara groundnut (Vigna subterranea)
+RM0482,Zea nicaraguensis,Mano,2012.0,793.5,236.0,medium,"Plausible but unverified: species and map-paper title match, author or year does not.",10.1007/s11032-010-9532-z,"Construction of intraspecific linkage maps, detection of a chromosome inversion, and mapping of QTL for constitutive root aerenchyma formation in the teosinte Zea nicaraguensis"

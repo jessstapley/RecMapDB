@@ -116,9 +116,8 @@
       {
         "name": "si_ref_number",
         "type": "integer",
-        "description": "Reference number in the 2017 supplementary list. Join key to SuppDat.csv Ref.number.",
+        "description": "Reference number in the 2017 supplementary list. Join key to SuppDat.csv Ref.number. Null for references added after the 2017 paper, which have no supplement number.",
         "constraints": {
-          "required": true,
           "unique": true,
           "minimum": 1,
           "maximum": 353
@@ -137,10 +136,8 @@
       {
         "name": "citation_verbatim",
         "type": "string",
-        "description": "Citation exactly as it appears in the supplementary PDF. The provenance anchor for every other field.",
-        "constraints": {
-          "required": true
-        }
+        "description": "Citation exactly as it appears in the supplementary PDF. The provenance anchor for every other field. Null for references added after the 2017 paper, which were resolved directly from Crossref rather than parsed from the supplement PDF.",
+        "constraints": {}
       },
       {
         "name": "match_confidence",
@@ -149,10 +146,11 @@
           "enum": [
             "high",
             "high_manual",
-            "unresolved"
+            "unresolved",
+            "recovered_2026"
           ]
         },
-        "description": "high = automatic Crossref match above threshold; high_manual = verified or supplied by hand; unresolved = no DOI."
+        "description": "high = automatic Crossref match above threshold; high_manual = verified or supplied by hand; unresolved = no DOI. \"recovered_2026\" marks references found by species+author+year search for records that post-date the paper."
       },
       {
         "name": "match_title_score",
