@@ -1,0 +1,62 @@
+trait,value,n_species,definition,needs_definition
+domestication_status,Domesticated,37,Domesticated.,False
+domestication_status,Cultivated,8,Cultivated but not fully domesticated.,False
+domestication_status,Wild,1,Wild.,False
+habitat,terrestrial,314,"Free-living, terrestrial.",False
+habitat,aquatic,102,"Free-living, aquatic (marine or freshwater).",False
+habitat,complex,2,Occupies more than one broad habitat.,False
+habitat,soil,1,"Free-living, soil-dwelling.",False
+haplodiploid,false,162,Not haplodiploid.,False
+haplodiploid,true,12,Haplodiploid sex determination.,False
+heterochiasmy,H,64,,True
+heterochiasmy,A,11,,True
+host_type,plants,23,Parasite or pathogen of plants.,False
+host_type,animals,15,Parasite or pathogen of animals.,False
+invasive,false,141,No documented invasive populations. Recorded for animals only.,False
+invasive,true,41,Has documented invasive populations outside the native range.,False
+leaf_compoundness,simple,125,Simple (undivided) leaves.,False
+leaf_compoundness,compound,34,Compound (divided) leaves.,False
+leaf_phenology,evergreen,44,Evergreen.,False
+leaf_phenology,deciduous,26,Deciduous.,False
+leaf_type,broadleaved,155,Broadleaved.,False
+leaf_type,needleleaved,14,Needle-leaved.,False
+leaf_type,scale-shaped,1,Scale-shaped leaves.,False
+parasitic_or_pathogenic,false,419,Free-living.,False
+parasitic_or_pathogenic,true,38,Parasitic or pathogenic lifestyle.,False
+photosynthetic_pathway,C3,149,C3 photosynthesis.,False
+photosynthetic_pathway,C4,11,C4 photosynthesis.,False
+photosynthetic_pathway,CAM,1,Crassulacean acid metabolism.,False
+plant_growth_form,herb,60,Herbaceous.,False
+plant_growth_form,tree,47,Tree.,False
+plant_growth_form,graminoid,27,Grass or grass-like.,False
+plant_growth_form,shrub,13,Shrub.,False
+plant_growth_form,shrub/tree,10,Intermediate between shrub and tree.,False
+plant_growth_form,herb/shrub,3,Intermediate between herb and shrub.,False
+plant_life_form,P,16,,True
+plant_life_form,PA,3,,True
+pollination_mode,insects,35,Insect-pollinated.,False
+pollination_mode,wind,15,Wind-pollinated.,False
+pollination_mode,variable,1,More than one pollination mode.,False
+selfing,SC,32,Self-compatible.,False
+selfing,both,19,Both states reported.,False
+selfing,SI,11,Self-incompatible.,False
+sex_determination_genotypic,MH,45,,True
+sex_determination_genotypic,FH,22,,True
+sex_determination_genotypic,SC,2,,True
+sex_determination_karyotype,H,55,,True
+sex_determination_karyotype,XY,41,Male-heterogametic XY system.,False
+sex_determination_karyotype,ZW,24,Female-heterogametic ZW system.,False
+sex_determination_karyotype,XO,4,XO system.,False
+sex_determination_karyotype,UV,1,UV sex chromosomes (haploid-phase).,False
+sexual_system,gonochorous,110,Separate sexes (animals).,False
+sexual_system,hermaphrodite,79,Both sexual functions in one individual.,False
+sexual_system,monoecious,38,Separate male and female flowers on the same plant.,False
+sexual_system,dioecy,13,Separate male and female plants.,False
+sexual_system,male.haploid,12,Males haploid (arrhenotoky / haplodiploidy).,False
+sexual_system,parthenogenic,9,Reproduces parthenogenetically.,False
+sexual_system,polygamodioecy,5,Dioecious with some individuals bearing perfect flowers.,False
+sexual_system,seq.hermaphrodite,2,Sequential hermaphrodite (sex change during life).,False
+sexual_system,andromonoecy,2,Male and perfect flowers on the same plant.,False
+woodiness,non-woody,90,"Herbaceous, not woody.",False
+woodiness,woody,72,Woody.,False
+woodiness,non-woody/woody,3,Variable within the species.,False

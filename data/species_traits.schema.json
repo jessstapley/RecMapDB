@@ -1,0 +1,79 @@
+{
+  "name": "species_traits",
+  "path": "species_traits.csv",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "title": "Species-level trait observations",
+  "description": "Long format: one row per species x trait. Long rather than wide because most traits apply to only one lineage (leaf traits to plants, haplodiploidy to animals) \u2014 a wide table would be mostly empty cells and would not distinguish 'not applicable' from 'not scored'. Absence of a row means the trait was not scored for that species; it never means a negative observation.",
+  "schema": {
+    "primaryKey": [
+      "species_name",
+      "trait"
+    ],
+    "foreignKeys": [
+      {
+        "fields": "species_name",
+        "reference": {
+          "resource": "species",
+          "fields": "species_name"
+        }
+      }
+    ],
+    "fields": [
+      {
+        "name": "ott_id",
+        "type": "string",
+        "description": "Open Tree taxon id. Joins to species.csv.",
+        "constraints": {
+          "required": true,
+          "pattern": "^ott\\d+$"
+        }
+      },
+      {
+        "name": "species_name",
+        "type": "string",
+        "description": "Species name. Joins to species.csv.",
+        "constraints": {
+          "required": true
+        }
+      },
+      {
+        "name": "trait",
+        "type": "string",
+        "description": "Trait name. Defined in trait_definitions.csv.",
+        "constraints": {
+          "required": true
+        }
+      },
+      {
+        "name": "value",
+        "type": "string",
+        "description": "Trait value. Categorical values are drawn from trait_vocabularies.csv; booleans are true/false; numeric values are stored as strings and cast on read.",
+        "constraints": {
+          "required": true
+        }
+      },
+      {
+        "name": "value_type",
+        "type": "string",
+        "constraints": {
+          "enum": [
+            "boolean",
+            "categorical",
+            "numeric"
+          ]
+        },
+        "description": "How to interpret `value`."
+      },
+      {
+        "name": "source",
+        "type": "string",
+        "description": "Where the value came from. New submissions must name their own source.",
+        "constraints": {
+          "required": true
+        }
+      }
+    ]
+  }
+}

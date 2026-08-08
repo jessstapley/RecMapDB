@@ -1,0 +1,44 @@
+{
+  "name": "trait_vocabularies",
+  "path": "trait_vocabularies.csv",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "title": "Controlled vocabulary for categorical and boolean traits",
+  "description": "Allowed values per trait. Validation checks categorical trait values against this table.",
+  "schema": {
+    "primaryKey": [
+      "trait",
+      "value"
+    ],
+    "fields": [
+      {
+        "name": "trait",
+        "type": "string",
+        "constraints": {
+          "required": true
+        }
+      },
+      {
+        "name": "value",
+        "type": "string",
+        "constraints": {
+          "required": true
+        }
+      },
+      {
+        "name": "n_species",
+        "type": "integer"
+      },
+      {
+        "name": "definition",
+        "type": "string"
+      },
+      {
+        "name": "needs_definition",
+        "type": "boolean",
+        "description": "TRUE where the source coding is opaque and a curator must supply the meaning."
+      }
+    ]
+  }
+}

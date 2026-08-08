@@ -79,12 +79,53 @@ def validate_table(schema_path):
     return blockers, warnings
 
 
+def trait_checks():
+    """Traits: vocabulary, referential integrity, duplicates."""
+    blockers, warnings = [], []
+    # traits: values must come from the controlled vocabulary
+    tr_path = DATA / "species_traits.csv"
+    if tr_path.exists():
+        tr = pd.read_csv(tr_path)
+        spp_names = set(pd.read_csv(DATA / "species.csv").species_name)
+        vocab = pd.read_csv(DATA / "trait_vocabularies.csv")
+        defs = pd.read_csv(DATA / "trait_definitions.csv")
+
+        orphan = set(tr.species_name) - spp_names
+        if orphan:
+            blockers.append(f"species_traits.csv: {len(orphan)} species not in species.csv")
+
+        undefined = set(tr.trait) - set(defs.trait)
+        if undefined:
+            blockers.append(f"species_traits.csv: traits missing from trait_definitions.csv: {sorted(undefined)}")
+
+        cat = tr[tr.value_type.isin(["categorical", "boolean"])]
+        allowed = set(zip(vocab.trait, vocab.value))
+        bad = {(t, v) for t, v in zip(cat.trait, cat.value)} - allowed
+        if bad:
+            blockers.append(f"species_traits.csv: {len(bad)} values outside the vocabulary, e.g. {sorted(bad)[:3]}")
+
+        num = tr[tr.value_type == "numeric"]
+        if pd.to_numeric(num.value, errors="coerce").isna().any():
+            n = int(pd.to_numeric(num.value, errors="coerce").isna().sum())
+            blockers.append(f"species_traits.csv: {n} non-numeric values in numeric traits")
+
+        if tr.duplicated(["species_name", "trait"]).any():
+            n = int(tr.duplicated(["species_name", "trait"]).sum())
+            blockers.append(f"species_traits.csv: {n} duplicate species x trait rows")
+
+        n_undef = int(vocab.needs_definition.sum()) if "needs_definition" in vocab else 0
+        if n_undef:
+            warnings.append(f"trait_vocabularies.csv: {n_undef} values still lack a definition")
+
+    return blockers, warnings
+
+
 def cross_table_checks():
     """Referential integrity between tables. Extend as new tables land."""
     blockers, warnings = [], []
     maps_path = DATA / "maps.csv"
     if not maps_path.exists():
-        warnings.append("maps.csv not present yet — referential checks skipped")
+        warnings.append("maps.csv not present yet — map referential checks skipped")
         return blockers, warnings
 
     maps = pd.read_csv(maps_path)
@@ -124,9 +165,10 @@ def main():
         all_warnings += w
         checked.append(schema_path.name.replace(".schema.json", ""))
 
-    b, w = cross_table_checks()
-    all_blockers += b
-    all_warnings += w
+    for check in (trait_checks, cross_table_checks):
+        b, w = check()
+        all_blockers += b
+        all_warnings += w
 
     lines = ["## Data validation", ""]
     lines.append(f"Tables checked: {', '.join(checked) or 'none'}")

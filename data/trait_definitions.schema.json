@@ -1,0 +1,64 @@
+{
+  "name": "trait_definitions",
+  "path": "trait_definitions.csv",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "title": "Definitions and scoring scope for each trait",
+  "description": "One row per trait. `scored_for` is the load-bearing field: it records which lineages the trait was actually scored in, so a missing value is not mistaken for a negative.",
+  "schema": {
+    "primaryKey": "trait",
+    "fields": [
+      {
+        "name": "trait",
+        "type": "string",
+        "constraints": {
+          "required": true,
+          "unique": true
+        }
+      },
+      {
+        "name": "value_type",
+        "type": "string",
+        "constraints": {
+          "enum": [
+            "boolean",
+            "categorical",
+            "numeric"
+          ]
+        }
+      },
+      {
+        "name": "applies_to",
+        "type": "string",
+        "description": "Lineages the trait is biologically meaningful for."
+      },
+      {
+        "name": "scored_for",
+        "type": "string",
+        "description": "Lineages it was actually scored in. Read this before treating absence as evidence."
+      },
+      {
+        "name": "definition",
+        "type": "string",
+        "constraints": {
+          "required": true
+        }
+      },
+      {
+        "name": "n_species_scored",
+        "type": "integer"
+      },
+      {
+        "name": "source_column",
+        "type": "string",
+        "description": "Column in the original LinkageMapIinfo2.csv."
+      },
+      {
+        "name": "caveat",
+        "type": "string",
+        "description": "Known problems with this trait as recorded."
+      }
+    ]
+  }
+}
