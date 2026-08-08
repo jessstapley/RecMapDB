@@ -8,8 +8,8 @@ habitat,complex,2,Occupies more than one broad habitat.,False
 habitat,soil,1,"Free-living, soil-dwelling.",False
 haplodiploid,false,162,Not haplodiploid.,False
 haplodiploid,true,12,Haplodiploid sex determination.,False
-heterochiasmy,H,64,,True
-heterochiasmy,A,11,,True
+heterochiasmy,H,64,Heterochiasmy present: male and female map lengths differ in this species.,False
+heterochiasmy,A,11,Achiasmy: recombination absent in one sex (no crossing over in the heterogametic sex).,False
 host_type,plants,23,Parasite or pathogen of plants.,False
 host_type,animals,15,Parasite or pathogen of animals.,False
 invasive,false,141,No documented invasive populations. Recorded for animals only.,False
@@ -32,23 +32,22 @@ plant_growth_form,graminoid,27,Grass or grass-like.,False
 plant_growth_form,shrub,13,Shrub.,False
 plant_growth_form,shrub/tree,10,Intermediate between shrub and tree.,False
 plant_growth_form,herb/shrub,3,Intermediate between herb and shrub.,False
-plant_life_form,P,16,,True
-plant_life_form,PA,3,,True
+plant_life_form,P,16,Perennial.,False
+plant_life_form,PA,3,Both perennial and annual forms reported for the species.,False
 pollination_mode,insects,35,Insect-pollinated.,False
 pollination_mode,wind,15,Wind-pollinated.,False
 pollination_mode,variable,1,More than one pollination mode.,False
 selfing,SC,32,Self-compatible.,False
 selfing,both,19,Both states reported.,False
 selfing,SI,11,Self-incompatible.,False
-sex_determination_genotypic,MH,45,,True
-sex_determination_genotypic,FH,22,,True
-sex_determination_genotypic,SC,2,,True
-sex_determination_karyotype,H,55,,True
-sex_determination_karyotype,XY,41,Male-heterogametic XY system.,False
-sex_determination_karyotype,ZW,24,Female-heterogametic ZW system.,False
-sex_determination_karyotype,XO,4,XO system.,False
-sex_determination_karyotype,UV,1,UV sex chromosomes (haploid-phase).,False
-sexual_system,gonochorous,110,Separate sexes (animals).,False
+sex_determination_genotypic,MH,51,Male heterogametic (as in humans).,False
+sex_determination_genotypic,FH,22,Female heterogametic (as in birds).,False
+sex_determination_karyotype,H,58,"Homomorphic: sex chromosomes of the same size, or undifferentiated.",False
+sex_determination_karyotype,XY,44,XY sex chromosomes; male heterogametic (as in humans).,False
+sex_determination_karyotype,ZW,24,ZW sex chromosomes; female heterogametic (as in birds).,False
+sex_determination_karyotype,XO,4,XO system; males have a single X and no Y.,False
+sex_determination_karyotype,UV,1,"UV sex chromosomes, segregating in the haploid phase.",False
+sexual_system,gonochorous,111,Separate sexes (animals).,False
 sexual_system,hermaphrodite,79,Both sexual functions in one individual.,False
 sexual_system,monoecious,38,Separate male and female flowers on the same plant.,False
 sexual_system,dioecy,13,Separate male and female plants.,False

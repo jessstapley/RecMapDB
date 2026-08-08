@@ -73,6 +73,16 @@
         "constraints": {
           "required": true
         }
+      },
+      {
+        "name": "source_citation",
+        "type": "string",
+        "description": "Primary literature citation for this specific value, where the upstream database recorded one. 163 values carry one."
+      },
+      {
+        "name": "flag_cross_checked",
+        "type": "boolean",
+        "description": "TRUE where the value has an independent primary citation from the Tree of Sex database."
       }
     ]
   }

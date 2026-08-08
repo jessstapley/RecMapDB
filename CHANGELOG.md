@@ -24,5 +24,12 @@
 - `invasive` was only ever scored for animals in the source file. The blanket "n" on plants
   and fungi is an unscored default, not a negative observation, and is omitted rather than
   recorded as false.
+- All trait vocabulary values are now defined. The opaque source codes (heterochiasmy H/A,
+  karyotype H, genotypic MH/FH, plant life form P/PA) were supplied by the compiler.
+- 163 trait values carry a primary literature citation, recovered from the Tree of Sex
+  datasets in `Sex_data/`. Where both sources have a value they agree exactly (35/35
+  karyotype, 34/34 genotypic); 13 values absent from the compilation were added.
+- Corrected: `Allium cepa` and `Lactuca sativa` carried "SC" (a Selfing value) in the
+  genotypic sex-determination column. Both rows removed.
 - The source `Habitat` column held two variables (habitat for free-living species, host type
   for parasites); these are separated into `habitat` and `host_type`.

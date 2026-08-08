@@ -4,7 +4,7 @@ genus_n_dioecious_species,numeric,Chloroplastida,"Chloroplastida, partially",Num
 genus_n_species,numeric,Chloroplastida,"Chloroplastida, partially",Number of species in the genus.,51,Total.spp,A genus-level attribute recorded per species; belongs at genus level.
 habitat,categorical,free-living species,all free-living,Broad habitat of a free-living species.,419,Habitat,In the source file this column doubles as host type for parasites; those values are separated into the host_type trait.
 haplodiploid,boolean,Metazoa,Metazoa,Species has haplodiploid sex determination.,174,haplodiploid,
-heterochiasmy,categorical,all eukaryotes,sparse across Metazoa and Chloroplastida,Presence of heterochiasmy (sex differences in recombination).,75,het.a.chiasmy,Single-letter coding; levels need documenting. Related to the sex-specific map lengths in maps.csv.
+heterochiasmy,categorical,all eukaryotes,sparse across Metazoa and Chloroplastida,Presence of heterochiasmy (sex differences in recombination).,75,het.a.chiasmy,Levels now documented. Consistent with the sex-specific map lengths in the source data: the single achiasmic species (Papilio glaucus) has an F/M map-length ratio of 0.08.
 host_type,categorical,parasitic/pathogenic species,all parasites,Host group of a parasitic or pathogenic species.,38,Habitat_host,Derived from the same source column as habitat; the two are mutually exclusive.
 invasive,boolean,all eukaryotes,Metazoa only,Species has documented invasive populations outside its native range.,182,invasive,"ONLY SCORED FOR ANIMALS. All 41 true values are Metazoa; the ""n"" recorded for plants and fungi is an unscored default, not a negative observation. Values for non-animals are therefore omitted rather than recorded as false."
 leaf_compoundness,categorical,Chloroplastida,Chloroplastida,Simple or compound leaves.,159,LeafCompoundness,
@@ -13,12 +13,12 @@ leaf_type,categorical,Chloroplastida,Chloroplastida,"Leaf type (broadleaved, nee
 parasitic_or_pathogenic,boolean,all eukaryotes,all,Species has a parasitic or pathogenic lifestyle (as opposed to free-living).,457,par.path,"Scored for every species in the dataset. No parasitic plants are present, so all Chloroplastida are false."
 photosynthetic_pathway,categorical,Chloroplastida,Chloroplastida,"Photosynthetic pathway (C3, C4, CAM).",161,PhotosyntheticPathway,
 plant_growth_form,categorical,Chloroplastida,Chloroplastida,"Plant growth form (herb, shrub, tree, etc.).",160,PlantGrowthForm,
-plant_life_form,categorical,Chloroplastida,"Chloroplastida, sparse (19)","Plant life form (P = perennial, A = annual).",19,plant.LifeForm,Very sparse; largely superseded by plant_growth_form.
+plant_life_form,categorical,Chloroplastida,"Chloroplastida, sparse (19)","Plant life form (P = perennial, A = annual).",19,plant.LifeForm,"Levels now documented (P = perennial, PA = both forms reported)."
 pollination_mode,categorical,Chloroplastida,"Chloroplastida, partially","Pollination mode (insects, wind, etc.).",51,Pollination,
 recombination_index_chiasma,numeric,Chloroplastida,"Chloroplastida, partially",Recombination index based on chiasma counts.,42,RI_chiasma,
 recombination_index_haploid,numeric,Chloroplastida,"Chloroplastida, partially",Recombination index based on haploid chromosome number.,44,RI_hap,
 selfing,categorical,Chloroplastida,"Chloroplastida, partially",Selfing / mating-system category (e.g. SC self-compatible).,62,Selfing,Coding needs documenting against a controlled vocabulary.
-sex_determination_genotypic,categorical,Metazoa,"Metazoa, partially",Genotypic sex-determination system.,69,Genotypic,Only 69 species scored; coding needs documenting.
-sex_determination_karyotype,categorical,all eukaryotes,"Fungi, partially Metazoa",Sex-determination karyotype or mating-type system.,125,Karyotype,Coding is opaque in the source (single-letter codes); levels need documenting before use.
-sexual_system,categorical,all eukaryotes,Chloroplastida and Metazoa,Sexual system / breeding system.,270,Sexual.sys,Sparse for Fungi (4/30) and absent for SAR and Discoba.
+sex_determination_genotypic,categorical,Metazoa,"Metazoa, partially",Genotypic sex-determination system.,73,Genotypic,"Levels now documented. Cross-checked against Tree of Sex: 34/34 agreement. Two species (Allium cepa, Lactuca sativa) carried ""SC"" — a Selfing value misfiled into this column — and were removed."
+sex_determination_karyotype,categorical,all eukaryotes,"Fungi, partially Metazoa",Sex-determination karyotype or mating-type system.,131,Karyotype,Levels now documented. Cross-checked against the Tree of Sex database: 35/35 agreement.
+sexual_system,categorical,all eukaryotes,Chloroplastida and Metazoa,Sexual system / breeding system.,271,Sexual.sys,Sparse for Fungi (4/30) and absent for SAR and Discoba.
 woodiness,categorical,Chloroplastida,Chloroplastida,Woody or herbaceous.,165,Woodiness,
