@@ -1,0 +1,67 @@
+current_column,n_nonmissing,pct_complete,n_distinct,disposition,proposed_table,proposed_field,unit,type,notes
+no,486,100.0,486,drop,-,-,,,Row counter; replace with a stable map_id (e.g. RM0001) that never changes between releases.
+Ref,486,100.0,338,move,references,first_author,,string,First author surname only. Needs a DOI to become a real key.
+year,486,100.0,20,move,references,year,,integer,
+corbett,486,100.0,2,rename,maps,source_compilation,,enum,Flags records inherited from an earlier compilation; generalise to a provenance field naming the compilation.
+species,486,100.0,457,rename,species,species_name,,string,"Underscores to spaces; becomes the human-readable label, not the join key."
+uid,486,100.0,457,merge,species,ott_id,,integer,Duplicate of ott.uid without the 'ott' prefix. Keep one.
+pid,486,100.0,340,merge,species,ott_parent_id,,integer,Duplicate of ott.pid.
+check,486,100.0,2,drop,-,-,,,Internal QC flag from the original workflow; superseded by automated validation.
+phyl.info,486,100.0,456,drop,-,-,,,Name used for phylogeny tip matching; regenerate from ott_id at build time.
+ott.uid,486,100.0,457,keep,species,ott_id,,string,Open Tree taxon id; the recommended primary taxon key.
+ott.pid,486,100.0,340,keep,species,ott_parent_id,,string,
+Habitat,486,100.0,6,move,species_traits,habitat,,enum,Controlled vocabulary needed: current values mix habitat (Terrestrial/Aquatic/Soil) with kingdom (Plants/Animals).
+par.path,486,100.0,2,move,species_traits,parasitic_or_pathogenic,,boolean,
+invasive,486,100.0,2,move,species_traits,invasive,,boolean,
+Kingdom,486,100.0,1,keep,species,kingdom,,string,Resolve from OTT/NCBI at build time rather than storing by hand.
+Tax.grp,486,100.0,4,keep,species,supergroup,,string,
+Group,486,100.0,4,keep,species,group,,string,
+newGroup,486,100.0,8,move,groupings,group_v2,,string,Analysis-specific grouping from the 2017 paper; keep out of the core table.
+SubGroup,486,100.0,27,move,groupings,subgroup,,string,
+newSubGroup,486,100.0,20,move,groupings,subgroup_v2,,string,
+newSubGroup2,486,100.0,19,move,groupings,subgroup_v3,,string,
+newSubGroupClade,486,100.0,26,move,groupings,subgroup_clade,,string,
+newSubGrp2,486,100.0,17,move,groupings,subgroup_v4,,string,
+Class,486,100.0,39,keep,species,class,,string,Derive from taxonomy service.
+Order,486,100.0,108,keep,species,order,,string,Derive from taxonomy service.
+newOrder,486,100.0,67,move,groupings,order_v2,,string,
+Family,486,100.0,198,keep,species,family,,string,Derive from taxonomy service.
+newFamily,486,100.0,96,move,groupings,family_v2,,string,
+het.a.chiasmy,80,16.5,2,rename,maps,heterochiasmy,,enum,Define levels explicitly (H = heterochiasmy present?).
+F.map.length,70,14.4,68,rename,maps,map_length_female_cM,cM,numeric,
+M.map.length,70,14.4,69,rename,maps,map_length_male_cM,cM,numeric,
+F.M.ratio,73,15.0,72,derive,-,-,,numeric,Recompute as map_length_female_cM / map_length_male_cM.
+Sexual.sys,294,60.5,9,move,species_traits,sexual_system,,enum,9 levels present; needs a documented vocabulary.
+Karyotype,140,28.8,5,move,species_traits,sex_determination_karyotype,,enum,
+Genotypic,78,16.0,3,move,species_traits,sex_determination_genotypic,,enum,
+Size.Mb,254,52.3,236,move,genome_sizes,genome_size_mb,Mb,numeric,Assembly- or measurement-based estimate; needs its own source/method field.
+Cval,185,38.1,144,move,genome_sizes,c_value_pg,pg,numeric,
+est.Gsize.Mb,402,82.7,306,move,genome_sizes,genome_size_mb,Mb,numeric,C-value converted to Mb; store method='c_value' rather than as a separate column.
+combined.Gsize,430,88.5,330,derive,maps,genome_size_used_mb,Mb,numeric,The value actually used in the rate; store together with genome_size_source_id.
+chr.2n,469,96.5,42,rename,species,chromosome_number_2n,count,integer,
+chr1n,472,97.1,43,rename,maps,haploid_chromosome_number,count,integer,Keep at species level unless it varies between mapping populations.
+No.Ind,254,52.3,152,rename,maps,mapping_population_n,count,integer,
+Marker.mapped,479,98.6,420,rename,maps,n_markers,count,integer,
+av.sex,486,100.0,4,rename,maps,map_sex,,enum,Levels n/y/m/f are opaque; recode to sex_averaged / female / male / unknown.
+MapLength.cM,486,100.0,477,rename,maps,map_length_cM,cM,numeric,Core measurement.
+MarkerInterval ,318,65.4,218,derive,-,-,cM,numeric,Trailing space in the current name. Recompute from map_length and n_markers.
+LinkageGrps,444,91.4,48,rename,maps,n_linkage_groups,count,integer,
+CM.length.est,29,6.0,29,rename,maps,map_length_extrapolated_cM,cM,numeric,Only 29 records; document the extrapolation method or drop.
+RR_Mb.cM,115,23.7,114,rename,maps,rate_as_published_cM_per_Mb,cM/Mb,numeric,Name says Mb/cM but values are cM/Mb. Rate as reported by the source study.
+CorrectedRR,47,9.7,43,rename,maps,rate_corrected_cM_per_Mb,cM/Mb,numeric,Definition of the correction must be documented or the field dropped.
+RR,486,100.0,429,derive,-,recombination_rate_cM_per_Mb,cM/Mb,numeric,Never store: recompute as map_length_cM / genome_size_used_mb. 56 records are currently the Excel error string '#VALUE!'.
+haplodiploid,190,39.1,2,move,species_traits,haplodiploid,,boolean,
+Selfing,67,13.8,4,move,species_traits,selfing,,enum,
+plant.LifeForm,19,3.9,2,move,species_traits,plant_life_form,,enum,
+RI_hap,51,10.5,15,move,species_traits,recombination_index_haploid,,numeric,
+RI_chiasma,49,10.1,42,move,species_traits,recombination_index_chiasma,,numeric,
+RI_status,53,10.9,3,move,species_traits,domestication_status,,enum,
+PlantGrowthForm,169,34.8,6,move,species_traits,plant_growth_form,,enum,Plant trait; record the external source (e.g. TRY) per value.
+LeafType,180,37.0,3,move,species_traits,leaf_type,,enum,
+LeafPhenology,70,14.4,2,move,species_traits,leaf_phenology,,enum,
+PhotosyntheticPathway,171,35.2,3,move,species_traits,photosynthetic_pathway,,enum,
+Woodiness,174,35.8,3,move,species_traits,woodiness,,enum,
+LeafCompoundness,169,34.8,2,move,species_traits,leaf_compoundness,,enum,
+Total.spp,54,11.1,24,move,species_traits,genus_n_species,count,integer,
+Dioe,54,11.1,18,move,species_traits,genus_n_dioecious_species,count,integer,
+Pollination,54,11.1,3,move,species_traits,pollination_mode,,enum,

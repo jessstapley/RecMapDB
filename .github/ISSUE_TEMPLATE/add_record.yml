@@ -1,0 +1,91 @@
+name: Add a linkage map record
+description: Submit recombination data for one published linkage map
+title: "[new record] "
+labels: ["new-record"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        One form per linkage map. A species with two published maps needs two submissions.
+        Only the DOI, species and the core map measurements are required.
+  - type: input
+    id: doi
+    attributes:
+      label: DOI of the study
+      placeholder: "10.1111/mec.12345"
+    validations: {required: true}
+  - type: input
+    id: species
+    attributes:
+      label: Species (binomial)
+      placeholder: "Daphnia magna"
+    validations: {required: true}
+  - type: input
+    id: map_length_cM
+    attributes:
+      label: Sex-averaged map length (cM)
+      description: Sum of the lengths of all linkage groups.
+    validations: {required: true}
+  - type: dropdown
+    id: map_sex
+    attributes:
+      label: Which map is this?
+      options: [sex_averaged, female, male, unknown]
+    validations: {required: true}
+  - type: input
+    id: n_markers
+    attributes: {label: Number of mapped markers}
+    validations: {required: true}
+  - type: input
+    id: n_linkage_groups
+    attributes: {label: Number of linkage groups}
+    validations: {required: true}
+  - type: input
+    id: haploid_chromosome_number
+    attributes: {label: Haploid chromosome number (n)}
+    validations: {required: true}
+  - type: input
+    id: genome_size_mb
+    attributes: {label: Genome size (Mb), description: "Leave blank if unknown."}
+  - type: dropdown
+    id: genome_size_method
+    attributes:
+      label: How was genome size estimated?
+      options: [assembly, flow_cytometry, c_value, feulgen_densitometry, other, unknown]
+  - type: input
+    id: genome_size_source
+    attributes: {label: Source of the genome size, description: "DOI, accession, or database name."}
+  - type: dropdown
+    id: cross_type
+    attributes:
+      label: Cross type
+      options: [F2, backcross, RIL, full_sib_family, pedigree, outbred_cross, other, unknown]
+  - type: dropdown
+    id: marker_type
+    attributes:
+      label: Predominant marker type
+      options: [SNP_array, RAD_GBS, WGS, SSR, AFLP, RFLP, mixed, other, unknown]
+  - type: input
+    id: mapping_software
+    attributes: {label: Mapping software, placeholder: "e.g. Lep-MAP3, JoinMap 4.1, R/qtl"}
+  - type: input
+    id: mapping_population_n
+    attributes: {label: Number of individuals in the mapping population}
+  - type: input
+    id: assembly_accession
+    attributes: {label: Genome assembly accession, placeholder: "GCA_000002985.3"}
+  - type: input
+    id: contributor_orcid
+    attributes: {label: Your ORCID, placeholder: "0000-0002-1825-0097"}
+  - type: textarea
+    id: notes
+    attributes: {label: Notes, description: "Anything a curator should know — uncertainty, unusual methods, why this map was chosen."}
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Before submitting
+      options:
+        - label: "The map length is the sex-averaged sum over all linkage groups (or I have said otherwise above)"
+          required: true
+        - label: "I have not pre-computed the recombination rate — it is calculated from these values"
+          required: true

@@ -1,0 +1,24 @@
+name: Validate data
+on:
+  pull_request:
+    paths: ['data/**', 'inbox/**', 'scripts/**']
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pandas requests
+      - name: Run validation
+        run: python scripts/validate.py --report report.md
+      - name: Post report
+        if: github.event_name == 'pull_request'
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          path: report.md

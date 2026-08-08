@@ -1,0 +1,201 @@
+{
+  "name": "references",
+  "path": "references.csv",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "title": "Source publications for linkage-map records",
+  "description": "One row per publication cited in the Stapley et al. (2017) compilation. Derived from the published supplementary reference list (rstb20160455_si_003.pdf) with bibliographic metadata resolved from Crossref. The verbatim citation text is retained so no field depends on trusting the automated match.",
+  "schema": {
+    "primaryKey": "ref_id",
+    "fields": [
+      {
+        "name": "ref_id",
+        "type": "string",
+        "title": "Reference key",
+        "description": "Stable citekey: lowercase first-author surname + year, with a/b/c suffixes to disambiguate. Primary key.",
+        "constraints": {
+          "required": true,
+          "unique": true,
+          "pattern": "^[a-z]+[0-9]{4}[a-z]?$"
+        }
+      },
+      {
+        "name": "doi",
+        "type": "string",
+        "title": "DOI",
+        "description": "Lowercase DOI without resolver prefix. Null where no DOI could be found.",
+        "constraints": {
+          "pattern": "^10\\.[0-9]{4,9}/\\S+$"
+        }
+      },
+      {
+        "name": "doi_url",
+        "type": "string",
+        "format": "uri",
+        "description": "Resolver URL, https://doi.org/<doi>."
+      },
+      {
+        "name": "authors",
+        "type": "string",
+        "description": "Full author list. 'Family, Given; Family, Given' from Crossref; verbatim citation style where no DOI.",
+        "constraints": {
+          "required": true
+        }
+      },
+      {
+        "name": "n_authors",
+        "type": "integer",
+        "description": "Author count from Crossref. Null where no DOI."
+      },
+      {
+        "name": "year",
+        "type": "year",
+        "description": "Publication year. From Crossref where available, else the supplement.",
+        "constraints": {
+          "required": true,
+          "minimum": 1990,
+          "maximum": 2018
+        }
+      },
+      {
+        "name": "title",
+        "type": "string",
+        "description": "Article title, markup stripped.",
+        "constraints": {
+          "required": true
+        }
+      },
+      {
+        "name": "journal",
+        "type": "string",
+        "description": "Journal / container title."
+      },
+      {
+        "name": "journal_normalized",
+        "type": "string",
+        "description": "Journal name with known surface variants unified (PLoS ONE/PLOS ONE, G3 with and without colon). Use this for grouping; `journal` preserves what Crossref returned."
+      },
+      {
+        "name": "journal_abbrev",
+        "type": "string",
+        "description": "ISO abbreviation from Crossref where supplied."
+      },
+      {
+        "name": "volume",
+        "type": "string",
+        "description": "Volume. String, not integer \u2014 some are non-numeric."
+      },
+      {
+        "name": "issue",
+        "type": "string"
+      },
+      {
+        "name": "pages",
+        "type": "string",
+        "description": "Page range. Some are truncated in the source PDF; see review_note."
+      },
+      {
+        "name": "publisher",
+        "type": "string"
+      },
+      {
+        "name": "issn",
+        "type": "string"
+      },
+      {
+        "name": "publication_type",
+        "type": "string",
+        "description": "Crossref work type, e.g. journal-article."
+      },
+      {
+        "name": "crossref_citation_count",
+        "type": "integer",
+        "description": "Times-cited count at time of retrieval (2026-08). Snapshot, not a live value."
+      },
+      {
+        "name": "si_ref_number",
+        "type": "integer",
+        "description": "Reference number in the 2017 supplementary list. Join key to SuppDat.csv Ref.number.",
+        "constraints": {
+          "required": true,
+          "unique": true,
+          "minimum": 1,
+          "maximum": 353
+        }
+      },
+      {
+        "name": "si_first_author",
+        "type": "string",
+        "description": "First-author surname as printed in the supplement. Retained for traceability."
+      },
+      {
+        "name": "si_year",
+        "type": "year",
+        "description": "Year as printed in the supplement. May disagree with `year`; see flag_year_mismatch."
+      },
+      {
+        "name": "citation_verbatim",
+        "type": "string",
+        "description": "Citation exactly as it appears in the supplementary PDF. The provenance anchor for every other field.",
+        "constraints": {
+          "required": true
+        }
+      },
+      {
+        "name": "match_confidence",
+        "type": "string",
+        "constraints": {
+          "enum": [
+            "high",
+            "high_manual",
+            "unresolved"
+          ]
+        },
+        "description": "high = automatic Crossref match above threshold; high_manual = verified or supplied by hand; unresolved = no DOI."
+      },
+      {
+        "name": "match_title_score",
+        "type": "number",
+        "description": "Fuzzy token-set similarity (0-100) between supplement title and Crossref title."
+      },
+      {
+        "name": "match_author_score",
+        "type": "number",
+        "description": "Fuzzy similarity (0-100) between supplement and Crossref first-author surname."
+      },
+      {
+        "name": "manual_review",
+        "type": "string",
+        "constraints": {
+          "enum": [
+            "accept",
+            "reject",
+            ""
+          ]
+        },
+        "description": "Set where a match was inspected by hand."
+      },
+      {
+        "name": "review_note",
+        "type": "string",
+        "description": "Why a match was accepted or rejected, or what is truncated in the source."
+      },
+      {
+        "name": "flag_year_mismatch",
+        "type": "boolean",
+        "description": "Supplement year differs from the DOI record year. 41 records."
+      },
+      {
+        "name": "flag_author_list_incomplete",
+        "type": "boolean",
+        "description": "Crossref lists materially fewer authors than the citation."
+      },
+      {
+        "name": "flag_no_doi",
+        "type": "boolean",
+        "description": "No DOI found; bibliographic fields come from the citation text only."
+      }
+    ]
+  }
+}

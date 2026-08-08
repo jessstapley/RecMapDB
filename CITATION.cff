@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: "recmapdb: an open database of eukaryote recombination rates from linkage maps"
+message: "If you use this database, please cite it and the original studies."
+type: dataset
+authors:
+  - family-names: Stapley
+    given-names: Jessica
+license: CC0-1.0

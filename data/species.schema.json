@@ -1,0 +1,247 @@
+{
+  "name": "species",
+  "path": "species.csv",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "title": "Taxa represented in the linkage-map database",
+  "description": "One row per distinct species string in the source data. Names resolved against the Open Tree of Life taxonomy (TNRS + taxon_info), with lineages extracted and NCBI Taxonomy used as an independent cross-check. Source taxonomy columns are retained alongside the resolved values so every change is auditable.",
+  "schema": {
+    "primaryKey": "species_name",
+    "fields": [
+      {
+        "name": "ott_id",
+        "type": "string",
+        "description": "Open Tree of Life taxon id, \"ott\" + integer. PRIMARY KEY. Not unique where two source names are synonyms of one taxon \u2014 see flag_duplicate_taxon.",
+        "constraints": {
+          "required": true,
+          "pattern": "^ott\\d+$"
+        }
+      },
+      {
+        "name": "species_name",
+        "type": "string",
+        "description": "Species name as used in this database (source string with underscores replaced). Unique.",
+        "constraints": {
+          "required": true,
+          "unique": true
+        }
+      },
+      {
+        "name": "ott_accepted_name",
+        "type": "string",
+        "description": "Currently accepted name in the OTT taxonomy. Differs from species_name where the source used a synonym."
+      },
+      {
+        "name": "ott_unique_name",
+        "type": "string",
+        "description": "OTT disambiguated name (includes homonym qualifiers)."
+      },
+      {
+        "name": "taxon_rank",
+        "type": "string",
+        "description": "Rank of the matched taxon. Should be \"species\"; see flag_not_species_rank."
+      },
+      {
+        "name": "kingdom",
+        "type": "string",
+        "description": "From the OTT lineage. Absent for protists/algae where OTT has no kingdom-rank ancestor \u2014 use eukaryote_supergroup."
+      },
+      {
+        "name": "phylum",
+        "type": "string",
+        "description": "From the OTT lineage."
+      },
+      {
+        "name": "class",
+        "type": "string",
+        "description": "From the OTT lineage."
+      },
+      {
+        "name": "order",
+        "type": "string",
+        "description": "From the OTT lineage."
+      },
+      {
+        "name": "family",
+        "type": "string",
+        "description": "From the OTT lineage."
+      },
+      {
+        "name": "genus",
+        "type": "string",
+        "description": "From the OTT lineage."
+      },
+      {
+        "name": "major_clades",
+        "type": "string",
+        "description": "First six unranked clades in the OTT lineage (e.g. fabids; rosids; eudicotyledons)."
+      },
+      {
+        "name": "full_lineage",
+        "type": "string",
+        "description": "Complete OTT lineage, root-ward, semicolon-separated."
+      },
+      {
+        "name": "ncbi_taxid",
+        "type": "integer",
+        "description": "NCBI Taxonomy id from OTT tax_sources."
+      },
+      {
+        "name": "gbif_id",
+        "type": "string",
+        "description": "GBIF taxon key from OTT tax_sources."
+      },
+      {
+        "name": "irmng_id",
+        "type": "string",
+        "description": "IRMNG id from OTT tax_sources."
+      },
+      {
+        "name": "ncbi_name",
+        "type": "string",
+        "description": "Scientific name in NCBI Taxonomy, retrieved independently as a cross-check."
+      },
+      {
+        "name": "ncbi_family",
+        "type": "string",
+        "description": "Family per NCBI Taxonomy."
+      },
+      {
+        "name": "ncbi_order",
+        "type": "string",
+        "description": "Order per NCBI Taxonomy."
+      },
+      {
+        "name": "ncbi_class",
+        "type": "string",
+        "description": "Class per NCBI Taxonomy."
+      },
+      {
+        "name": "ncbi_confirms_family",
+        "type": "boolean",
+        "description": "TRUE where NCBI and OTT agree on family. 97% agreement."
+      },
+      {
+        "name": "chromosome_number_1n",
+        "type": "integer",
+        "description": "Haploid chromosome number from the source data. Null where map records for the species disagree."
+      },
+      {
+        "name": "chromosome_number_2n",
+        "type": "integer",
+        "description": "Diploid chromosome number from the source data. Null where records disagree."
+      },
+      {
+        "name": "flag_chromosome_conflict",
+        "type": "boolean",
+        "description": "TRUE where map records for this species report different chromosome numbers."
+      },
+      {
+        "name": "n_map_records",
+        "type": "integer",
+        "description": "Number of rows in the source working file for this species."
+      },
+      {
+        "name": "source_species_string",
+        "type": "string",
+        "description": "Verbatim species string in LinkageMapIinfo2.csv. Provenance anchor."
+      },
+      {
+        "name": "source_ott_id",
+        "type": "integer",
+        "description": "OTT id stored in the source file (numeric)."
+      },
+      {
+        "name": "source_supergroup",
+        "type": "string",
+        "description": "Tax.grp in the source file."
+      },
+      {
+        "name": "source_group",
+        "type": "string",
+        "description": "Group in the source file."
+      },
+      {
+        "name": "source_class",
+        "type": "string",
+        "description": "Class in the source file."
+      },
+      {
+        "name": "source_order",
+        "type": "string",
+        "description": "Order in the source file."
+      },
+      {
+        "name": "source_family",
+        "type": "string",
+        "description": "Family in the source file."
+      },
+      {
+        "name": "ott_match_score",
+        "type": "number",
+        "description": "TNRS match score, 0-1. 1.0 is exact."
+      },
+      {
+        "name": "flag_ott_id_changed",
+        "type": "boolean",
+        "description": "TRUE where the stored OTT id does not equal the id the name now resolves to. 42 records."
+      },
+      {
+        "name": "ott_change_type",
+        "type": "string",
+        "description": "Why the id changed: stored_was_hybrid, stored_was_infraspecific, same_genus_diff_species, different_taxon, stored_id_dead."
+      },
+      {
+        "name": "ott_change_note",
+        "type": "string",
+        "description": "Human-readable explanation of the change."
+      },
+      {
+        "name": "flag_name_is_synonym",
+        "type": "boolean",
+        "description": "TRUE where the source name is a synonym of the accepted name. 32 records."
+      },
+      {
+        "name": "flag_fuzzy_match",
+        "type": "boolean",
+        "description": "TRUE where the name matched only approximately (likely a misspelling). 6 records."
+      },
+      {
+        "name": "flag_not_species_rank",
+        "type": "boolean",
+        "description": "TRUE where the match is a genus or subspecies rather than a species. 8 records."
+      },
+      {
+        "name": "flag_unresolved",
+        "type": "boolean",
+        "description": "TRUE where no OTT match could be found. 0 records."
+      },
+      {
+        "name": "flag_source_family_differs",
+        "type": "boolean",
+        "description": "TRUE where the family in the source file differs from OTT. 37 records."
+      },
+      {
+        "name": "source_family_issue",
+        "type": "string",
+        "description": "Whether the family difference looks like a spelling error in the source or a genuine taxonomic revision."
+      },
+      {
+        "name": "flag_duplicate_taxon",
+        "type": "boolean",
+        "description": "TRUE where another row resolves to the same OTT taxon (synonym pairs entered twice)."
+      },
+      {
+        "name": "duplicate_taxon_note",
+        "type": "string",
+        "description": "Which rows share this taxon and what to do about it."
+      },
+      {
+        "name": "eukaryote_supergroup",
+        "type": "string",
+        "description": "Major eukaryote group (Chloroplastida, Metazoa, Fungi, SAR, Rhodophyta, Discoba). Populated for every row; the field to group by for cross-eukaryote analyses."
+      }
+    ]
+  }
+}
