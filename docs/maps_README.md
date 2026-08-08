@@ -64,8 +64,10 @@ not.
 
 ## Genome size is a separate table
 
-`genome_sizes.csv` holds one row per estimate per species — 637 estimates for 457 species,
-because 214 species have more than one. Each carries its `method`:
+`genome_sizes.csv` holds one row per estimate per species — 637 estimates covering **406 of
+the 457 species** (219 of them have more than one estimate). The remaining **51 species have
+no genome-size estimate at all**, which is why 56 map records carry no rate. Each estimate
+carries its `method`:
 
 | Method | n | Meaning |
 |---|---|---|
@@ -86,12 +88,15 @@ discrepancy stays visible.
 ## Known limitations
 
 1. **105 records have no reference.** Everything else about them is present.
-2. **`genome_size_method` is `estimate_unspecified` for 209 estimates** — the compilation
+2. **51 species (56 map records) have no genome size**, so no recombination rate can be
+   derived for them. Supplying a genome size with its method is the second most valuable
+   contribution after supplying a missing reference.
+3. **`genome_size_method` is `estimate_unspecified` for 209 estimates** — the compilation
    did not record where they came from.
-3. **Genome size is species-level, not study-level.** A map from 2005 may be paired with a
+4. **Genome size is species-level, not study-level.** A map from 2005 may be paired with a
    genome size measured in 2015. Ideally each map would cite the genome size *its authors*
    used; the current data cannot support that.
-4. **40 records were taken from Corbett-Detig et al. 2015** rather than the primary study
+5. **40 records were taken from Corbett-Detig et al. 2015** rather than the primary study
    (`from_corbett_detig_2015`). Two of these duplicate another row exactly and are flagged.
-5. **`map_sex` is `sex_averaged` for most records**, but the source coded two distinct
+6. **`map_sex` is `sex_averaged` for most records**, but the source coded two distinct
    values (`y`/`n`) that both mean sex-averaged. Any distinction they carried is lost.
