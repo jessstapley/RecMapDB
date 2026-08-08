@@ -1,0 +1,106 @@
+{
+  "name": "recombination_rates",
+  "path": "recombination_rates.csv",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "title": "DERIVED \u2014 recombination rates",
+  "description": "Rebuilt from maps.csv and genome_sizes.csv by scripts/build_derived.py. DO NOT EDIT: changes belong upstream in maps.csv. Filter on passes_2017_criteria to reproduce the published analysis.",
+  "schema": {
+    "primaryKey": "map_id",
+    "fields": [
+      {
+        "name": "map_id",
+        "type": "string",
+        "description": "Joins to maps.csv.",
+        "constraints": {
+          "required": true,
+          "unique": true
+        }
+      },
+      {
+        "name": "ott_id",
+        "type": "string",
+        "description": "Open Tree taxon id."
+      },
+      {
+        "name": "species_name",
+        "type": "string",
+        "description": "Species name."
+      },
+      {
+        "name": "ref_id",
+        "type": "string",
+        "description": "Source publication."
+      },
+      {
+        "name": "map_length_cM",
+        "type": "number",
+        "description": "Copied from maps.csv."
+      },
+      {
+        "name": "genome_size_mb",
+        "type": "number",
+        "description": "Copied from maps.csv."
+      },
+      {
+        "name": "genome_size_method",
+        "type": "string",
+        "description": "How the genome size was obtained."
+      },
+      {
+        "name": "map_sex",
+        "type": "string",
+        "description": "Which map the length refers to."
+      },
+      {
+        "name": "n_markers",
+        "type": "integer",
+        "description": "Copied from maps.csv."
+      },
+      {
+        "name": "n_linkage_groups",
+        "type": "integer",
+        "description": "Copied from maps.csv."
+      },
+      {
+        "name": "haploid_chromosome_number",
+        "type": "number",
+        "description": "Copied from maps.csv."
+      },
+      {
+        "name": "passes_2017_criteria",
+        "type": "boolean",
+        "description": "Copied from maps.csv."
+      },
+      {
+        "name": "in_published_353",
+        "type": "boolean",
+        "description": "Copied from maps.csv."
+      },
+      {
+        "name": "recombination_rate_cM_per_Mb",
+        "type": "number",
+        "description": "map_length_cM / genome_size_mb. The headline quantity.",
+        "constraints": {
+          "minimum": 0
+        }
+      },
+      {
+        "name": "map_length_per_chromosome_cM",
+        "type": "number",
+        "description": "map_length_cM / haploid_chromosome_number."
+      },
+      {
+        "name": "marker_interval_cM",
+        "type": "number",
+        "description": "map_length_cM / n_markers. Map resolution."
+      },
+      {
+        "name": "fm_map_length_ratio",
+        "type": "number",
+        "description": "Female map length / male map length, where both are reported."
+      }
+    ]
+  }
+}

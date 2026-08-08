@@ -1,0 +1,94 @@
+{
+  "name": "genome_sizes",
+  "path": "genome_sizes.csv",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "title": "Genome size estimates",
+  "description": "One row per genome-size estimate per species. A species may have several estimates by different methods; maps.csv names which one it used. Separating these makes the method explicit and lets an estimate be corrected without touching the map records.",
+  "schema": {
+    "primaryKey": "genome_size_id",
+    "foreignKeys": [
+      {
+        "fields": "ott_id",
+        "reference": {
+          "resource": "species",
+          "fields": "ott_id"
+        }
+      }
+    ],
+    "fields": [
+      {
+        "name": "genome_size_id",
+        "type": "string",
+        "description": "Stable identifier, GS + 4 digits.",
+        "constraints": {
+          "required": true,
+          "unique": true,
+          "pattern": "^GS\\d{4}$"
+        }
+      },
+      {
+        "name": "ott_id",
+        "type": "string",
+        "description": "Open Tree taxon id.",
+        "constraints": {
+          "required": true,
+          "pattern": "^ott\\d+$"
+        }
+      },
+      {
+        "name": "species_name",
+        "type": "string",
+        "description": "Species name.",
+        "constraints": {
+          "required": true
+        }
+      },
+      {
+        "name": "genome_size_mb",
+        "type": "number",
+        "description": "Genome size in Mb.",
+        "constraints": {
+          "minimum": 0
+        }
+      },
+      {
+        "name": "c_value_pg",
+        "type": "number",
+        "description": "C-value in picograms, where the estimate came from one."
+      },
+      {
+        "name": "method",
+        "type": "string",
+        "description": "How the estimate was obtained.",
+        "constraints": {
+          "enum": [
+            "assembly_or_direct",
+            "c_value",
+            "estimate_unspecified",
+            "other_literature"
+          ]
+        }
+      },
+      {
+        "name": "source_column",
+        "type": "string",
+        "description": "Column in the original compilation this came from."
+      },
+      {
+        "name": "source",
+        "type": "string",
+        "description": "Where the value came from.",
+        "constraints": {
+          "required": true
+        }
+      },
+      {
+        "name": "note",
+        "type": "string",
+        "description": "Known limitations of this estimate."
+      }
+    ]
+  }
+}

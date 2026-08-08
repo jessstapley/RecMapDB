@@ -1,0 +1,220 @@
+{
+  "name": "maps",
+  "path": "maps.csv",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "title": "Linkage maps \u2014 the core observation table",
+  "description": "One row per linkage map from one study. A species with several published maps has several rows. Stores what was measured; the recombination rate is NOT stored here \u2014 it is derived in recombination_rates.csv from map_length_cM / genome_size_mb. Records that fail the 2017 inclusion criteria are retained and flagged rather than deleted.",
+  "schema": {
+    "primaryKey": "map_id",
+    "foreignKeys": [
+      {
+        "fields": "ott_id",
+        "reference": {
+          "resource": "species",
+          "fields": "ott_id"
+        }
+      },
+      {
+        "fields": "ref_id",
+        "reference": {
+          "resource": "references",
+          "fields": "ref_id"
+        }
+      },
+      {
+        "fields": "genome_size_id",
+        "reference": {
+          "resource": "genome_sizes",
+          "fields": "genome_size_id"
+        }
+      }
+    ],
+    "fields": [
+      {
+        "name": "map_id",
+        "type": "string",
+        "description": "Stable record identifier, RM + 4 digits. Never reused.",
+        "constraints": {
+          "required": true,
+          "unique": true,
+          "pattern": "^RM\\d{4}$"
+        }
+      },
+      {
+        "name": "ott_id",
+        "type": "string",
+        "description": "Open Tree taxon id. Joins to species.csv.",
+        "constraints": {
+          "required": true,
+          "pattern": "^ott\\d+$"
+        }
+      },
+      {
+        "name": "species_name",
+        "type": "string",
+        "description": "Species name. Joins to species.csv.",
+        "constraints": {
+          "required": true
+        }
+      },
+      {
+        "name": "ref_id",
+        "type": "string",
+        "description": "Source publication. Joins to references.csv. Null for records added after the 2017 paper whose reference is not yet supplied."
+      },
+      {
+        "name": "map_length_cM",
+        "type": "number",
+        "description": "Total map length in centimorgans, summed over all linkage groups.",
+        "constraints": {
+          "minimum": 0
+        }
+      },
+      {
+        "name": "map_sex",
+        "type": "string",
+        "description": "Which map this length refers to.",
+        "constraints": {
+          "enum": [
+            "sex_averaged",
+            "female",
+            "male"
+          ]
+        }
+      },
+      {
+        "name": "map_length_female_cM",
+        "type": "number",
+        "description": "Female map length, where reported separately.",
+        "constraints": {
+          "minimum": 0
+        }
+      },
+      {
+        "name": "map_length_male_cM",
+        "type": "number",
+        "description": "Male map length, where reported separately.",
+        "constraints": {
+          "minimum": 0
+        }
+      },
+      {
+        "name": "n_markers",
+        "type": "integer",
+        "description": "Number of mapped markers.",
+        "constraints": {
+          "minimum": 0
+        }
+      },
+      {
+        "name": "n_linkage_groups",
+        "type": "integer",
+        "description": "Number of linkage groups recovered.",
+        "constraints": {
+          "minimum": 0
+        }
+      },
+      {
+        "name": "haploid_chromosome_number",
+        "type": "number",
+        "description": "Haploid chromosome number (n) for the species.",
+        "constraints": {
+          "minimum": 0
+        }
+      },
+      {
+        "name": "mapping_population_n",
+        "type": "number",
+        "description": "Number of individuals in the mapping population."
+      },
+      {
+        "name": "genome_size_mb",
+        "type": "number",
+        "description": "Genome size in Mb used for this record. Joins via genome_size_id to the full estimate record.",
+        "constraints": {
+          "minimum": 0
+        }
+      },
+      {
+        "name": "genome_size_id",
+        "type": "string",
+        "description": "Which genome-size estimate was used. Joins to genome_sizes.csv."
+      },
+      {
+        "name": "genome_size_method",
+        "type": "string",
+        "description": "How that estimate was obtained.",
+        "constraints": {
+          "enum": [
+            "assembly_or_direct",
+            "c_value",
+            "estimate_unspecified",
+            "other_literature"
+          ]
+        }
+      },
+      {
+        "name": "map_length_extrapolated_cM",
+        "type": "number",
+        "description": "Extrapolated map length carried in the source compilation. Retained for comparison; not used in derived rates."
+      },
+      {
+        "name": "rate_as_published_cM_per_Mb",
+        "type": "number",
+        "description": "Rate as printed in the source study, where the compilation recorded one. Retained for comparison ONLY \u2014 use recombination_rates.csv."
+      },
+      {
+        "name": "qc_few_markers",
+        "type": "boolean",
+        "description": "TRUE where fewer than 50 markers were mapped (a 2017 exclusion criterion)."
+      },
+      {
+        "name": "qc_lg_hcn_mismatch",
+        "type": "boolean",
+        "description": "TRUE where |linkage groups - haploid chromosome number| / haploid chromosome number > 0.7 (a 2017 exclusion criterion)."
+      },
+      {
+        "name": "qc_duplicate_of_other_record",
+        "type": "boolean",
+        "description": "TRUE where this row duplicates another row in this table (same map re-reported in a later compilation)."
+      },
+      {
+        "name": "passes_2017_criteria",
+        "type": "boolean",
+        "description": "TRUE where the record meets both 2017 inclusion criteria. Null where a required field is missing. Set this filter to reproduce the published analysis."
+      },
+      {
+        "name": "in_published_353",
+        "type": "boolean",
+        "description": "TRUE where this record appears in the published 353-species supplement."
+      },
+      {
+        "name": "from_corbett_detig_2015",
+        "type": "boolean",
+        "description": "TRUE where the compilation recorded the value as taken from Corbett-Detig et al. 2015 rather than the primary study."
+      },
+      {
+        "name": "needs_reference",
+        "type": "boolean",
+        "description": "TRUE where no reference has been supplied yet. These are the priority for curation."
+      },
+      {
+        "name": "source_row",
+        "type": "integer",
+        "description": "Row number in the original LinkageMapIinfo2.csv. Provenance anchor."
+      },
+      {
+        "name": "source_first_author",
+        "type": "string",
+        "description": "First-author surname as recorded in the compilation."
+      },
+      {
+        "name": "source_year",
+        "type": "integer",
+        "description": "Year as recorded in the compilation."
+      }
+    ]
+  }
+}

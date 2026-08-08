@@ -3,6 +3,12 @@
 ## Unreleased
 
 ### Added
+- `data/maps.csv` (486 rows) — the core observation table, one row per linkage map per
+  study, keyed to species.csv and references.csv, with per-record quality flags.
+- `data/genome_sizes.csv` (637 estimates) — one row per genome-size estimate per species,
+  each with its measurement method; maps.csv names which estimate it used.
+- `data/recombination_rates.csv` (430 rows) — DERIVED. Rebuilt by scripts/build_derived.py;
+  CI fails if it has drifted from maps.csv.
 - `data/references.csv` (353 rows) — source publications parsed from the published
   supplementary reference list and matched to Crossref. 342 of 353 carry a DOI.
 - `data/species.csv` (457 rows) — taxa resolved against Open Tree of Life with NCBI
@@ -14,6 +20,12 @@
   (controlled values). Traits are kept separate from `species.csv`: taxonomy is a resolved
   external fact, traits are observations with their own provenance and scoring scope.
 - Repository scaffolding: schemas, governance, contribution routes.
+
+### Verified
+- Recomputing the rate from map length and genome size reproduces the stored RR column
+  exactly on all 430 computable rows.
+- `passes_2017_criteria` reproduces the published subset: all 353 records in the published
+  supplement pass, and `in_published_353` matches the supplement exactly.
 
 ### Notes
 - 42 stored OTT ids were found not to match the taxon their name resolves to, including

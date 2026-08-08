@@ -11,12 +11,26 @@ extended by the community.
 
 | File | Rows | Description |
 |---|---|---|
-| `data/references.csv` | 353 | Source publications, 97% with resolved DOIs |
+| `data/maps.csv` | 486 | **The core table.** One row per linkage map per study |
 | `data/species.csv` | 457 | Taxa resolved against Open Tree of Life, cross-checked against NCBI |
+| `data/references.csv` | 353 | Source publications, 97% with resolved DOIs |
+| `data/genome_sizes.csv` | 637 | Genome-size estimates with method, one row per estimate |
+| `data/species_traits.csv` | 3,071 | Species traits in long format, 163 with a primary citation |
+| `data/recombination_rates.csv` | 430 | **Derived** — rebuilt from maps and genome sizes; do not edit |
 
-Still to come: `maps.csv` (the core observation table), `genome_sizes.csv`,
-`species_traits.csv`, `contributors.csv`, and the derived `recombination_rates.csv`.
-See `docs/recmapdb_plan.md` for the full design and roadmap.
+Still to come: `contributors.csv`. See `docs/recmapdb_plan.md` for the full design.
+
+## The headline quantity
+
+Recombination rate is **not stored**. It is computed from what was measured:
+
+    recombination_rate_cM_per_Mb = map_length_cM / genome_size_mb
+
+so a corrected genome size propagates automatically. `scripts/build_derived.py` rebuilds
+the derived table and CI fails if the committed version has drifted from its inputs.
+
+To reproduce the published analysis: `maps[maps.passes_2017_criteria]`. All 353 records in
+the published supplement pass; records that fail are kept and flagged, not deleted.
 
 ## Reading the data
 

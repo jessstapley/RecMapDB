@@ -1,0 +1,638 @@
+genome_size_id,ott_id,species_name,genome_size_mb,c_value_pg,method,source_column,source,note
+GS0001,ott444202,Acacia mangium,635.7,0.65,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0002,ott735589,Acromyrmex echinatior,335.0,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0003,ott279981,Actinidia chinensis,604.22,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0004,ott279981,Actinidia chinensis,1408.32,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0005,ott269666,Aedes aegypti,1383.96,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0006,ott269666,Aedes aegypti,942.14,0.963333333333333,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0007,ott793181,Aedes albopictus,2111.34,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0008,ott793181,Aedes albopictus,1090.47,1.115,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0009,ott327444,Aegilops sharonensis,6894.9,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0010,ott881533,Aegilops tauschii,4327.21,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0011,ott881533,Aegilops tauschii,4327.21,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0012,ott790374,Aegilops umbellulata,4938.9,5.05,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0013,ott564405,Agaricus bisporus,30.2337,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0014,ott564405,Agaricus bisporus,30.2337,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0015,ott550221,Agrostis capillaris,4000.02,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0016,ott307879,Agrostis stolonifera,3423.0,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0017,ott781600,Allium cepa,16381.5,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0018,ott856720,Allium fistulosum,12254.34,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0019,ott317810,Amaranthus hybridus,616.14,0.63,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0020,ott1092552,Ambystoma tigrinum,30875.46,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0021,ott627039,Ananas comosus,381.896,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0022,ott627039,Ananas comosus,537.9,0.55,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0023,ott765167,Anas platyrhynchos,1105.05,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0024,ott765167,Anas platyrhynchos,1375.72,1.40666666666667,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0025,ott854198,Anguilla japonica,1151.14,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0026,ott854198,Anguilla japonica,1151.14,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0027,ott286257,Anopheles funestus,225.224,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0028,ott286257,Anopheles funestus,225.224,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0029,ott553555,Anopheles gambiae,264.06,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0030,ott553555,Anopheles gambiae,264.06,0.27,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0031,ott441856,Anoplopoma fimbria,699.326,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0032,ott441856,Anoplopoma fimbria,757.95,0.84,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0033,ott319626,Anthurium andreanum,4694.4,4.8,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0034,ott625771,Apis cerana,228.332,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0035,ott625771,Apis cerana,185.82,0.19,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0036,ott461645,Apis mellifera,249.39,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0037,ott461645,Apis mellifera,229.83,0.235,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0038,ott721060,Apostichopus japonicus,664.37,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0039,ott721060,Apostichopus japonicus,664.37,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0040,ott152273,Arabidopsis halleri,196.243,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0041,ott152273,Arabidopsis halleri,234.72,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0042,ott309263,Arabidopsis thaliana,156.48,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0043,ott309263,Arabidopsis thaliana,123.5,0.126278118609407,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0044,ott607569,Arachis duranensis,1068.35,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0045,ott607569,Arachis duranensis,1242.06,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0046,ott39541,Arachis hypogaea,2806.86,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0047,ott887220,Argopecten irradians,1173.6,1.2,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0048,ott429101,Aristichthys nobilis,865.53,1.05,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0049,ott59094,Artemia franciscana,948.66,0.97,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0050,ott5712886,Ascochyta rabiei,34.6583,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0051,ott5712886,Ascochyta rabiei,34.6583,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0052,ott117339,Aspergillus nidulans,30.2427,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0053,ott117339,Aspergillus nidulans,30.2427,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0054,ott710025,Astatotilapia burtoni,948.66,0.97,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0055,ott701518,Astyanax mexicanus,1191.24,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0056,ott701518,Astyanax mexicanus,1191.24,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0057,ott106278,Athalia rosae,163.838,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0058,ott106278,Athalia rosae,163.838,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0059,ott790381,Avena sativa,12500.0,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0060,ott790381,Avena sativa,12938.94,12.5,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0061,ott227727,Bactrocera cucurbitae,373.0,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0062,ott35910,Barbarea vulgaris,167.352,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0063,ott434483,Begonia plebeja,294.0,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0064,ott434483,Begonia plebeja,616.14,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0065,ott273185,Beta vulgaris,566.55,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0066,ott273185,Beta vulgaris,1222.5,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0067,ott267719,Betula pendula,1369.2,1.4,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0068,ott559934,Bicyclus anynana,479.22,0.49,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0069,ott907693,Bison bison,2828.03,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0070,ott907693,Bison bison,4792.2,4.9,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0071,ott968114,Biston betularia,500.0,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0072,ott555363,Blumeria graminis,118.726,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0073,ott555363,Blumeria graminis,118.726,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0074,ott594991,Boehmeria nivea,716.0,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0075,ott161197,Bombus terrestris,248.654,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0076,ott161197,Bombus terrestris,518.34,0.53,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0077,ott440274,Bombyx mori,513.45,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0078,ott440274,Bombyx mori,513.45,0.525,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0079,ott440274,Bombyx mori,450.81,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0080,ott490099,Bos taurus,3569.7,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0081,ott490099,Bos taurus,3537.1,3.61666666666667,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0082,ott490099,Bos taurus,3537.1,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0083,ott413237,Brachypodium distachyon,352.08,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0084,ott413237,Brachypodium distachyon,352.08,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0085,ott41113,Bracon hebetor,165.0,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0086,ott240937,Brassica campestris,567.24,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0087,ott749459,Brassica carinata,1545.24,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0088,ott309279,Brassica juncea,954.861,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0089,ott309279,Brassica juncea,1496.34,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0090,ott309234,Brassica napus,930.508,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0091,ott309234,Brassica napus,1124.7,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0092,ott833642,Brassica oleracea,488.954,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0093,ott833642,Brassica oleracea,762.8,0.779959100204499,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0094,ott833632,Brassica rapa,284.129,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0095,ott833632,Brassica rapa,782.4,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0096,ott395053,Caenorhabditis briggsae,108.384,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0097,ott395053,Caenorhabditis briggsae,108.384,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0098,ott395048,Caenorhabditis elegans,100.286,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0099,ott395048,Caenorhabditis elegans,100.286,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0100,ott612448,Cajanus cajan,592.817,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0101,ott612448,Cajanus cajan,860.64,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0102,ott776348,Camelina sativa,641.356,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0103,ott776348,Camelina sativa,641.356,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0104,ott1058509,Camellia sinensis,3814.2,3.9,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0105,ott247341,Canis lupus,2748.18,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0106,ott247341,Canis lupus,2748.18,2.81,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0107,ott19017,Capra hircus,2922.81,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0108,ott19017,Capra hircus,3168.72,3.24,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0109,ott833644,Capsella bursa-pastoris,268.431,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0110,ott833644,Capsella bursa-pastoris,391.2,5.81,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0111,ott19798,Capsella rubella,215.16,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0112,ott19798,Capsella rubella,215.16,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0113,ott473836,Capsicum annuum,2935.88,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0114,ott473836,Capsicum annuum,3090.48,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0115,ott232458,Capsicum baccatum,3628.38,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0116,ott1005907,Carassius auratus,1643.04,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0117,ott429474,Carica papaya,369.782,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0118,ott429474,Carica papaya,372.0,0.380368098159509,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0119,ott1061541,Carthamus tinctorius,661.938,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0120,ott1061541,Carthamus tinctorius,1369.2,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0121,ott540978,Castanea mollissima,833.241,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0122,ott540978,Castanea mollissima,833.241,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0123,ott524094,Catharanthus roseus,522.654,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0124,ott524094,Catharanthus roseus,2376.5,2.4299591002045,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0125,ott780217,Ceratopteris richardii,11294.0,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0126,ott117198,Chenopodium quinoa,1333.4,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0127,ott117198,Chenopodium quinoa,1447.44,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0128,ott33153,Chlamydomonas reinhardtii,120.405,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0129,ott33153,Chlamydomonas reinhardtii,120.405,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0130,ott56422,Chlamys farreri,1244.016,1.272,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0131,ott3899190,Chrysanthemum morifolium,8635.74,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0132,ott612429,Cicer arietinum,530.894,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0133,ott612429,Cicer arietinum,929.1,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0134,ott1006251,Citrullus lanatus,440.1,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0135,ott1006251,Citrullus lanatus,440.1,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0136,ott1006251,Citrullus lanatus,321.047,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0137,ott1006251,Citrullus lanatus,321.047,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0138,ott236255,Citrus clementina,469.44,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0139,ott236255,Citrus clementina,469.44,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0140,ott236255,Citrus clementina,301.365,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0141,ott236255,Citrus clementina,301.365,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0142,ott3942433,Citrus sinensis,327.83,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0143,ott3942433,Citrus sinensis,490.956,0.375255623721881,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0144,ott1011450,Citrus unshiu,1.1542,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0145,ott192116,Clunio marinus,85.4914,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0146,ott192116,Clunio marinus,95.0,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0147,ott4930749,Cochliobus sativus,33.4,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0148,ott366250,Cocos nucifera,3107.106,2.80572597137014,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0149,ott1001050,Coffea arabica,1173.6,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0150,ott679189,Corchorus capsularis,317.178,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0151,ott679189,Corchorus capsularis,586.8,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0152,ott578269,Corchorus olitorius,334.912,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0153,ott578269,Corchorus olitorius,909.54,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0154,ott629345,Coregonus clupeaformis,2386.32,2.44,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0155,ott148264,Cornus florida,1545.24,1.58,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0156,ott803622,Coturnix japonica,927.657,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0157,ott803622,Coturnix japonica,1320.3,1.35,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0158,ott987409,Crassostrea gigas,557.736,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0159,ott987409,Crassostrea gigas,557.736,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0160,ott35872,Crocodylus porosus,2049.54,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0161,ott48333,Cryptococcus neoformans,19.0519,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0162,ott48333,Cryptococcus neoformans,19.56,0.02,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0163,ott620749,Cryptomeria japonica,10758.0,11.0,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0164,ott1005936,Ctenopharyngodon idella,1004.54571428571,1.02714285714286,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0165,ott1006256,Cucumis melo,374.928,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0166,ott1006256,Cucumis melo,929.1,0.95,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0167,ott1006246,Cucumis sativus,195.669,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0168,ott1006246,Cucumis sativus,195.669,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0169,ott379272,Cucurbita maxima,449.88,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0170,ott84409,Cucurbita moschata,420.54,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0171,ott379282,Cucurbita pepo,537.9,0.55,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0172,ott218684,Culex pipiens,684.6,0.7,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0173,ott746120,Cyanistes caeruleus,1437.66,1.47,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0174,ott991885,Cynara cardunculus,1075.8,1.1,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0175,ott927435,Cynodon dactylon,1110.03,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0176,ott906506,Cynoglossus semilaevis,606.36,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0177,ott906506,Cynoglossus semilaevis,606.36,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0178,ott429083,Cyprinus carpio,1741.9158,2.03,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0179,ott83469,Dactylis glomerata,4303.2,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0180,ott1005914,Danio rerio,1713.945,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0181,ott1005914,Danio rerio,1817.124,2.28,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0182,ott668392,Daphnia magna,129.543,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0183,ott59086,Daphnia pulex,197.206,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0184,ott372836,Daucus carota,421.539,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0185,ott372836,Daucus carota,421.539,1.0,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0186,ott842200,Dianthus caryophyllus,567.662,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0187,ott842200,Dianthus caryophyllus,616.14,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0188,ott3549,Dicentrarchus labrax,675.917,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0189,ott3549,Dicentrarchus labrax,762.84,0.78,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0190,ott505714,Drosophila melanogaster,176.04,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0191,ott505714,Drosophila melanogaster,168.038181818182,0.171818181818182,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0192,ott1082272,Drosophila pseudoobscura,159.74,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0193,ott1082272,Drosophila pseudoobscura,159.74,0.163333333333333,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0194,ott86632,Drosophila serrata,205.38,0.21,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0195,ott878345,Ectocarpus siliculosus,195.811,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0196,ott878345,Ectocarpus siliculosus,195.811,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0197,ott775254,Eimeria maxima,45.9751,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0198,ott775254,Eimeria maxima,45.9751,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0199,ott775246,Eimeria tenella,51.8944,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0200,ott775246,Eimeria tenella,51.8944,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0201,ott947656,Elaeis guineensis,1535.18,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0202,ott947656,Elaeis guineensis,1535.18,1.0,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0203,ott210313,Elaeis oleifera,1402.73,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0204,ott210313,Elaeis oleifera,1402.73,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0205,ott173152,Elymus lanceolatus,8244.54,8.43,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0206,ott306171,Epinephelus aeneus,1075.8,1.1,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0207,ott1068218,Equus caballus,3117.864,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0208,ott1068218,Equus caballus,3149.16,3.22,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0209,ott1068218,Equus caballus,2474.93,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0210,ott1094963,Eragrostis tef,607.318,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0211,ott1094963,Eragrostis tef,665.04,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0212,ott843929,Eremochloa ophiuroides,811.74,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0213,ott207983,Eriobotrya japonica,762.84,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0214,ott566723,Eriocheir sinensis,1680.0,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0215,ott739941,Esox lucius,904.497,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0216,ott739941,Esox lucius,1095.36,1.4,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0217,ott505234,Eucalyptus camaldulensis,654.922,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0218,ott505234,Eucalyptus camaldulensis,606.36,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0219,ott847929,Eucalyptus globulus,552.4722,0.579959100204499,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0220,ott40959,Eucalyptus grandis,691.43,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0221,ott40959,Eucalyptus grandis,591.5922,0.579959100204499,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0222,ott173799,Eucalyptus tereticornis,586.8,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0223,ott1049231,Eucalyptus urophylla,595.602,0.579959100204499,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0224,ott743836,Eucommia ulmoides,723.72,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0225,ott904381,Fagopyrum esculentum,1177.69,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0226,ott904381,Fagopyrum esculentum,1359.4,1.38997955010225,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0227,ott563163,Felis silvestris,2894.88,2.96,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0228,ott475468,Fenneropenaeus chinensis,1660.0,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0229,ott105576,Festuca arundinacea,4185.84,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0230,ott107840,Ficedula albicollis,1118.34,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0231,ott107840,Ficedula albicollis,1118.34,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0232,ott555467,Fragaria iinumae,199.628,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0233,ott555467,Fragaria iinumae,199.628,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0234,ott852873,Fragaria vesca,214.373,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0235,ott852873,Fragaria vesca,214.373,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0236,ott3904118,Fragaria xananassa,697.762,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0237,ott3904118,Fragaria xananassa,697.762,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0238,ott955281,Fusarium circinatum,43.9486,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0239,ott955281,Fusarium circinatum,43.9486,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0240,ott264388,Fusarium graminearum,36.458,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0241,ott264388,Fusarium graminearum,36.458,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0242,ott404217,Fusarium oxysporum,61.3869,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0243,ott404217,Fusarium oxysporum,61.3869,0.055,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0244,ott584890,Fusarium verticillioides,41.8449,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0245,ott584890,Fusarium verticillioides,41.8449,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0246,ott114170,Gadus morhua,824.311,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0247,ott114170,Gadus morhua,909.54,0.93,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0248,ott153563,Gallus gallus,1222.5,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0249,ott153563,Gallus gallus,1230.26,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0250,ott401066,Gasterosteus aculeatus,625.92,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0251,ott401066,Gasterosteus aculeatus,625.92,0.7,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0252,ott401066,Gasterosteus aculeatus,446.611,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0253,ott717875,Gentiana scabra,5000.0,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0254,ott232963,Globodera rostochiensis,95.8763,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0255,ott232963,Globodera rostochiensis,95.8763,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0256,ott681762,Glycine max,978.972,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0257,ott681762,Glycine max,1105.14,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0258,ott625750,Gossypium arboreum,1694.6,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0259,ott625750,Gossypium arboreum,1682.16,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0260,ott854476,Gossypium barbadense,2566.74,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0261,ott854476,Gossypium barbadense,2694.39,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0262,ott854480,Gossypium hirsutum,2189.14,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0263,ott854480,Gossypium hirsutum,2347.2,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0264,ott79347,Gossypium raimondii,761.565,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0265,ott79347,Gossypium raimondii,1101.228,1.35276073619632,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0266,ott733231,Gossypium tomentosum,2386.32,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0267,ott780542,Haliotis diversicolor,1418.1,1.45,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0268,ott780532,Haliotis midae,1398.54,1.43,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0269,ott138490,Haplochromis chilotes,1075.8,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0270,ott685068,Haplochromis sauvagei,1075.8,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0271,ott515712,Helianthus annuus,2376.54,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0272,ott896444,Heliconius melpomene,293.4,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0273,ott896444,Heliconius melpomene,293.4,0.3,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0274,ott1072058,Heterobasidion annosum,27.9883,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0275,ott1072058,Heterobasidion annosum,27.9883,0.034,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0276,ott332065,Heterodera glycines,81.908,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0277,ott332065,Heterodera glycines,81.908,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0278,ott339361,Hevea brasiliensis,1373.37,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0279,ott339361,Hevea brasiliensis,2102.7,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0280,ott393745,Hibiscus cannabinus,1496.34,1.53,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0281,ott23821,Hieracium,4058.7,4.15,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0282,ott770315,Homo sapiens,3423.0,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0283,ott770315,Homo sapiens,3423.0,3.5,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0284,ott657948,Hordeum vulgare,1779.49,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0285,ott657948,Hordeum vulgare,5418.1,5.53997955010225,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0286,ott84020,Humulus lupulus,2836.2,2.9,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0287,ott677266,Hyla aborea,4649.69142857143,4.75428571428571,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0288,ott35786,Hypophthalmichthys molitrix,978.0,1.0,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0289,ott762099,Hypsizygus marmoreus,41.6261,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0290,ott762099,Hypsizygus marmoreus,41.6261,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0291,ott701523,Ictalurus punctatus,783.275,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0292,ott701523,Ictalurus punctatus,993.648,1.06,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0293,ott1071040,Ipomoea batatas,1833.75,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0294,ott621065,Ixodes scapularis,1765.38,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0295,ott621065,Ixodes scapularis,1765.38,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0296,ott916001,Jatropha curcas,318.527,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0297,ott916001,Jatropha curcas,420.54,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0298,ott138717,Juglans regia,606.0,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0299,ott138717,Juglans regia,606.36,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0300,ott229709,Kryptolebias marmoratus,680.367,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0301,ott985685,Laccaria bicolor,64.8774,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0302,ott985685,Laccaria bicolor,64.8774,0.062,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0303,ott515700,Lactuca sativa,2600.0,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0304,ott515700,Lactuca sativa,2591.7,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0305,ott679823,Larimichthys crocea,678.938,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0306,ott679823,Larimichthys crocea,678.938,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0307,ott154040,Larix kaempferi,9291.0,9.5,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0308,ott437601,Lates calcarifer,668.481,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0309,ott437601,Lates calcarifer,684.6,0.7,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0310,ott156245,Lens culinaris,4107.6,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0311,ott162647,Lentinula edodes,46.1067,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0312,ott162647,Lentinula edodes,46.1067,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0313,ott1028028,Lepisosteus oculatus,1369.2,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0314,ott1028028,Lepisosteus oculatus,1378.98,1.44,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0315,ott836783,Lepomis macrochirus,987.78,1.01,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0316,ott185597,Leptinotarsa decemlineata,1170.24,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0317,ott185597,Leptinotarsa decemlineata,449.88,0.46,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0318,ott1061491,Leptopilina clavipes,255.344,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0319,ott1061491,Leptopilina clavipes,255.344,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0320,ott1000262,Linum usitatissimum,282.202,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0321,ott1000262,Linum usitatissimum,684.6,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0322,ott169168,Litopenaeus vannamei,2640.0,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0323,ott135777,Lolium multiflorum,2660.16,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0324,ott135774,Lolium perenne,481.479,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0325,ott135774,Lolium perenne,2365.782,2.0799591002045,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0326,ott1081728,Lotus japonicus,394.455,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0327,ott1081728,Lotus japonicus,469.44,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0328,ott84261,Lucania goodei,1319.322,1.349,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0329,ott839518,Lucania parva,1391.694,1.423,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0330,ott565719,Luffa acutangula,831.3,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0331,ott1030424,Lupinus albus,586.8,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0332,ott1030433,Lupinus angustifolius,1153.0,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0333,ott1030433,Lupinus angustifolius,1153.0,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0334,ott689650,Macaca mulatta,3290.97,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0335,ott689650,Macaca mulatta,3290.97,3.365,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0336,ott539171,Macropus eugenii,3075.18,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0337,ott539171,Macropus eugenii,1153.0,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0338,ott258235,Magnaporthe grisea,42.711,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0339,ott258235,Magnaporthe grisea,42.711,0.041,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0340,ott3902985,Malus domestica,1874.77,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0341,ott3902985,Malus domestica,1874.77,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0342,ott321926,Malus sieversii,733.5,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0343,ott854961,Malus pumila,742.3,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0344,ott854961,Malus pumila,753.06,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0345,ott807634,Mangifera indica,440.1,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0346,ott339369,Manihot esculenta,582.118,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0347,ott339369,Manihot esculenta,1222.5,1.6700408997955,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0348,ott5787510,Marsupenaeus japonicus,2767.74,2.83,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0349,ott1086789,Medicago sativa,1276.29,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0350,ott1060499,Medicago truncatula,469.44,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0351,ott1060499,Medicago truncatula,469.44,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0352,ott1060499,Medicago truncatula,550.0,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0353,ott809207,Melampsora lini,170.172,0.174,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0354,ott446482,Meleagris gallopavo,1431.14,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0355,ott446482,Meleagris gallopavo,1431.14,1.46333333333333,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0356,ott446482,Meleagris gallopavo,1128.34,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0357,ott1043271,Meloidogyne hapla,53.013,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0358,ott265548,Melospiza melodia,1398.54,1.43,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0359,ott677719,Metriaclima zebra,848.776495,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0360,ott927240,Microtus ochrogaster,2287.34,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0361,ott504496,Mimulus guttatus,450.0,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0362,ott764796,Miscanthus sinensis,2591.7,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0363,ott312382,Misgurnus anguillicaudatus,1594.14,1.86,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0364,ott122362,Monodelphis domestica,3598.44,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0365,ott122362,Monodelphis domestica,3598.44,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0366,ott542509,Mus musculus,3002.46,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0367,ott542509,Mus musculus,3182.52705882353,3.25411764705882,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0368,ott207474,Musa acuminata,472.231,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0369,ott207474,Musa acuminata,472.231,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0370,ott1011010,Musca domestica,750.404,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0371,ott1011010,Musca domestica,929.1,0.95,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0372,ott857565,Mycosphaerella fijiensis,74.328,0.076,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0373,ott5319573,Mycosphaerella graminicola,39.7,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0374,ott729592,Nasonia giraulti,283.607,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0375,ott729592,Nasonia giraulti,283.607,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0376,ott729593,Nasonia vitripennis,295.781,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0377,ott729593,Nasonia vitripennis,332.52,0.34,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0378,ott532278,Nelumbo lutea,948.66,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0379,ott532288,Nelumbo nucifera,804.648,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0380,ott532288,Nelumbo nucifera,234.72,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0381,ott733968,Nicotiana langsdorffii,4254.3,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0382,ott222787,Nicotiana tabacum,3643.47,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0383,ott222787,Nicotiana tabacum,5066.04,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0384,ott876508,Nilaparvata lugens,1140.79,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0385,ott876508,Nilaparvata lugens,1140.79,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0386,ott513643,Nothobranchius furzeri,1242.52,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0387,ott513643,Nothobranchius furzeri,1242.52,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0388,ott23729,Olea europaea,1907.1,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0389,ott739917,Oncorhynchus kisutch,2767.74,3.05,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0390,ott165368,Oncorhynchus mykiss,2592.678,2.92,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0391,ott165375,Oncorhynchus nerka,2858.694,3.04,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0392,ott730762,Oncorhynchus tshawytscha,2709.06,3.3,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0393,ott288069,Oreochromis mossambicus,978.0,1.0,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0394,ott288063,Oreochromis niloticus,1009.86,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0395,ott288063,Oreochromis niloticus,1058.196,1.2,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0396,ott864596,Oryctolagus cuniculus,2737.46,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0397,ott864596,Oryctolagus cuniculus,3107.24571428572,3.17714285714286,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0398,ott135756,Oryza rufipogon,339.177,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0399,ott135756,Oryza rufipogon,449.88,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0400,ott709894,Oryza sativa,374.423,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0401,ott709894,Oryza sativa,489.0,0.5,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0402,ott942673,Oryzias latipes,1056.24,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0403,ott942673,Oryzias latipes,1009.296,1.1,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0404,ott1033104,Ostrea edulis,1144.26,1.17,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0405,ott70819,Ovis aries,2615.52,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0406,ott70819,Ovis aries,2941.824,3.008,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0407,ott70819,Ovis aries,3227.4,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0408,ott123206,Ovis canadensis,2590.55,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0409,ott123206,Ovis canadensis,2590.55,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0410,ott271163,Pagellus erythrinus,635.7,0.65,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0411,ott205619,Panicum virgatum,1792.674,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0412,ott947948,Papilio glaucus,430.32,0.44,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0413,ott115449,Papio anubis,3452.34,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0414,ott115463,Papio hamadryas,3457.23,3.535,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0415,ott883392,Paralichthys olivaceus,643.911,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0416,ott883392,Paralichthys olivaceus,694.38,0.71,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0417,ott515143,Parus major,1020.31,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0418,ott515143,Parus major,1476.78,1.51,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0419,ott449027,Patinopecten yessoensis,1437.66,1.47,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0420,ott212713,Penaeus monodon,2474.34,2.53,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0421,ott1079449,Pennisetum glaucum,2621.04,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0422,ott377525,Peromyscus maniculatus,4264.08,4.36,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0423,ott913249,Persea americana,909.54,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0424,ott232467,Petunia axillaris,1369.2,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0425,ott5346507,Phaeosphaeria nodorum,32.3666666666667,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0426,ott808637,Phalloceros caudimaculatus,700.0,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0427,ott825707,Phaseolus vulgaris,521.077,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0428,ott825707,Phaseolus vulgaris,586.8,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0429,ott789008,Phoenix dactylifera,556.481,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0430,ott789008,Phoenix dactylifera,929.1,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0431,ott735973,Phycomyces blakesleeanus,53.9392,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0432,ott735973,Phycomyces blakesleeanus,53.9392,0.041,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0433,ott821359,Physcomitrella patens,477.948,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0434,ott821359,Physcomitrella patens,477.948,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0435,ott775738,Phytophthora capsici,56.0343,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0436,ott775738,Phytophthora capsici,64.0,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0437,ott775725,Phytophthora infestans,228.544,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0438,ott775725,Phytophthora infestans,240.0,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0439,ott517943,Picea abies,18190.8,18.6,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0440,ott771681,Picea glauca,24633.1,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0441,ott771681,Picea glauca,19755.6,20.2,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0442,ott363879,Picea mariana,20000.0,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0443,ott763333,Pinctada martensii,1154.04,1.18,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0444,ott1044480,Pinus balfouriana,29281.32,29.94,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0445,ott245809,Pinus elliottii,22787.4,23.3,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0446,ott830806,Pinus koraiensis,27579.6,28.2,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0447,ott568626,Pinus lambertiana,27602.7,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0448,ott568626,Pinus lambertiana,27602.7,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0449,ott714296,Pinus massoniana,25134.6,25.7,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0450,ott837883,Pinus pinaster,23814.3,24.35,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0451,ott568644,Pinus radiata,21936.54,22.43,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0452,ott568619,Pinus sylvestris,0.985624,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0453,ott568619,Pinus sylvestris,41574.78,42.51,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0454,ott1075736,Pinus taeda,22103.6,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0455,ott1075736,Pinus taeda,21516.0,22.0,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0456,ott359905,Pisum sativum,4772.64,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0457,ott724404,Plasmodium chabaudi,18.8678,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0458,ott724404,Plasmodium chabaudi,18.8678,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0459,ott201128,Plasmodium falciparum,23.2703,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0460,ott201128,Plasmodium falciparum,23.2703,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0461,ott826551,Plasmodium yoelii,23.1254,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0462,ott826551,Plasmodium yoelii,23.1254,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0463,ott216726,Pleurotus eryngii,43.7797,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0464,ott216726,Pleurotus eryngii,43.7797,0.051,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0465,ott312452,Poecilia reticulata,731.622,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0466,ott312452,Poecilia reticulata,865.53,1.0,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0467,ott1042743,Pogonomyrmex rugosus,255.0,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0468,ott5763644,Populus adenopoda,508.56,0.52,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0469,ott1030862,Populus alba,508.56,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0470,ott8867,Populus deltoides,500.0,0.511247443762781,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0471,ott8848,Populus nigra,514.0368,0.511247443762781,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0472,ott839584,Populus tremula,469.44,0.511247443762781,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0473,ott8861,Populus trichocarpa,479.22,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0474,ott8861,Populus trichocarpa,489.0,0.511247443762781,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0475,ott718120,Portunus trituberculatus,2259.18,2.31,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0476,ott3885394,Primulina eburnea,1985.34,2.03,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0477,ott197875,Pristionchus pacificus,133.114,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0478,ott197875,Pristionchus pacificus,133.114,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0479,ott217632,Prunus armeniaca,293.4,0.3,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0480,ott162547,Prunus avium,342.3,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0481,ott731568,Prunus dulcis,240.0,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0482,ott1020749,Prunus kansuensis,293.4,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0483,ott426562,Prunus mume,234.03,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0484,ott426562,Prunus mume,234.03,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0485,ott259054,Prunus persica,303.18,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0486,ott259054,Prunus persica,273.84,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0487,ott857565,Pseudocercospora fijiensis,74.1412,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0488,ott857565,Pseudocercospora fijiensis,74.1412,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0489,ott1075713,Pseudotsuga menziesii,14673.2,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0490,ott1075713,Pseudotsuga menziesii,18630.9,19.05,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0491,ott646814,Punica granatum,704.16,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0492,ott411919,Pyrenophora teres,33.5833,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0493,ott411919,Pyrenophora teres,33.5833,0.045,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0494,ott972654,Pyrus communis,537.9,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0495,ott791121,Quercus,909.5,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0496,ott14718,Rana temporaria,4169.214,4.263,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0497,ott359073,Raphanus sativus,426.614,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0498,ott359073,Raphanus sativus,978.0,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0499,ott271555,Rattus norvegicus,2870.18,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0500,ott271555,Rattus norvegicus,3286.08,3.36,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0501,ott248647,Ribes nigrum,6888.0,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0502,ott339346,Ricinus communis,350.622,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0503,ott339346,Ricinus communis,508.56,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0504,ott156929,Rubus idaeus,311.982,0.33997955010225,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0505,ott670811,Rubus occidentalis,293.4,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0506,ott913666,Ruditapes philippinarum,1967.0,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0507,ott246789,Saccharina japonica,543.426,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0508,ott246789,Saccharina japonica,543.426,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0509,ott895796,Saccharum spp,4394.48,4.49333333333333,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0510,ott688328,Salmo salar,2966.89,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0511,ott688328,Salmo salar,3048.426,3.27,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0512,ott688332,Salmo trutta,2875.32,3.19,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0513,ott847543,Salvia miltiorrhiza,615.0,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0514,ott191483,Schistosoma mansoni,364.538,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0515,ott191483,Schistosoma mansoni,364.538,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0516,ott433079,Sciaenops ocellatus,381.42,0.39,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0517,ott335717,Scleropages formosus,777.359,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0518,ott335717,Scleropages formosus,777.359,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0519,ott778695,Scophthalmus maximus,841.08,0.86,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0520,ott1084541,Scylla paramamosain,1603.92,1.64,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0521,ott553015,Secale cereale,8097.84,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0522,ott186469,Seriola quinqueradiata,811.74,0.83,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0523,ott504628,Sesamum indicum,275.059,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0524,ott504628,Sesamum indicum,948.66,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0525,ott553005,Setaria italica,405.868,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0526,ott553005,Setaria italica,518.34,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0527,ott609504,Silene latifolia,665.279,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0528,ott609504,Silene latifolia,2640.6,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0529,ott359058,Sinapis alba,489.0,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0530,ott885264,Solanum habrochaites,724.285,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0531,ott885264,Solanum habrochaites,724.285,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0532,ott378964,Solanum lycopersicum,823.786,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0533,ott378964,Solanum lycopersicum,823.786,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0534,ott494843,Solanum melongena,833.081,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0535,ott494843,Solanum melongena,958.44,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0536,ott1069768,Solanum pennellii,926.426,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0537,ott1069768,Solanum pennellii,926.426,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0538,ott797186,Solanum pimpinellifolium,688.247,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0539,ott797186,Solanum pimpinellifolium,688.247,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0540,ott494835,Solanum tuberosum,705.934,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0541,ott494835,Solanum tuberosum,860.64,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0542,ott710233,Solea solea,713.94,0.73,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0543,ott552986,Sorghum bicolor,739.15,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0544,ott552986,Sorghum bicolor,1188.27,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0545,ott760723,Sparus aurata,929.1,0.95,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0546,ott317784,Spinacia oleracea,493.772,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0547,ott317784,Spinacia oleracea,1007.3,1.0299591002045,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0548,ott1040287,Strongyloides ratti,43.1502,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0549,ott1040287,Strongyloides ratti,43.1502,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0550,ott647692,Struthio camelus,1225.04,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0551,ott647692,Struthio camelus,2112.48,2.16,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0552,ott730013,Sus scrofa,2748.18,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0553,ott730013,Sus scrofa,2922.264,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0554,ott730013,Sus scrofa,2808.53,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0555,ott708327,Taeniopygia guttata,1232.14,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0556,ott708327,Taeniopygia guttata,1222.5,1.25,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0557,ott65341,Takifugu rubripes,392.0,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0558,ott65341,Takifugu rubripes,391.2,0.4,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0559,ott843397,Taraxacum koksaghyz,1.45,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0560,ott309291,Taxodium mucronatum,8850.9,9.05,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0561,ott302422,Theileria parva,8.34761,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0562,ott302422,Theileria parva,8.34761,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0563,ott388185,Theobroma cacao,324.88,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0564,ott388185,Theobroma cacao,420.5,0.429959100204499,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0565,ott833202,Thunnus orientalis,740.0,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0566,ott833202,Thunnus orientalis,800.0,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0567,ott461524,Tigriopus californicus,244.5,0.25,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0568,ott252145,Toxoplasma gondii,65.6681,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0569,ott252145,Toxoplasma gondii,65.6681,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0570,ott148904,Tribolium castaneum,165.944,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0571,ott148904,Tribolium castaneum,202.935,0.2075,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0572,ott839027,Trifolium pratense,540.0,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0573,ott839027,Trifolium pratense,528.12,0.65,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0574,ott116218,Trifolium repens,1095.36,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0575,ott539553,Trifolium subterraneum,471.834,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0576,ott539553,Trifolium subterraneum,547.68,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0577,ott31926,Triticum aestivum,13427.4,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0578,ott31926,Triticum aestivum,16948.74,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0579,ott605173,Triticum dicoccum,11765.34,12.03,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0580,ott494245,Trypanosoma brucei,22.1481,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0581,ott494245,Trypanosoma brucei,22.1481,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0582,ott567253,Vaccinium corymbosum,655.26,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0583,ott295602,Vaccinium macrocarpon,414.622,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0584,ott295602,Vaccinium macrocarpon,414.622,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0585,ott1064791,Vanilla tahitensis,5603.94,5.73,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0586,ott581449,Venturia inaequalis,55.1254,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0587,ott581449,Venturia inaequalis,55.1254,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0588,ott52839,Vespula vulgaris,219.8,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0589,ott539544,Vicia faba,80.3627,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0590,ott539544,Vicia faba,17622.582,13.3299591002045,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0591,ott1065959,Vigna angularis,467.301,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0592,ott1065959,Vigna angularis,537.9,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0593,ott1065954,Vigna mungo,537.9,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0594,ott806245,Vigna radiata,463.638,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0595,ott806245,Vigna radiata,894.87,1.3,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0596,ott853659,Vigna subterranea,880.2,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0597,ott1065941,Vigna unguiculata,695.046,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0598,ott1065941,Vigna unguiculata,586.8,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0599,ott581960,Vigna vexillata,567.24,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0600,ott805071,Vitis amurensis,489.0,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0601,ott314458,Vitis cinerea,489.0,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0602,ott756728,Vitis vinifera,486.197,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0603,ott756728,Vitis vinifera,446.946,0.485685071574642,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0604,ott940184,Xenopus tropicalis,1440.4,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0605,ott940184,Xenopus tropicalis,1440.4,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0606,ott416852,Xiphophorus maculatus,729.664,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0607,ott416852,Xiphophorus maculatus,885.09,0.99,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0608,ott605194,Zea mays,2067.62,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0609,ott605194,Zea mays,2669.9,2.7299591002045,c_value,Cval,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0610,ott73483,Ziziphus jujuba,437.754,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0611,ott73483,Ziziphus jujuba,437.754,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0612,ott586007,Zoysia japonica,334.384,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0613,ott586007,Zoysia japonica,420.54,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0614,ott205630,Zoysia matrella,563.439,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0615,ott205630,Zoysia matrella,563.439,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0616,ott906425,Zymoseptoria tritici,39.6863,,assembly_or_direct,Size.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),
+GS0617,ott906425,Zymoseptoria tritici,39.6863,,estimate_unspecified,est.Gsize.Mb,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Genome size carried in the compilation without a recorded measurement method.
+GS0618,ott718262,Acropora millepora,420.0,,other_literature,combined.Gsize,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Value present only in the combined genome-size column; the underlying measurement method and source were not recorded in the compilation.
+GS0619,ott814484,Acyrthosiphon pisum,165.0,,other_literature,combined.Gsize,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Value present only in the combined genome-size column; the underlying measurement method and source were not recorded in the compilation.
+GS0620,ott324777,Chimonanthus praecox,600.0,,other_literature,combined.Gsize,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Value present only in the combined genome-size column; the underlying measurement method and source were not recorded in the compilation.
+GS0621,ott744224,Ciona intestinalis,150.0,,other_literature,combined.Gsize,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Value present only in the combined genome-size column; the underlying measurement method and source were not recorded in the compilation.
+GS0622,ott677382,Ciona savignyi,170.0,,other_literature,combined.Gsize,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Value present only in the combined genome-size column; the underlying measurement method and source were not recorded in the compilation.
+GS0623,ott5304351,Coprinus cinereus,37.5,,other_literature,combined.Gsize,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Value present only in the combined genome-size column; the underlying measurement method and source were not recorded in the compilation.
+GS0624,ott365708,Crassostrea virginica,675.0,,other_literature,combined.Gsize,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Value present only in the combined genome-size column; the underlying measurement method and source were not recorded in the compilation.
+GS0625,ott408328,Hippoglossus hippoglossus,713.94,,other_literature,combined.Gsize,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Value present only in the combined genome-size column; the underlying measurement method and source were not recorded in the compilation.
+GS0626,ott677266,Hyla aborea,4649.69,,other_literature,combined.Gsize,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Value present only in the combined genome-size column; the underlying measurement method and source were not recorded in the compilation.
+GS0627,ott351029,Hyriopsis cumingii,3000.0,,other_literature,combined.Gsize,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Value present only in the combined genome-size column; the underlying measurement method and source were not recorded in the compilation.
+GS0628,ott160616,Labeo rohita,1950.0,,other_literature,combined.Gsize,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Value present only in the combined genome-size column; the underlying measurement method and source were not recorded in the compilation.
+GS0629,ott743052,Laupala,1900.0,,other_literature,combined.Gsize,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Value present only in the combined genome-size column; the underlying measurement method and source were not recorded in the compilation.
+GS0630,ott212713,Penaeus monodon,2170.0,,other_literature,combined.Gsize,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Value present only in the combined genome-size column; the underlying measurement method and source were not recorded in the compilation.
+GS0631,ott5346507,Phaeosphaeria nodorum,37.1,,other_literature,combined.Gsize,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Value present only in the combined genome-size column; the underlying measurement method and source were not recorded in the compilation.
+GS0632,ott14718,Rana temporaria,4169.21,,other_literature,combined.Gsize,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Value present only in the combined genome-size column; the underlying measurement method and source were not recorded in the compilation.
+GS0633,ott633644,Rhyzopertha dominica,476.0,,other_literature,combined.Gsize,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Value present only in the combined genome-size column; the underlying measurement method and source were not recorded in the compilation.
+GS0634,ott843397,Taraxacum koksaghyz,1420.0,,other_literature,combined.Gsize,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Value present only in the combined genome-size column; the underlying measurement method and source were not recorded in the compilation.
+GS0635,ott389727,Tribolium confusum,245.0,,other_literature,combined.Gsize,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Value present only in the combined genome-size column; the underlying measurement method and source were not recorded in the compilation.
+GS0636,ott137951,Trichogramma brassicae,246.0,,other_literature,combined.Gsize,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Value present only in the combined genome-size column; the underlying measurement method and source were not recorded in the compilation.
+GS0637,ott616561,Undaria pinnatifida,560.0,,other_literature,combined.Gsize,Stapley et al. 2017 compilation (LinkageMapIinfo2.csv),Value present only in the combined genome-size column; the underlying measurement method and source were not recorded in the compilation.
