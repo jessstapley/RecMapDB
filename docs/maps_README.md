@@ -65,9 +65,7 @@ not.
 ## Genome size is a separate table
 
 `genome_sizes.csv` holds one row per estimate per species — 637 estimates covering **406 of
-the 457 species** (219 of them have more than one estimate). The remaining **51 species have
-no genome-size estimate at all**, which is why 56 map records carry no rate. Each estimate
-carries its `method`:
+the 457 species**, 219 of them with more than one. Each estimate carries its `method`:
 
 | Method | n | Meaning |
 |---|---|---|
@@ -77,7 +75,9 @@ carries its `method`:
 | `other_literature` | 20 | Present only in the combined column; method not recoverable |
 
 `maps.genome_size_id` names which estimate a given map used, so the choice is explicit and
-an estimate can be corrected without touching the map record.
+an estimate can be corrected without touching the map record. `used_in_maps` marks the 404
+estimates actually in use; the other 233 are alternatives for species where a different
+estimate was preferred, plus the five withheld values described under Known limitations.
 
 **A caveat on C-value conversion.** Where the compilation converted a C-value to Mb, 132 of
 181 used the standard 978 Mb/pg. The remaining 49 imply factors from 67 to 1535 — meaning
@@ -88,9 +88,20 @@ discrepancy stays visible.
 ## Known limitations
 
 1. **105 records have no reference.** Everything else about them is present.
-2. **51 species (56 map records) have no genome size**, so no recombination rate can be
-   derived for them. Supplying a genome size with its method is the second most valuable
-   contribution after supplying a missing reference.
+2. **56 map records have no usable genome size**, so no recombination rate can be derived
+   for them. These break down as:
+   - **51 species with no estimate of any kind** — nothing in the source file to work from.
+   - **5 species with an estimate the original compilation declined to use** (*Citrus
+     unshiu*, *Mycosphaerella fijiensis*, *Pagellus erythrinus*, *Picea mariana*, *Ribes
+     nigrum*). Each has a value in one of the source columns but a blank combined genome
+     size, so the compiler evidently judged it unreliable. At least one is clearly wrong:
+     *Citrus unshiu* is recorded as 1.1542 Mb, which is a C-value in pg sitting in the Mb
+     column — *Citrus* genomes are around 370 Mb. These five are retained in
+     `genome_sizes.csv` with `flag_unverified` set and a note, rather than being silently
+     used or silently dropped.
+
+   Supplying a genome size with its method is the second most valuable contribution after
+   supplying a missing reference.
 3. **`genome_size_method` is `estimate_unspecified` for 209 estimates** — the compilation
    did not record where they came from.
 4. **Genome size is species-level, not study-level.** A map from 2005 may be paired with a

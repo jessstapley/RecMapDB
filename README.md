@@ -14,7 +14,7 @@ extended by the community.
 | `data/maps.csv` | 486 | **The core table.** One row per linkage map per study |
 | `data/species.csv` | 457 | Taxa resolved against Open Tree of Life, cross-checked against NCBI |
 | `data/references.csv` | 353 | Source publications, 97% with resolved DOIs |
-| `data/genome_sizes.csv` | 637 | Genome-size estimates with method; covers 406 of 457 species |
+| `data/genome_sizes.csv` | 637 | Genome-size estimates with method; 404 in use, covering 406 of 457 species |
 | `data/species_traits.csv` | 3,071 | Species traits in long format, 163 with a primary citation |
 | `data/recombination_rates.csv` | 430 | **Derived** — rebuilt from maps and genome sizes; do not edit |
 

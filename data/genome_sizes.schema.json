@@ -88,6 +88,16 @@
         "name": "note",
         "type": "string",
         "description": "Known limitations of this estimate."
+      },
+      {
+        "name": "used_in_maps",
+        "type": "boolean",
+        "description": "TRUE where a record in maps.csv uses this estimate. FALSE for alternative estimates of the same species, and for the five withheld by the original compilation."
+      },
+      {
+        "name": "flag_unverified",
+        "type": "boolean",
+        "description": "TRUE for estimates present in the source columns but not carried into the compilation's combined genome size \u2014 retained as candidates, not used. Verify before use."
       }
     ]
   }
