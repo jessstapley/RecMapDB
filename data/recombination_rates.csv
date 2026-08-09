@@ -145,7 +145,7 @@ RM0158,ott173152,Elymus lanceolatus,mott2011,2574.0,8244.54,c_value,sex_averaged
 RM0159,ott306171,Epinephelus aeneus,dor2014,969.5,1075.8,c_value,sex_averaged,222.0,24.0,24.0,True,True,0.90119,40.396,4.3671,1.1885
 RM0162,ott1068218,Equus caballus,swinburne2006,2692.1,3149.16,c_value,sex_averaged,409.0,,32.0,,False,0.854863,84.128,6.5822,
 RM0163,ott1068218,Equus caballus,swinburne2006,2772.0,3149.16,c_value,sex_averaged,742.0,32.0,32.0,True,True,0.880235,86.625,3.7358,
-RM0164,ott1094963,Eragrostis tef,,1277.4,665.04,estimate_unspecified,sex_averaged,,30.0,20.0,,False,1.920787,63.87,,
+RM0164,ott1094963,Eragrostis tef,zeid2011,1277.4,665.04,estimate_unspecified,sex_averaged,,30.0,20.0,,False,1.920787,63.87,,
 RM0165,ott843929,Eremochloa ophiuroides,zheng2013,623.6,811.74,estimate_unspecified,sex_averaged,89.0,10.0,9.0,True,True,0.768226,69.289,7.0067,
 RM0166,ott207983,Eriobotrya japonica,fukuda2016,1036.0,762.84,estimate_unspecified,sex_averaged,308.0,19.0,17.0,True,True,1.358083,60.941,3.3636,
 RM0167,ott566723,Eriocheir sinensis,cui2015,5125.53,1680.0,estimate_unspecified,sex_averaged,10358.0,73.0,73.0,True,True,3.050911,70.213,0.4948,0.9876

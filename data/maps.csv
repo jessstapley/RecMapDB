@@ -162,7 +162,7 @@ RM0160,ott876088,Epinephelus bruneus,kessuwan2016,1423.17,sex_averaged,1475.95,1
 RM0161,ott457795,Epinephelus coioides,you2013,1582.7,sex_averaged,1370.9,1335.5,4608.0,24.0,24.0,,,,,,,False,False,False,True,False,False,False,161,You,2013
 RM0162,ott1068218,Equus caballus,swinburne2006,2692.1,sex_averaged,,,409.0,,32.0,,3149.16,GS0208,c_value,,1.40991304778554,False,False,False,,False,True,False,162,Corbet-Detig,2015
 RM0163,ott1068218,Equus caballus,swinburne2006,2772.0,sex_averaged,,,742.0,32.0,32.0,61.0,3149.16,GS0208,c_value,,,False,False,False,True,True,False,False,163,Swinburne,2006
-RM0164,ott1094963,Eragrostis tef,,1277.4,sex_averaged,,,,30.0,20.0,151.0,665.04,GS0211,estimate_unspecified,,,False,False,False,,False,False,True,164,Zeid,2011
+RM0164,ott1094963,Eragrostis tef,zeid2011,1277.4,sex_averaged,,,,30.0,20.0,151.0,665.04,GS0211,estimate_unspecified,,,False,False,False,,False,False,False,164,Zeid,2011
 RM0165,ott843929,Eremochloa ophiuroides,zheng2013,623.6,sex_averaged,,,89.0,10.0,9.0,86.0,811.74,GS0212,estimate_unspecified,,,False,False,False,True,True,False,False,165,Zheng,2013
 RM0166,ott207983,Eriobotrya japonica,fukuda2016,1036.0,sex_averaged,,,308.0,19.0,17.0,,762.84,GS0213,estimate_unspecified,,,False,False,False,True,True,False,False,166,Fukuda,2016
 RM0167,ott566723,Eriocheir sinensis,cui2015,5125.53,sex_averaged,4338.3,4392.7,10358.0,73.0,73.0,120.0,1680.0,GS0214,estimate_unspecified,,3.09,False,False,False,True,True,False,False,167,Cui,2015
