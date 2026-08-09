@@ -20,7 +20,7 @@ RM0022,ott627039,Ananas comosus,desousa2013,2113.0,537.9,c_value,sex_averaged,74
 RM0023,ott765167,Anas platyrhynchos,huang2009,1766.0,1375.72,c_value,sex_averaged,260.0,32.0,40.0,True,True,1.283691,44.15,6.7923,
 RM0024,ott854198,Anguilla japonica,kai2014,1436.5,1151.14,estimate_unspecified,sex_averaged,2787.0,19.0,19.0,True,True,1.247893,75.605,0.5154,1.1345
 RM0025,ott286257,Anopheles funestus,wondji2007,145.0,225.224,estimate_unspecified,sex_averaged,56.0,3.0,3.0,True,True,0.643804,48.333,2.5893,
-RM0026,ott553555,Anopheles gambiae,,166.1,264.06,c_value,sex_averaged,38.0,,3.0,,False,0.629024,55.367,4.3711,
+RM0026,ott553555,Anopheles gambiae,zheng1996,166.1,264.06,c_value,sex_averaged,38.0,,3.0,,False,0.629024,55.367,4.3711,
 RM0027,ott441856,Anoplopoma fimbria,rondeau2013,1332.8,757.95,c_value,sex_averaged,360.0,24.0,24.0,True,True,1.758427,55.533,3.7022,1.8712
 RM0028,ott319626,Anthurium andreanum,venkat2014,1023.5,4694.4,c_value,sex_averaged,78.0,12.0,15.0,True,True,0.218026,68.233,13.1218,
 RM0030,ott625771,Apis cerana,shi2013,574.5,185.82,c_value,sex_averaged,1535.0,19.0,16.0,True,True,3.091702,35.906,0.3743,
@@ -39,7 +39,7 @@ RM0042,ott5712886,Ascochyta rabiei,phan2003,1271.0,34.6583,estimate_unspecified,
 RM0043,ott117339,Aspergillus nidulans,christians2011,3624.7,30.2427,estimate_unspecified,sex_averaged,739.0,8.0,8.0,True,True,119.853717,453.088,4.9049,
 RM0044,ott710025,Astatotilapia burtoni,sanetra2009,1249.3,948.66,c_value,sex_averaged,204.0,25.0,20.0,True,True,1.31691,62.465,6.124,
 RM0045,ott701518,Astyanax mexicanus,carlson2015,2110.7,1191.24,estimate_unspecified,sex_averaged,2235.0,25.0,25.0,True,True,1.771851,84.428,0.9444,
-RM0046,ott106278,Athalia rosae,,517.2,163.838,estimate_unspecified,sex_averaged,61.0,16.0,8.0,False,False,3.156777,64.65,8.4787,
+RM0046,ott106278,Athalia rosae,nishimori2000,517.2,163.838,estimate_unspecified,sex_averaged,61.0,16.0,8.0,False,False,3.156777,64.65,8.4787,
 RM0047,ott790381,Avena sativa,chaffin2016,2843.0,12938.94,c_value,sex_averaged,7202.0,21.0,21.0,True,True,0.219724,135.381,0.3948,
 RM0048,ott227727,Bactrocera cucurbitae,sim2017,646.0,373.0,estimate_unspecified,sex_averaged,944.0,5.0,5.0,True,True,1.731903,129.2,0.6843,
 RM0049,ott35910,Barbarea vulgaris,kuzina2011,889.0,167.352,assembly_or_direct,sex_averaged,131.0,8.0,8.0,True,True,5.312156,111.125,6.7863,
@@ -56,7 +56,7 @@ RM0060,ott440274,Bombyx mori,zhan2009a,685.25,513.45,c_value,sex_averaged,1604.0
 RM0061,ott440274,Bombyx mori,zhan2009a,3320.0,513.45,c_value,sex_averaged,692.0,27.0,28.0,True,True,6.466063,118.571,4.7977,
 RM0062,ott490099,Bos taurus,ihara2004,3097.366,3537.1,c_value,sex_averaged,5499.0,,31.0,,False,0.87568,99.915,0.5633,
 RM0063,ott490099,Bos taurus,ihara2004,3159.1,3537.1,estimate_unspecified,sex_averaged,3960.0,29.0,31.0,True,True,0.893133,101.906,0.7978,
-RM0064,ott413237,Brachypodium distachyon,,1598.0,352.08,estimate_unspecified,sex_averaged,556.0,,5.0,,False,4.538741,319.6,2.8741,
+RM0064,ott413237,Brachypodium distachyon,huo2011,1598.0,352.08,estimate_unspecified,sex_averaged,556.0,,5.0,,False,4.538741,319.6,2.8741,
 RM0065,ott41113,Bracon hebetor,holloway2000,536.1,165.0,estimate_unspecified,sex_averaged,71.0,10.0,10.0,True,True,3.249091,53.61,7.5507,
 RM0066,ott240937,Brassica campestris,cheng2009,973.3,567.24,estimate_unspecified,sex_averaged,268.0,10.0,10.0,True,True,1.715852,97.33,3.6317,
 RM0067,ott749459,Brassica carinata,zou2014,2048.0,1545.24,estimate_unspecified,sex_averaged,1366.0,17.0,17.0,True,True,1.32536,120.471,1.4993,
@@ -64,8 +64,8 @@ RM0068,ott309279,Brassica juncea,zou2016,1579.0,1496.34,estimate_unspecified,sex
 RM0069,ott309234,Brassica napus,zhang2016a,1917.9,1124.7,estimate_unspecified,sex_averaged,1826.0,19.0,19.0,True,True,1.705255,100.942,1.0503,
 RM0070,ott833642,Brassica oleracea,zhao2016a,890.01,762.8,c_value,sex_averaged,2741.0,8.0,9.0,True,True,1.166767,98.89,0.3247,
 RM0071,ott833632,Brassica rapa,yu2016,858.98,782.4,estimate_unspecified,sex_averaged,3688.0,10.0,10.0,True,True,1.097878,85.898,0.2329,
-RM0072,ott395053,Caenorhabditis briggsae,,484.4527,108.384,estimate_unspecified,sex_averaged,,,6.0,,False,4.469781,80.742,,
-RM0073,ott395048,Caenorhabditis elegans,,233.287,100.286,estimate_unspecified,sex_averaged,5220.0,,6.0,,False,2.326217,38.881,0.0447,
+RM0072,ott395053,Caenorhabditis briggsae,ross2011,484.4527,108.384,estimate_unspecified,sex_averaged,,,6.0,,False,4.469781,80.742,,
+RM0073,ott395048,Caenorhabditis elegans,yook2011,233.287,100.286,estimate_unspecified,sex_averaged,5220.0,,6.0,,False,2.326217,38.881,0.0447,
 RM0074,ott612448,Cajanus cajan,bohra2012,1059.0,860.64,estimate_unspecified,sex_averaged,339.0,11.0,11.0,True,True,1.23048,96.273,3.1239,
 RM0076,ott776348,Camelina sativa,gehringer2006,1385.6,641.356,estimate_unspecified,sex_averaged,160.0,20.0,20.0,True,True,2.160423,69.28,8.66,
 RM0077,ott1058509,Camellia sinensis,taniguchi2012,1218.0,3814.2,c_value,sex_averaged,1124.0,15.0,15.0,True,True,0.319333,81.2,1.0836,
@@ -73,7 +73,7 @@ RM0078,ott247341,Canis lupus,wong2010,2084.8,2748.18,c_value,sex_averaged,3065.0
 RM0079,ott247341,Canis lupus,wong2010,2085.1,2748.18,c_value,sex_averaged,3549.0,39.0,39.0,True,True,0.75872,53.464,0.5875,1.2501
 RM0080,ott19017,Capra hircus,schibler1998,2737.0,3168.72,c_value,sex_averaged,284.0,40.0,30.0,True,True,0.863756,91.233,9.6373,
 RM0081,ott833644,Capsella bursa-pastoris,linde2001,1064.4,391.2,c_value,sex_averaged,114.0,17.0,16.0,True,True,2.720859,66.525,9.3368,
-RM0082,ott19798,Capsella rubella,,381.82633647,215.16,estimate_unspecified,sex_averaged,877.0,,8.0,,False,1.774616,47.728,0.4354,
+RM0082,ott19798,Capsella rubella,slotte2012,381.82633647,215.16,estimate_unspecified,sex_averaged,877.0,,8.0,,False,1.774616,47.728,0.4354,
 RM0083,ott473836,Capsicum annuum,han2016,1372.0,3090.48,estimate_unspecified,sex_averaged,2578.0,12.0,12.0,True,True,0.443944,114.333,0.5322,
 RM0084,ott232458,Capsicum baccatum,lee2016,1056.0,3628.38,estimate_unspecified,sex_averaged,395.0,12.0,12.0,True,True,0.291039,88.0,2.6734,
 RM0085,ott1005907,Carassius auratus,kuang2016,5252.0,1643.04,estimate_unspecified,sex_averaged,8521.0,50.0,50.0,True,True,3.196514,105.04,0.6164,
@@ -133,8 +133,8 @@ RM0142,ott59086,Daphnia pulex,cristescu2006,1206.0,197.206,assembly_or_direct,se
 RM0143,ott372836,Daucus carota,cavagnaro2014,635.1,421.539,c_value,sex_averaged,894.0,9.0,9.0,True,True,1.506622,70.567,0.7104,
 RM0147,ott842200,Dianthus caryophyllus,yagi2013,978.3,616.14,estimate_unspecified,sex_averaged,348.0,15.0,15.0,True,True,1.587788,65.22,2.8112,
 RM0148,ott3549,Dicentrarchus labrax,chistiakov2008,1373.1,762.84,c_value,sex_averaged,368.0,35.0,24.0,True,True,1.799984,57.212,3.7312,1.3155
-RM0150,ott505714,Drosophila melanogaster,,105.46085,168.038181818182,c_value,sex_averaged,969.0,,4.0,,False,0.627601,26.365,0.1088,
-RM0151,ott1082272,Drosophila pseudoobscura,,53.520111655,159.74,c_value,sex_averaged,141.0,,4.0,,False,0.335045,13.38,0.3796,
+RM0150,ott505714,Drosophila melanogaster,comeron2012,105.46085,168.038181818182,c_value,sex_averaged,969.0,,4.0,,False,0.627601,26.365,0.1088,
+RM0151,ott1082272,Drosophila pseudoobscura,mcgaugh2012,53.520111655,159.74,c_value,sex_averaged,141.0,,4.0,,False,0.335045,13.38,0.3796,
 RM0152,ott86632,Drosophila serrata,stocker2012,245.3,205.38,c_value,sex_averaged,58.0,4.0,4.0,True,True,1.194371,61.325,4.2293,
 RM0153,ott878345,Ectocarpus siliculosus,heesch2010,2459.3,195.811,estimate_unspecified,sex_averaged,406.0,34.0,34.0,True,True,12.55956,72.332,6.0574,
 RM0154,ott775254,Eimeria maxima,blake2011,2883.9,45.9751,estimate_unspecified,sex_averaged,647.0,13.0,14.0,True,True,62.727433,205.993,4.4573,
@@ -197,7 +197,7 @@ RM0214,ott339361,Hevea brasiliensis,shearman2015,4160.0,2102.7,estimate_unspecif
 RM0215,ott393745,Hibiscus cannabinus,chen2011,4924.8,1496.34,c_value,sex_averaged,396.0,26.0,18.0,True,True,3.291231,273.6,12.4364,
 RM0216,ott23821,Hieracium,shirasawa2014,1650.0,4058.7,c_value,sex_averaged,518.0,16.0,18.0,True,True,0.406534,91.667,3.1853,
 RM0217,ott408328,Hippoglossus hippoglossus,palaiokostas2013,1514.0,713.94,other_literature,sex_averaged,4049.0,24.0,24.0,True,True,2.120626,63.083,0.3739,1.0856
-RM0218,ott770315,Homo sapiens,,3179.9563005,3423.0,c_value,sex_averaged,276215.0,,48.0,,False,0.928997,66.249,0.0115,
+RM0218,ott770315,Homo sapiens,kong2010,3179.9563005,3423.0,c_value,sex_averaged,276215.0,,48.0,,False,0.928997,66.249,0.0115,
 RM0219,ott657948,Hordeum vulgare,zhou2016a,927.07,5418.1,c_value,sex_averaged,1832.0,7.0,7.0,True,True,0.171106,132.439,0.506,
 RM0220,ott84020,Humulus lupulus,henning2015,745.9,2836.2,c_value,sex_averaged,3341.0,11.0,10.0,True,True,0.262993,74.59,0.2233,
 RM0221,ott677266,Hyla aborea,brelsford2015,1770.722,4649.69,c_value,sex_averaged,1598.0,12.0,12.0,True,True,0.380826,147.56,1.1081,2.0856
@@ -218,8 +218,8 @@ RM0237,ott154040,Larix kaempferi,guan2011,546.5,9291.0,c_value,sex_averaged,581.
 RM0239,ott437601,Lates calcarifer,wang2017a,1412.9,684.6,c_value,sex_averaged,3836.0,24.0,24.0,True,True,2.063833,58.871,0.3683,
 RM0240,ott743052,Laupala,shaw2007,795.3,1900.0,other_literature,male,131.0,16.0,8.0,False,False,0.418579,99.412,6.071,
 RM0241,ott156245,Lens culinaris,sudheesh2016,2429.61,4107.6,estimate_unspecified,sex_averaged,689.0,7.0,7.0,True,True,0.591491,347.087,3.5263,
-RM0242,ott162647,Lentinula edodes,,983.7,46.1067,estimate_unspecified,sex_averaged,572.0,12.0,,,False,21.335294,,1.7198,
-RM0243,ott1028028,Lepisosteus oculatus,,2923.736,1378.98,c_value,sex_averaged,2820.0,,29.0,,False,2.120216,100.818,1.0368,
+RM0242,ott162647,Lentinula edodes,gong2014,983.7,46.1067,estimate_unspecified,sex_averaged,572.0,12.0,,,False,21.335294,,1.7198,
+RM0243,ott1028028,Lepisosteus oculatus,amores2011,2923.736,1378.98,c_value,sex_averaged,2820.0,,29.0,,False,2.120216,100.818,1.0368,
 RM0244,ott836783,Lepomis macrochirus,wang2009b,1576.75,987.78,c_value,sex_averaged,222.0,31.0,24.0,True,True,1.596256,65.698,7.1025,1.0675
 RM0245,ott185597,Leptinotarsa decemlineata,hawthorne2001b,1032.0,449.88,c_value,sex_averaged,182.0,18.0,18.0,True,True,2.293945,57.333,5.6703,
 RM0246,ott1061491,Leptopilina clavipes,,219.9,255.344,estimate_unspecified,sex_averaged,32.0,5.0,5.0,False,False,0.861191,43.98,6.8719,
@@ -257,8 +257,8 @@ RM0278,ott504496,Mimulus guttatus,holeski2014,1750.0,450.0,estimate_unspecified,
 RM0279,ott764796,Miscanthus sinensis,liu2015b,1605.5,2591.7,estimate_unspecified,sex_averaged,1821.0,19.0,19.0,True,True,0.619478,84.5,0.8817,0.9919
 RM0280,ott312382,Misgurnus anguillicaudatus,morishima2007,723.35,1594.14,c_value,sex_averaged,159.0,27.0,25.0,True,True,0.453756,28.934,4.5494,1.1847
 RM0281,ott122362,Monodelphis domestica,samollow2007,715.0,3598.44,estimate_unspecified,sex_averaged,150.0,8.0,9.0,True,True,0.198697,79.444,4.7667,0.5009
-RM0282,ott542509,Mus musculus,,1288.0,3182.52705882353,c_value,sex_averaged,,20.0,20.0,,False,0.40471,64.4,,
-RM0283,ott542509,Mus musculus,,1436.348,3182.52705882353,c_value,sex_averaged,9872.0,,20.0,,False,0.451323,71.817,0.1455,1.0399
+RM0282,ott542509,Mus musculus,cox2009,1288.0,3182.52705882353,c_value,sex_averaged,,20.0,20.0,,False,0.40471,64.4,,
+RM0283,ott542509,Mus musculus,cox2009,1436.348,3182.52705882353,c_value,sex_averaged,9872.0,,20.0,,False,0.451323,71.817,0.1455,1.0399
 RM0284,ott207474,Musa acuminata,hippolyte2010,1197.0,472.231,estimate_unspecified,sex_averaged,489.0,11.0,11.0,True,True,2.534776,108.818,2.4479,
 RM0285,ott1011010,Musca domestica,feldmeyer2010,229.3,929.1,c_value,sex_averaged,35.0,5.0,5.0,False,False,0.246798,45.86,6.5514,
 RM0288,ott5319573,Mycosphaerella graminicola,kema2002,1216.0,39.7,assembly_or_direct,sex_averaged,223.0,23.0,21.0,True,True,30.629723,57.905,5.4529,
@@ -281,14 +281,14 @@ RM0305,ott864596,Oryctolagus cuniculus,sternstein2015,1419.0,3107.24571428572,c_
 RM0306,ott135756,Oryza rufipogon,luo2016b,1596.8,449.88,estimate_unspecified,sex_averaged,153.0,12.0,12.0,True,True,3.549391,133.067,10.4366,
 RM0307,ott709894,Oryza sativa,deleon2016,1650.0,489.0,c_value,sex_averaged,9303.0,12.0,12.0,True,True,3.374233,137.5,0.1774,
 RM0308,ott709894,Oryza sativa,deleon2016,1863.5528,489.0,c_value,sex_averaged,30971.0,,12.0,,False,3.810946,155.296,0.0602,
-RM0309,ott942673,Oryzias latipes,,1426.93,1009.296,c_value,sex_averaged,2142.0,,24.0,,False,1.413787,59.455,0.6662,
+RM0309,ott942673,Oryzias latipes,kimura2005,1426.93,1009.296,c_value,sex_averaged,2142.0,,24.0,,False,1.413787,59.455,0.6662,
 RM0310,ott1033104,Ostrea edulis,harrang2015,536.4,1144.26,c_value,sex_averaged,293.0,10.0,10.0,True,True,0.468775,53.64,1.8307,
 RM0312,ott70819,Ovis aries,johnston2016,3304.0,2941.824,c_value,sex_averaged,39104.0,26.0,27.0,True,True,1.123113,122.37,0.0845,0.7631
 RM0313,ott70819,Ovis aries,johnston2016,3468.8,2941.824,c_value,sex_averaged,554.0,,27.0,,False,1.179132,128.474,6.2614,
 RM0314,ott123206,Ovis canadensis,poissant2010,3051.0,2590.55,estimate_unspecified,sex_averaged,247.0,27.0,27.0,True,True,1.177742,113.0,12.3522,1.1183
 RM0316,ott205619,Panicum virgatum,liu2012a,2085.2,1792.674,estimate_unspecified,sex_averaged,499.0,18.0,18.0,True,True,1.163179,115.844,4.1788,
 RM0317,ott947948,Papilio glaucus,winter2009,1167.0,430.32,c_value,sex_averaged,253.0,28.0,28.0,True,True,2.711935,41.679,4.6126,0.0833
-RM0318,ott115449,Papio anubis,,2422.1,3452.34,assembly_or_direct,sex_averaged,242.0,,21.0,,False,0.701582,115.338,10.0087,
+RM0318,ott115449,Papio anubis,rogers2000,2422.1,3452.34,assembly_or_direct,sex_averaged,242.0,,21.0,,False,0.701582,115.338,10.0087,
 RM0319,ott115463,Papio hamadryas,cox2006,2354.0,3457.23,c_value,sex_averaged,284.0,20.0,20.0,True,True,0.680892,117.7,8.2887,
 RM0320,ott883392,Paralichthys olivaceus,liu2013b,1695.15,694.38,c_value,sex_averaged,1487.0,24.0,24.0,True,True,2.441243,70.631,1.14,0.9637
 RM0321,ott515143,Parus major,vanoers2013,1916.82,1476.78,c_value,sex_averaged,4878.0,32.0,32.0,True,True,1.297973,59.901,0.393,
@@ -321,8 +321,8 @@ RM0352,ott1075736,Pinus taeda,westbrook2015,2305.0,21516.0,c_value,sex_averaged,
 RM0354,ott359905,Pisum sativum,boutet2016,1255.0,4772.64,estimate_unspecified,sex_averaged,2071.0,7.0,7.0,True,True,0.262957,179.286,0.606,
 RM0355,ott724404,Plasmodium chabaudi,martinello2005,1676.0,18.8678,estimate_unspecified,sex_averaged,614.0,22.0,14.0,True,True,88.828586,119.714,2.7296,
 RM0356,ott201128,Plasmodium falciparum,jiang2011,2514.0,23.2703,estimate_unspecified,sex_averaged,3438.0,14.0,14.0,True,True,108.034705,179.571,0.7312,
-RM0357,ott826551,Plasmodium yoelii,,579.2,23.1254,estimate_unspecified,sex_averaged,,14.0,14.0,,False,25.046053,41.371,,
-RM0358,ott216726,Pleurotus eryngii,,1047.8,43.7797,c_value,sex_averaged,256.0,12.0,,,False,23.933467,,4.093,
+RM0357,ott826551,Plasmodium yoelii,li2011,579.2,23.1254,estimate_unspecified,sex_averaged,,14.0,14.0,,False,25.046053,41.371,,
+RM0358,ott216726,Pleurotus eryngii,im2016,1047.8,43.7797,c_value,sex_averaged,256.0,12.0,,,False,23.933467,,4.093,
 RM0360,ott312452,Poecilia reticulata,tripathi2009,899.0,865.53,c_value,sex_averaged,790.0,23.0,23.0,True,True,1.03867,39.087,1.138,
 RM0361,ott1042743,Pogonomyrmex rugosus,sirvio2010,2823.0,255.0,estimate_unspecified,male,215.0,14.0,16.0,True,True,11.070588,176.438,13.1302,
 RM0362,ott5763644,Populus adenopoda,wang2009c,2178.5,508.56,c_value,sex_averaged,212.0,26.0,19.0,True,True,4.283664,114.658,10.2759,
@@ -330,7 +330,7 @@ RM0363,ott1030862,Populus alba,paolucci2010,3027.1,508.56,estimate_unspecified,s
 RM0364,ott8867,Populus deltoides,mousavi2016,4067.16,500.0,c_value,sex_averaged,2012.0,19.0,19.0,True,True,8.13432,214.061,2.0215,
 RM0366,ott8848,Populus nigra,gaudet2008,2278.5,514.0368,c_value,sex_averaged,368.0,20.0,19.0,True,True,4.432562,119.921,6.1916,0.8577
 RM0368,ott839584,Populus tremula,pakull2009,1542.35,469.44,c_value,sex_averaged,344.0,32.0,19.0,True,True,3.28551,81.176,4.4836,1.1983
-RM0369,ott8861,Populus trichocarpa,,2801.5,489.0,c_value,sex_averaged,411.0,,19.0,,False,5.729039,147.447,6.8163,
+RM0369,ott8861,Populus trichocarpa,drost2009,2801.5,489.0,c_value,sex_averaged,411.0,,19.0,,False,5.729039,147.447,6.8163,
 RM0370,ott718120,Portunus trituberculatus,liu2012b,3519.45,2259.18,c_value,sex_averaged,919.0,51.0,53.0,True,True,1.557844,66.405,3.8297,1.0011
 RM0371,ott3885394,Primulina eburnea,feng2016,3774.7,1985.34,c_value,sex_averaged,216.0,18.0,18.0,True,True,1.901286,209.706,17.4755,
 RM0372,ott197875,Pristionchus pacificus,srinivasan2002,338.6,133.114,estimate_unspecified,sex_averaged,122.0,6.0,6.0,True,True,2.543684,56.433,2.7754,
@@ -390,7 +390,7 @@ RM0439,ott730013,Sus scrofa,tortereau2012,2012.0,2922.264,estimate_unspecified,s
 RM0440,ott708327,Taeniopygia guttata,backstrom2010,1479.0,1222.5,c_value,sex_averaged,1398.0,29.0,35.0,True,True,1.209816,42.257,1.0579,1.0199
 RM0441,ott65341,Takifugu rubripes,kai2011,1696.3,391.2,c_value,sex_averaged,1000.0,22.0,22.0,True,True,4.336145,77.105,1.6963,1.8206
 RM0442,ott843397,Taraxacum koksaghyz,arias2016,894.1,1420.0,other_literature,sex_averaged,518.0,8.0,8.0,True,True,0.629648,111.762,1.7261,
-RM0443,ott309291,Taxodium mucronatum,,976.5,8850.9,c_value,sex_averaged,179.0,34.0,11.0,False,False,0.110328,88.773,5.4553,
+RM0443,ott309291,Taxodium mucronatum,wang2016a,976.5,8850.9,c_value,sex_averaged,179.0,34.0,11.0,False,False,0.110328,88.773,5.4553,
 RM0444,ott302422,Theileria parva,katzer2011,1683.8,8.34761,estimate_unspecified,sex_averaged,39.0,4.0,2.0,False,False,201.71043,841.9,43.1744,
 RM0445,ott388185,Theobroma cacao,royaert2016,852.8,420.5,c_value,sex_averaged,3526.0,10.0,10.0,True,True,2.028062,85.28,0.2419,
 RM0446,ott833202,Thunnus orientalis,uchino2016,1162.6,800.0,estimate_unspecified,sex_averaged,370.0,24.0,24.0,True,True,1.45325,48.442,3.1422,1.3418
