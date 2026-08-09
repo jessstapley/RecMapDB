@@ -387,7 +387,7 @@ RM0385,ott411919,Pyrenophora teres,ellwood2010,2477.7,sex_averaged,,,243.0,25.0,
 RM0386,ott314016,Pyropia haitanensis,xu2015,874.33,sex_averaged,,,740.0,5.0,5.0,,,,,,,False,False,False,True,False,False,False,386,Xu,2015
 RM0387,ott972654,Pyrus communis,wu2014,2243.4,sex_averaged,,,3241.0,17.0,17.0,,537.9,GS0494,estimate_unspecified,,,False,False,False,True,True,False,False,387,Wu,2014
 RM0388,ott443418,Pyrus pyrifolia,yamamoto2014,1039.0,sex_averaged,,,275.0,17.0,17.0,,,,,,,False,False,False,True,False,False,False,388,Yamamoto,2014
-RM0389,ott259068,Pyrus x,,1661.4,sex_averaged,,,743.0,17.0,,56.0,,,,,,False,False,False,,False,False,True,389,Chen,2015
+RM0389,ott259068,Pyrus x,chen2014,1661.4,sex_averaged,,,743.0,17.0,,56.0,,,,,,False,False,False,,False,False,False,389,Chen,2015
 RM0390,ott791121,Quercus,bodenes2016,742.0,sex_averaged,,,4216.0,12.0,12.0,,909.5,GS0495,estimate_unspecified,,,False,False,False,True,True,False,False,390,Bodenes,2016
 RM0391,ott14718,Rana temporaria,cano2011,1698.8,sex_averaged,2089.8,1371.5,107.0,15.0,13.0,800.0,4169.21,GS0632,c_value,,,False,False,False,True,True,False,False,391,Cano,2011
 RM0392,ott359073,Raphanus sativus,mun2014,1538.0,sex_averaged,,,2637.0,9.0,9.0,93.0,978.0,GS0498,estimate_unspecified,,,False,False,False,True,True,False,False,392,Mun,2015
