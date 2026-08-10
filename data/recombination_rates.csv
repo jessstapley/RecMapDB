@@ -316,7 +316,6 @@ RM0347,ott568626,Pinus lambertiana,jermstad2010,1231.0,27602.7,estimate_unspecif
 RM0348,ott714296,Pinus massoniana,chen2014a,1956.0,25134.6,c_value,sex_averaged,251.0,17.0,12.0,True,True,0.077821,163.0,7.7928,
 RM0349,ott837883,Pinus pinaster,chancerel2013,1708.0,23814.3,c_value,sex_averaged,1131.0,12.0,12.0,True,True,0.071722,142.333,1.5102,
 RM0350,ott568644,Pinus radiata,moragasuazo2014,1060.0,21936.54,c_value,sex_averaged,458.0,12.0,12.0,True,True,0.048321,88.333,2.3144,
-RM0351,ott568619,Pinus sylvestris,,1468.0,41574.78,c_value,sex_averaged,358.0,39.0,12.0,False,False,0.03531,122.333,4.1006,
 RM0352,ott1075736,Pinus taeda,westbrook2015,2305.0,21516.0,c_value,sex_averaged,3856.0,12.0,12.0,True,True,0.10713,192.083,0.5978,
 RM0354,ott359905,Pisum sativum,boutet2016,1255.0,4772.64,estimate_unspecified,sex_averaged,2071.0,7.0,7.0,True,True,0.262957,179.286,0.606,
 RM0355,ott724404,Plasmodium chabaudi,martinello2005,1676.0,18.8678,estimate_unspecified,sex_averaged,614.0,22.0,14.0,True,True,88.828586,119.714,2.7296,
@@ -429,3 +428,9 @@ RM0483,ott73483,Ziziphus jujuba,zhang2016c,1456.53,437.754,estimate_unspecified,
 RM0484,ott586007,Zoysia japonica,wang2015c,1337.2,420.54,estimate_unspecified,sex_averaged,2408.0,21.0,20.0,True,True,3.179721,66.86,0.5553,
 RM0485,ott205630,Zoysia matrella,huang2016,1824.95,563.439,estimate_unspecified,sex_averaged,2563.0,20.0,20.0,True,True,3.238949,91.248,0.712,
 RM0486,ott906425,Zymoseptoria tritici,lendenmann2014,4255.4,39.6863,estimate_unspecified,sex_averaged,9745.0,21.0,21.0,True,True,107.225919,202.638,0.4367,
+RM0487,ott568619,Pinus sylvestris,yin2003,1707.0,41574.78,c_value,sex_averaged,433.0,12.0,12.0,True,False,0.041059,142.25,3.9423,0.9866
+RM0489,ott429083,Cyprinus carpio,peng2016,10595.94,1741.9158,c_value,sex_averaged,28194.0,50.0,50.0,True,False,6.082923,211.919,0.3758,0.9373
+RM0490,ott65341,Takifugu rubripes,liu2022,3147.8,391.2,c_value,sex_averaged,4416.0,22.0,22.0,True,False,8.046524,143.082,0.7128,0.7645
+RM0491,ott8867,Populus deltoides,tong2020,7838.48,500.0,c_value,female,4018.0,19.0,19.0,True,False,15.67696,412.552,1.9508,
+RM0493,ott853659,Vigna subterranea,gao2022,1040.92,880.2,estimate_unspecified,sex_averaged,234.0,11.0,11.0,True,False,1.182595,94.629,4.4484,
+RM0494,ott3942433,Citrus sinensis,oliveira2007,1596.2,490.956,c_value,sex_averaged,55.0,5.0,9.0,True,False,3.251208,177.356,29.0218,

@@ -11,12 +11,12 @@ extended by the community.
 
 | File | Rows | Description |
 |---|---|---|
-| `data/maps.csv` | 486 | **The core table.** One row per linkage map per study |
-| `data/species.csv` | 457 | Taxa resolved against Open Tree of Life, cross-checked against NCBI |
-| `data/references.csv` | 451 | Source publications, 97% with resolved DOIs; 484 of 486 maps referenced |
-| `data/genome_sizes.csv` | 637 | Genome-size estimates with method; 404 in use, covering 406 of 457 species |
+| `data/maps.csv` | 493 | **The core table.** One row per linkage map per study |
+| `data/species.csv` | 459 | Taxa resolved against Open Tree of Life, cross-checked against NCBI |
+| `data/references.csv` | 458 | Source publications, 97% with resolved DOIs; every map referenced |
+| `data/genome_sizes.csv` | 637 | Genome-size estimates with method; 404 in use, covering 406 of 459 species |
 | `data/species_traits.csv` | 3,071 | Species traits in long format, 163 with a primary citation |
-| `data/recombination_rates.csv` | 430 | **Derived** — rebuilt from maps and genome sizes; do not edit |
+| `data/recombination_rates.csv` | 435 | **Derived** — rebuilt from maps and genome sizes; do not edit |
 
 Still to come: `contributors.csv`. See `docs/recmapdb_plan.md` for the full design.
 

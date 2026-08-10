@@ -1,6 +1,6 @@
 # `maps.csv` — the core observation table
 
-**486 rows, 27 fields.** One row per linkage map from one study. Fourth table in the plan
+**493 rows, 27 fields.** One row per linkage map from one study. Fourth table in the plan
 (§3), and the one the rest of the database exists to support.
 
 Two companions land with it: `genome_sizes.csv` (637 estimates) and the derived
@@ -52,15 +52,18 @@ choose its own thresholds.
 
 | | n |
 |---|---|
-| Total records | 486 |
-| Meeting the 2017 criteria | 392 |
+| Total records | 493 |
+| Meeting the 2017 criteria | 400 |
 | In the published supplement | 353 |
-| Added since the paper | 133 |
-| Lacking a reference | 105 |
+| Added since the paper | 140 |
+| Lacking a reference | 0 |
 
-The 105 records without a `ref_id` are the priority for curation (`needs_reference`), and
-the clearest place for community contribution: the measurements are present, the citation is
-not.
+Every record now carries a `ref_id`. The working file originally had 105 records with no
+entry in the published reference list; a 2026 recovery campaign traced 103 of them, and the
+two that could not be traced to any source (a *Lateolabrax japonicus* and a *Pinus
+sylvestris* record) were removed rather than kept unverifiable — the only exception so far
+to the filter-don't-delete rule, made because their provenance, not merely their quality,
+was in doubt. Their values remain in `legacy/` and in git history.
 
 ## Genome size is a separate table
 
@@ -87,10 +90,9 @@ discrepancy stays visible.
 
 ## Known limitations
 
-1. **105 records have no reference.** Everything else about them is present.
-2. **56 map records have no usable genome size**, so no recombination rate can be derived
+1. **58 map records have no usable genome size**, so no recombination rate can be derived
    for them. These break down as:
-   - **51 species with no estimate of any kind** — nothing in the source file to work from.
+   - **53 species with no estimate of any kind** — nothing in the source file to work from.
    - **5 species with an estimate the original compilation declined to use** (*Citrus
      unshiu*, *Mycosphaerella fijiensis*, *Pagellus erythrinus*, *Picea mariana*, *Ribes
      nigrum*). Each has a value in one of the source columns but a blank combined genome
@@ -102,12 +104,12 @@ discrepancy stays visible.
 
    Supplying a genome size with its method is the second most valuable contribution after
    supplying a missing reference.
-3. **`genome_size_method` is `estimate_unspecified` for 209 estimates** — the compilation
+2. **`genome_size_method` is `estimate_unspecified` for 209 estimates** — the compilation
    did not record where they came from.
-4. **Genome size is species-level, not study-level.** A map from 2005 may be paired with a
+3. **Genome size is species-level, not study-level.** A map from 2005 may be paired with a
    genome size measured in 2015. Ideally each map would cite the genome size *its authors*
    used; the current data cannot support that.
-5. **40 records were taken from Corbett-Detig et al. 2015** rather than the primary study
+4. **40 records were taken from Corbett-Detig et al. 2015** rather than the primary study
    (`from_corbett_detig_2015`). Two of these duplicate another row exactly and are flagged.
-6. **`map_sex` is `sex_averaged` for most records**, but the source coded two distinct
+5. **`map_sex` is `sex_averaged` for most records**, but the source coded two distinct
    values (`y`/`n`) that both mean sex-averaged. Any distinction they carried is lost.

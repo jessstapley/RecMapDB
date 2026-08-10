@@ -1,13 +1,14 @@
 # `references.csv` — source publications
 
-**451 rows, 29 fields.** One row per publication cited in the Stapley et al. (2017)
+**458 rows, 29 fields.** One row per publication cited in the Stapley et al. (2017)
 compilation. This is the first of the seven tables described in `recmapdb_plan.md` §3.
 The original parse of the published supplement yielded 353 rows (described below); a
 2026 recovery campaign traced the sources of the working-file records that were not in
 the published reference list, adding 98 further publications. Each recovered row carries
 `match_confidence = recovered_2026` and a `review_note` naming its evidence; the audit
-trail is in `docs/references_recovered_2026.csv`. Only 2 of 486 map records still lack a
-reference (see `docs/missing_references_worklist.csv`).
+trail is in `docs/references_recovered_2026.csv`. A further 7 publications entered with
+new post-2017 map records carry `match_confidence = added_2026`. Every map record now
+has a reference (`docs/missing_references_worklist.csv` is empty).
 
 ## Provenance
 
@@ -89,5 +90,6 @@ without a colon) for grouping; `journal` preserves exactly what Crossref returne
 2. **`si_ref_number` 239** is "Rogers" in the data file and "Cox" in the reference list.
 3. **`martinello2005`** — the citation's first author is Martinelli, A.; the data file says
    "Martinello". The `ref_id` follows the data file for continuity; worth correcting.
-4. **105 working-file records** (species added after the paper) still have no reference.
-   These are the crowdsourcing candidates described in the plan.
+4. ~~**105 working-file records** (species added after the paper) still have no
+   reference.~~ Resolved by the 2026 recovery campaign: 103 recovered, 2 removed as
+   untraceable. Every current map record carries a reference.

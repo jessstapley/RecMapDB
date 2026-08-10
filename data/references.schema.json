@@ -55,7 +55,7 @@
         "constraints": {
           "required": true,
           "minimum": 1990,
-          "maximum": 2018
+          "maximum": 2026
         }
       },
       {
@@ -84,7 +84,7 @@
       {
         "name": "volume",
         "type": "string",
-        "description": "Volume. String, not integer \u2014 some are non-numeric."
+        "description": "Volume. String, not integer — some are non-numeric."
       },
       {
         "name": "issue",
@@ -147,7 +147,8 @@
             "high",
             "high_manual",
             "unresolved",
-            "recovered_2026"
+            "recovered_2026",
+            "added_2026"
           ]
         },
         "description": "high = automatic Crossref match above threshold; high_manual = verified or supplied by hand; unresolved = no DOI. \"recovered_2026\" marks references found by species+author+year search for records that post-date the paper."

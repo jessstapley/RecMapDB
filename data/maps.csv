@@ -236,7 +236,6 @@ RM0234,ott515700,Lactuca sativa,truco2013,2974.0,sex_averaged,,,3696.0,9.0,9.0,2
 RM0235,ott264011,Lagerstroemia,he2013,1162.1,sex_averaged,,,173.0,20.0,24.0,,,,,1788.7,,False,False,False,True,False,False,False,235,He,2014
 RM0236,ott679823,Larimichthys crocea,ao2015,5451.3,sex_averaged,,,10150.0,24.0,24.0,,678.938,GS0306,estimate_unspecified,,,False,False,False,True,True,False,False,236,Ao,2015
 RM0237,ott154040,Larix kaempferi,guan2011,546.5,sex_averaged,,,581.0,15.0,12.0,,9291.0,GS0307,c_value,,1.92,False,False,False,True,True,False,False,237,Guan,2011
-RM0238,ott186480,Lateolabrax japonicus,,2957.79,sex_averaged,,,3000.0,24.0,24.0,179.0,,,,,,False,False,False,True,False,False,True,238,Liu,2016
 RM0239,ott437601,Lates calcarifer,wang2017a,1412.9,sex_averaged,,,3836.0,24.0,24.0,118.0,684.6,GS0309,c_value,,4.52,False,False,False,True,True,False,False,239,Wang,2017
 RM0240,ott743052,Laupala,shaw2007,795.3,male,,,131.0,16.0,8.0,,1900.0,GS0629,other_literature,,1.2,False,True,False,False,False,False,False,240,Shaw,2007
 RM0241,ott156245,Lens culinaris,sudheesh2016,2429.61,sex_averaged,,,689.0,7.0,7.0,,4107.6,GS0310,estimate_unspecified,,,False,False,False,True,True,False,False,241,Sudheesh,2016
@@ -349,7 +348,6 @@ RM0347,ott568626,Pinus lambertiana,jermstad2010,1231.0,sex_averaged,,,399.0,19.0
 RM0348,ott714296,Pinus massoniana,chen2014a,1956.0,sex_averaged,,,251.0,17.0,12.0,,25134.6,GS0449,c_value,,,False,False,False,True,True,False,False,348,Chen,2014
 RM0349,ott837883,Pinus pinaster,chancerel2013,1708.0,sex_averaged,,,1131.0,12.0,12.0,,23814.3,GS0450,c_value,,0.323,False,False,False,True,True,False,False,349,Chancerel,2013
 RM0350,ott568644,Pinus radiata,moragasuazo2014,1060.0,sex_averaged,,,458.0,12.0,12.0,86.0,21936.54,GS0451,c_value,,,False,False,False,True,True,False,False,350,Moraga-Suazo,2014
-RM0351,ott568619,Pinus sylvestris,,1468.0,sex_averaged,,,358.0,39.0,12.0,102.0,41574.78,GS0453,c_value,,,False,True,False,False,False,False,True,351,Lind,2007
 RM0352,ott1075736,Pinus taeda,westbrook2015,2305.0,sex_averaged,,,3856.0,12.0,12.0,1251.0,21516.0,GS0455,c_value,,1.357,False,False,False,True,True,False,False,352,Westbrook,2015
 RM0353,ott200787,Pistacia vera,turkeli2013,1237.3,sex_averaged,,,144.0,17.0,15.0,,,,,,,False,False,False,True,False,False,False,353,Turkeli,2013
 RM0354,ott359905,Pisum sativum,boutet2016,1255.0,sex_averaged,,,2071.0,7.0,7.0,,4772.64,GS0456,estimate_unspecified,,,False,False,False,True,True,False,False,354,Boutet,2016
@@ -485,3 +483,12 @@ RM0483,ott73483,Ziziphus jujuba,zhang2016c,1456.53,sex_averaged,,,2540.0,12.0,12
 RM0484,ott586007,Zoysia japonica,wang2015c,1337.2,sex_averaged,,,2408.0,21.0,20.0,60.0,420.54,GS0613,estimate_unspecified,,,False,False,False,True,True,False,False,484,Wang,2015
 RM0485,ott205630,Zoysia matrella,huang2016,1824.95,sex_averaged,,,2563.0,20.0,20.0,,563.439,GS0615,estimate_unspecified,,,False,False,False,True,True,False,False,485,Huang,2016
 RM0486,ott906425,Zymoseptoria tritici,lendenmann2014,4255.4,sex_averaged,,,9745.0,21.0,21.0,263.0,39.6863,GS0617,estimate_unspecified,,,False,False,False,True,True,False,False,486,Lendenmann,2014
+RM0487,ott568619,Pinus sylvestris,yin2003,1707.0,sex_averaged,1695.5,1718.5,433.0,12.0,12.0,95.0,41574.78,GS0453,c_value,,,False,False,False,True,False,False,False,,Yin,2003
+RM0488,ott415181,Argyrosomus japonicus,jackson2024,2550.5,sex_averaged,1477.54,1210.54,3992.0,24.0,24.0,212.0,,,,,,False,False,False,True,False,False,False,,Jackson,2024
+RM0489,ott429083,Cyprinus carpio,peng2016,10595.94,sex_averaged,7586.51,8094.31,28194.0,50.0,50.0,106.0,1741.9158,GS0178,c_value,,,False,False,False,True,False,False,False,,Peng,2016
+RM0490,ott65341,Takifugu rubripes,liu2022,3147.8,sex_averaged,1931.653,2526.551,4416.0,22.0,22.0,136.0,391.2,GS0558,c_value,,,False,False,False,True,False,False,False,,Liu,2022
+RM0491,ott8867,Populus deltoides,tong2020,7838.48,female,7838.48,,4018.0,19.0,19.0,418.0,500.0,GS0470,c_value,,,False,False,False,True,False,False,False,,Tong,2020
+RM0492,ott980993,Populus simonii,tong2020,5506.35,male,,5506.35,2097.0,19.0,19.0,418.0,,,,,,False,False,False,True,False,False,False,,Tong,2020
+RM0493,ott853659,Vigna subterranea,gao2022,1040.92,sex_averaged,,,234.0,11.0,11.0,114.0,880.2,GS0596,estimate_unspecified,,,False,False,False,True,False,False,False,,Gao,2022
+RM0494,ott3942433,Citrus sinensis,oliveira2007,1596.2,sex_averaged,,,55.0,5.0,9.0,87.0,490.956,GS0143,c_value,,,False,False,False,True,False,False,False,,Oliveira,2007
+RM0495,ott37136,Citrus reticulata,oliveira2007,1651.47,sex_averaged,,,65.0,9.0,9.0,87.0,,,,,,False,False,False,True,False,False,False,,Oliveira,2007

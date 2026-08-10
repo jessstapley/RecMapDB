@@ -57,8 +57,41 @@
   the earlier best guess), Vigna subterranea (Ahmad et al. 2016), and Solanum habrochaites
   (Geethanjali et al. 2011, an integrated chromosome-12 map of 16 SSRs spanning 118.7 cM —
   the recorded "12 linkage groups" is evidently a transcription of chromosome 12).
-- Still unreferenced: RM0238 (Lateolabrax japonicus, Liu 2016 — no indexed match) and
-  RM0351 (Pinus sylvestris, "Lind 2007" — the full text of the closest candidate,
-  Yin et al. 2003, does not match the recorded statistics; 1468 cM equals a Table 1
-  genome-length estimate and 39 equals the paper's primer-combination count, so the
-  record may be a garbled transcription, but this cannot be confirmed).
+- The last two unreferenced records could not be traced to any source: RM0238
+  (Lateolabrax japonicus, "Liu 2016" — no indexed match exists) and RM0351 (Pinus
+  sylvestris, "Lind 2007" — the full text of the closest candidate, Yin et al. 2003,
+  does not match the recorded statistics; 1468 cM equals a Table 1 genome-length
+  estimate and 39 equals the paper's primer-combination count, suggesting a garbled
+  transcription that could not be confirmed).
+
+### Removed
+- RM0238 and RM0351 (above): removed by curator decision rather than kept, because
+  their provenance — not merely their quality — was unverifiable. This is the only
+  exception so far to the filter-don't-delete rule; the original values remain in
+  `legacy/` and in git history. The Lateolabrax japonicus species and trait rows are
+  retained (n_map_records = 0). Pinus sylvestris is re-entered from a verified source
+  (see below).
+
+### Added (2026-08-10, curator-supplied papers)
+- Nine new map records (RM0487–RM0495) from seven papers, each entered from the full
+  text with statistics verified against the PDF, and seven new references
+  (`match_confidence = added_2026`):
+  - Pinus sylvestris — Yin et al. 2003 (RM0487): the two parental AFLP maps
+    (female 188 markers / 12 LG / 1695.5 cM; male 245 / 15 / 1718.5), stored as
+    map_length_cM = 1707.0 (mean of the parents) with sex-specific lengths. Replaces
+    the removed RM0351.
+  - Argyrosomus japonicus — Jackson & Rhode 2024 (RM0488): integrated map, 3992 SNPs,
+    24 LG, 2550.5 cM, three families (n = 212). New species (ott415181).
+  - Cyprinus carpio — Peng et al. 2016 (RM0489): consensus map, 28,194 SNPs on 14,146
+    loci, 50 LG, 10,595.94 cM.
+  - Takifugu rubripes — Liu et al. 2022 (RM0490): consensus map, 4416 bin markers,
+    22 LG, 3147.8 cM.
+  - Populus deltoides / P. simonii — Tong et al. 2020 (RM0491 female map, RM0492 male
+    map), following the one-record-per-parent-species precedent set by Mousavi et al.
+  - Vigna subterranea — Gao et al. 2022 (RM0493): 234 DArTseq SNPs, 11 LG, 1040.92 cM.
+  - Citrus sinensis ('Pêra') and Citrus reticulata ('Murcott' tangor) — Oliveira et al.
+    2007 (RM0494, RM0495): one record per parent variety. New species Citrus
+    reticulata (ott37136).
+- Schema updates: `references.schema.json` year maximum raised 2018 → 2026 and
+  `match_confidence` gains `added_2026` for post-2017 additions that were never part
+  of the recovery backlog.
