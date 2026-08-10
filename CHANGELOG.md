@@ -95,3 +95,8 @@
 - Schema updates: `references.schema.json` year maximum raised 2018 → 2026 and
   `match_confidence` gains `added_2026` for post-2017 additions that were never part
   of the recovery backlog.
+- Genome sizes supplied by the curator for the two new species: Argyrosomus japonicus
+  673.7 Mb (Zhao et al. 2021 chromosome-level assembly, doi:10.1093/gbe/evaa246;
+  GS0638) and Citrus reticulata 347 Mb (wild mandarin v1.0 assembly, Citrus Genome
+  Database Analysis/89; GS0639). Both linked to their maps (RM0488, RM0495); the
+  derived table gains their rates (435 -> 437 rows; 3.79 and 4.76 cM/Mb).

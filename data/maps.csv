@@ -484,11 +484,11 @@ RM0484,ott586007,Zoysia japonica,wang2015c,1337.2,sex_averaged,,,2408.0,21.0,20.
 RM0485,ott205630,Zoysia matrella,huang2016,1824.95,sex_averaged,,,2563.0,20.0,20.0,,563.439,GS0615,estimate_unspecified,,,False,False,False,True,True,False,False,485,Huang,2016
 RM0486,ott906425,Zymoseptoria tritici,lendenmann2014,4255.4,sex_averaged,,,9745.0,21.0,21.0,263.0,39.6863,GS0617,estimate_unspecified,,,False,False,False,True,True,False,False,486,Lendenmann,2014
 RM0487,ott568619,Pinus sylvestris,yin2003,1707.0,sex_averaged,1695.5,1718.5,433.0,12.0,12.0,95.0,41574.78,GS0453,c_value,,,False,False,False,True,False,False,False,,Yin,2003
-RM0488,ott415181,Argyrosomus japonicus,jackson2024,2550.5,sex_averaged,1477.54,1210.54,3992.0,24.0,24.0,212.0,,,,,,False,False,False,True,False,False,False,,Jackson,2024
+RM0488,ott415181,Argyrosomus japonicus,jackson2024,2550.5,sex_averaged,1477.54,1210.54,3992.0,24.0,24.0,212.0,673.7,GS0638,assembly_or_direct,,,False,False,False,True,False,False,False,,Jackson,2024
 RM0489,ott429083,Cyprinus carpio,peng2016,10595.94,sex_averaged,7586.51,8094.31,28194.0,50.0,50.0,106.0,1741.9158,GS0178,c_value,,,False,False,False,True,False,False,False,,Peng,2016
 RM0490,ott65341,Takifugu rubripes,liu2022,3147.8,sex_averaged,1931.653,2526.551,4416.0,22.0,22.0,136.0,391.2,GS0558,c_value,,,False,False,False,True,False,False,False,,Liu,2022
 RM0491,ott8867,Populus deltoides,tong2020,7838.48,female,7838.48,,4018.0,19.0,19.0,418.0,500.0,GS0470,c_value,,,False,False,False,True,False,False,False,,Tong,2020
 RM0492,ott980993,Populus simonii,tong2020,5506.35,male,,5506.35,2097.0,19.0,19.0,418.0,,,,,,False,False,False,True,False,False,False,,Tong,2020
 RM0493,ott853659,Vigna subterranea,gao2022,1040.92,sex_averaged,,,234.0,11.0,11.0,114.0,880.2,GS0596,estimate_unspecified,,,False,False,False,True,False,False,False,,Gao,2022
 RM0494,ott3942433,Citrus sinensis,oliveira2007,1596.2,sex_averaged,,,55.0,5.0,9.0,87.0,490.956,GS0143,c_value,,,False,False,False,True,False,False,False,,Oliveira,2007
-RM0495,ott37136,Citrus reticulata,oliveira2007,1651.47,sex_averaged,,,65.0,9.0,9.0,87.0,,,,,,False,False,False,True,False,False,False,,Oliveira,2007
+RM0495,ott37136,Citrus reticulata,oliveira2007,1651.47,sex_averaged,,,65.0,9.0,9.0,87.0,347.0,GS0639,assembly_or_direct,,,False,False,False,True,False,False,False,,Oliveira,2007

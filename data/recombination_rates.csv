@@ -429,8 +429,10 @@ RM0484,ott586007,Zoysia japonica,wang2015c,1337.2,420.54,estimate_unspecified,se
 RM0485,ott205630,Zoysia matrella,huang2016,1824.95,563.439,estimate_unspecified,sex_averaged,2563.0,20.0,20.0,True,True,3.238949,91.248,0.712,
 RM0486,ott906425,Zymoseptoria tritici,lendenmann2014,4255.4,39.6863,estimate_unspecified,sex_averaged,9745.0,21.0,21.0,True,True,107.225919,202.638,0.4367,
 RM0487,ott568619,Pinus sylvestris,yin2003,1707.0,41574.78,c_value,sex_averaged,433.0,12.0,12.0,True,False,0.041059,142.25,3.9423,0.9866
+RM0488,ott415181,Argyrosomus japonicus,jackson2024,2550.5,673.7,assembly_or_direct,sex_averaged,3992.0,24.0,24.0,True,False,3.78581,106.271,0.6389,1.2206
 RM0489,ott429083,Cyprinus carpio,peng2016,10595.94,1741.9158,c_value,sex_averaged,28194.0,50.0,50.0,True,False,6.082923,211.919,0.3758,0.9373
 RM0490,ott65341,Takifugu rubripes,liu2022,3147.8,391.2,c_value,sex_averaged,4416.0,22.0,22.0,True,False,8.046524,143.082,0.7128,0.7645
 RM0491,ott8867,Populus deltoides,tong2020,7838.48,500.0,c_value,female,4018.0,19.0,19.0,True,False,15.67696,412.552,1.9508,
 RM0493,ott853659,Vigna subterranea,gao2022,1040.92,880.2,estimate_unspecified,sex_averaged,234.0,11.0,11.0,True,False,1.182595,94.629,4.4484,
 RM0494,ott3942433,Citrus sinensis,oliveira2007,1596.2,490.956,c_value,sex_averaged,55.0,5.0,9.0,True,False,3.251208,177.356,29.0218,
+RM0495,ott37136,Citrus reticulata,oliveira2007,1651.47,347.0,assembly_or_direct,sex_averaged,65.0,9.0,9.0,True,False,4.75928,183.497,25.4072,

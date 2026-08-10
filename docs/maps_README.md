@@ -3,7 +3,7 @@
 **493 rows, 27 fields.** One row per linkage map from one study. Fourth table in the plan
 (§3), and the one the rest of the database exists to support.
 
-Two companions land with it: `genome_sizes.csv` (637 estimates) and the derived
+Two companions land with it: `genome_sizes.csv` (639 estimates) and the derived
 `recombination_rates.csv` (430 rows).
 
 ## The unit of observation is a map, not a species
@@ -67,18 +67,18 @@ was in doubt. Their values remain in `legacy/` and in git history.
 
 ## Genome size is a separate table
 
-`genome_sizes.csv` holds one row per estimate per species — 637 estimates covering **406 of
-the 457 species**, 219 of them with more than one. Each estimate carries its `method`:
+`genome_sizes.csv` holds one row per estimate per species — 639 estimates covering **408 of
+the 459 species**, 219 of them with more than one. Each estimate carries its `method`:
 
 | Method | n | Meaning |
 |---|---|---|
-| `assembly_or_direct` | 238 | Assembly size or a directly reported value |
+| `assembly_or_direct` | 240 | Assembly size or a directly reported value |
 | `estimate_unspecified` | 209 | Carried in the compilation with no method recorded |
 | `c_value` | 170 | Converted from a C-value |
 | `other_literature` | 20 | Present only in the combined column; method not recoverable |
 
 `maps.genome_size_id` names which estimate a given map used, so the choice is explicit and
-an estimate can be corrected without touching the map record. `used_in_maps` marks the 404
+an estimate can be corrected without touching the map record. `used_in_maps` marks the 406
 estimates actually in use; the other 233 are alternatives for species where a different
 estimate was preferred, plus the five withheld values described under Known limitations.
 
@@ -90,9 +90,9 @@ discrepancy stays visible.
 
 ## Known limitations
 
-1. **58 map records have no usable genome size**, so no recombination rate can be derived
+1. **56 map records have no usable genome size**, so no recombination rate can be derived
    for them. These break down as:
-   - **53 species with no estimate of any kind** — nothing in the source file to work from.
+   - **51 species with no estimate of any kind** — nothing in the source file to work from.
    - **5 species with an estimate the original compilation declined to use** (*Citrus
      unshiu*, *Mycosphaerella fijiensis*, *Pagellus erythrinus*, *Picea mariana*, *Ribes
      nigrum*). Each has a value in one of the source columns but a blank combined genome
