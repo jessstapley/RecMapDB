@@ -112,3 +112,19 @@
   thereby move off the withheld-unverified list. Derived table 437 -> 447 rows; the
   remaining 46 rate-less records span 42 species with no estimate anywhere and 3 with
   only a withheld unverified value.
+- Genome sizes recovered from current sources (2026-08-10 sweep of NCBI Datasets, the
+  Kew and animal C-value databases, and the literature) for 34 of the remaining 45
+  species: 30 assembly-based values (each naming its GCA/GCF accession or, for four
+  assemblies not deposited in NCBI, its publication DOI), 2 C-values (Callitris
+  glaucophylla 8.27 pg published as C. columellaris; Spartina pectinata 0.78 pg,
+  tetraploid cytotype; converted at 978 Mb/pg) and 2 approximate literature values
+  flagged as other_literature (Lilium ~35.66 Gb via the L. sargentiae k-mer estimate;
+  Triticosecale ~17 Gb). GS0650–GS0683. All three remaining withheld-unverified values
+  (Pagellus erythrinus, Picea mariana, Ribes nigrum) are superseded by verified
+  assembly-based estimates. Genus-level records use congeneric/representative genomes
+  with explicit notes (Lagerstroemia excelsa assembly for the crape-myrtle record;
+  L. sargentiae for Lilium). Rosa hybrida uses the monoploid (1x) haplotype assembly
+  of a tetraploid cultivar, appropriate for cM/Mb on a per-homologue map. Derived
+  table 447 -> 482 rows; new rates span 0.05 (Lilium) to 38.2 cM/Mb (Agaricus
+  subrufescens), all plausible for their taxa. 11 map records now remain without a
+  genome size; current sources have nothing for those species.

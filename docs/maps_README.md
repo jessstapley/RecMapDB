@@ -3,7 +3,7 @@
 **493 rows, 27 fields.** One row per linkage map from one study. Fourth table in the plan
 (§3), and the one the rest of the database exists to support.
 
-Two companions land with it: `genome_sizes.csv` (649 estimates) and the derived
+Two companions land with it: `genome_sizes.csv` (683 estimates) and the derived
 `recombination_rates.csv` (430 rows).
 
 ## The unit of observation is a map, not a species
@@ -67,18 +67,18 @@ was in doubt. Their values remain in `legacy/` and in git history.
 
 ## Genome size is a separate table
 
-`genome_sizes.csv` holds one row per estimate per species — 649 estimates covering **413 of
+`genome_sizes.csv` holds one row per estimate per species — 683 estimates covering **447 of
 the 459 species**, 219 of them with more than one. Each estimate carries its `method`:
 
 | Method | n | Meaning |
 |---|---|---|
-| `assembly_or_direct` | 250 | Assembly size or a directly reported value |
+| `assembly_or_direct` | 280 | Assembly size or a directly reported value |
 | `estimate_unspecified` | 209 | Carried in the compilation with no method recorded |
-| `c_value` | 170 | Converted from a C-value |
-| `other_literature` | 20 | Present only in the combined column; method not recoverable |
+| `c_value` | 172 | Converted from a C-value |
+| `other_literature` | 22 | Present only in the combined column; method not recoverable |
 
 `maps.genome_size_id` names which estimate a given map used, so the choice is explicit and
-an estimate can be corrected without touching the map record. `used_in_maps` marks the 416
+an estimate can be corrected without touching the map record. `used_in_maps` marks the 450
 estimates actually in use; the other 233 are alternatives for species where a different
 estimate was preferred, plus the five withheld values described under Known limitations.
 
@@ -90,16 +90,16 @@ discrepancy stays visible.
 
 ## Known limitations
 
-1. **46 map records have no usable genome size**, so no recombination rate can be derived
-   for them. These break down as:
-   - **42 species with no estimate of any kind** — nothing in the source file, and no
-     assembly in the NCBI eukaryote genome list (`legacy/NCBI_eukaryotes_genome_size.txt`)
-     as of its 2019 snapshot.
-   - **3 species with an estimate the original compilation declined to use** (*Pagellus
-     erythrinus*, *Picea mariana*, *Ribes nigrum*), retained in `genome_sizes.csv` with
-     `flag_unverified` set. Two others in that situation (*Citrus unshiu* — whose withheld
-     value, 1.1542 Mb, is a C-value in pg sitting in the Mb column — and *Mycosphaerella
-     fijiensis*) now carry verified assembly-based estimates from the NCBI list instead.
+1. **11 map records (11 species) have no usable genome size**, so no recombination rate
+   can be derived for them: *Amphilophus astorquii*, *Anthurium ornatum*, *Chlamys
+   noblis*, *Drosophila mediopunctata*, *Gnathopogon caerulescens*, *Nodipecten
+   subnodosus*, *Perisoreus infaustus*, *Populus fremontii*, *Prunus virginiana*,
+   *Scophthalmus rhombus* and *Typhula ishikariensis*. A 2026 sweep of current sources
+   (NCBI Datasets, the Kew and animal C-value databases, and the literature) found no
+   assembly and no published flow-cytometry value for any of them; the three withheld
+   unverified compilation values that previously fell in this group (*Pagellus
+   erythrinus*, *Picea mariana*, *Ribes nigrum*) have been superseded by verified
+   assembly-based estimates and remain in `genome_sizes.csv` flagged and unused.
 
    Supplying a genome size with its method is the second most valuable contribution after
    supplying a missing reference.

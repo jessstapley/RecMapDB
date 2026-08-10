@@ -14,9 +14,9 @@ extended by the community.
 | `data/maps.csv` | 493 | **The core table.** One row per linkage map per study |
 | `data/species.csv` | 459 | Taxa resolved against Open Tree of Life, cross-checked against NCBI |
 | `data/references.csv` | 458 | Source publications, 97% with resolved DOIs; every map referenced |
-| `data/genome_sizes.csv` | 649 | Genome-size estimates with method; 416 in use, covering 413 of 459 species |
+| `data/genome_sizes.csv` | 683 | Genome-size estimates with method; 450 in use, covering 447 of 459 species |
 | `data/species_traits.csv` | 3,071 | Species traits in long format, 163 with a primary citation |
-| `data/recombination_rates.csv` | 447 | **Derived** — rebuilt from maps and genome sizes; do not edit |
+| `data/recombination_rates.csv` | 482 | **Derived** — rebuilt from maps and genome sizes; do not edit |
 
 Still to come: `contributors.csv`. See `docs/recmapdb_plan.md` for the full design.
 
