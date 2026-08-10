@@ -100,3 +100,15 @@
   GS0638) and Citrus reticulata 347 Mb (wild mandarin v1.0 assembly, Citrus Genome
   Database Analysis/89; GS0639). Both linked to their maps (RM0488, RM0495); the
   derived table gains their rates (435 -> 437 rows; 3.79 and 4.76 cM/Mb).
+- Genome sizes recovered from the NCBI eukaryote genome list
+  (`legacy/NCBI_eukaryotes_genome_size.txt`) for 10 of the 55 species that lacked one:
+  Cervus elaphus, Citrus unshiu, Dendrobium officinale (listed by NCBI as its synonym
+  D. catenatum), Haliotis rubra, Mustela vison (listed as Neovison vison),
+  Mycosphaerella fijiensis, Philomachus pugnax (listed as Calidris pugnax), Pungitius
+  pungitius, Pyrus x (the P. x bretschneideri reference assembly, applied to the
+  genus-level hybrid record with a note) and Sebastes schlegelii (GS0640–GS0649, all
+  assembly_or_direct, each naming its GCA accession; selection rule chromosome >
+  scaffold > contig, then most recent). Citrus unshiu and Mycosphaerella fijiensis
+  thereby move off the withheld-unverified list. Derived table 437 -> 447 rows; the
+  remaining 46 rate-less records span 42 species with no estimate anywhere and 3 with
+  only a withheld unverified value.

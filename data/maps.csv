@@ -89,7 +89,7 @@ RM0087,ott1061541,Carthamus tinctorius,bowers2016,959.44,sex_averaged,,,57388.0,
 RM0088,ott540978,Castanea mollissima,kubisiak2012,743.0,sex_averaged,,,1393.0,12.0,12.0,337.0,833.241,GS0122,estimate_unspecified,,,False,False,False,True,True,False,False,88,Kubisiak,2013
 RM0089,ott524094,Catharanthus roseus,sharma2012,1790.4,sex_averaged,,,564.0,8.0,6.0,187.0,2376.5,GS0124,c_value,,0.488,False,False,False,True,True,False,False,89,Sharma,2011
 RM0090,ott780217,Ceratopteris richardii,nakazato2006,2178.8,sex_averaged,,,729.0,41.0,39.0,,11294.0,GS0125,estimate_unspecified,2450.9,4.6,False,False,False,True,True,False,False,90,Nakazato,2006
-RM0091,ott936014,Cervus elaphus,johnston2017,2739.7,sex_averaged,2767.4,2280.8,38038.0,34.0,34.0,2880.0,,,,,,False,False,False,True,False,False,False,91,Johnston,2017
+RM0091,ott936014,Cervus elaphus,johnston2017,2739.7,sex_averaged,2767.4,2280.8,38038.0,34.0,34.0,2880.0,3438.62,GS0640,assembly_or_direct,,,False,False,False,True,False,False,False,91,Johnston,2017
 RM0092,ott117198,Chenopodium quinoa,maughan2012,1404.0,sex_averaged,,,14689.0,20.0,18.0,,1447.44,GS0127,estimate_unspecified,,,False,False,False,True,True,False,False,92,Maughan,2012
 RM0093,ott324777,Chimonanthus praecox,chen2010a,1801.0,sex_averaged,2417.8,1184.2,84.0,12.0,11.0,,600.0,GS0620,other_literature,,,False,False,False,True,True,False,False,93,Chen,2010
 RM0094,ott33153,Chlamydomonas reinhardtii,kathir2003,1000.0,sex_averaged,,,264.0,17.0,17.0,,120.405,GS0129,estimate_unspecified,,,False,False,False,True,True,False,False,94,Kathir,2003
@@ -104,7 +104,7 @@ RM0102,ott1006251,Citrullus lanatus,reddy2014,1096.0,sex_averaged,,,10480.0,11.0
 RM0103,ott236255,Citrus clementina,ollitrault2012,1084.08,sex_averaged,,,517.0,,9.0,,469.44,GS0139,estimate_unspecified,,3.82954812967632,False,False,False,,False,True,False,103,Corbet-Detig,2015
 RM0104,ott236255,Citrus clementina,ollitrault2012,1084.1,sex_averaged,,,961.0,9.0,9.0,,301.365,GS0141,estimate_unspecified,,,False,False,False,True,True,False,False,104,Ollitrault,2012
 RM0105,ott3942433,Citrus sinensis,guo2015a,976.58,sex_averaged,,,1563.0,9.0,9.0,124.0,490.956,GS0143,c_value,,5.236,False,False,False,True,True,False,False,105,Guo,2015
-RM0106,ott1011450,Citrus unshiu,shimada2014,990.9,sex_averaged,,,706.0,9.0,9.0,87.0,,,,,,False,False,False,True,False,False,False,106,Shimada,2014
+RM0106,ott1011450,Citrus unshiu,shimada2014,990.9,sex_averaged,,,706.0,9.0,9.0,87.0,359.652,GS0641,assembly_or_direct,,,False,False,False,True,False,False,False,106,Shimada,2014
 RM0107,ott192116,Clunio marinus,kaiser2012,179.65,sex_averaged,167.2,192.1,344.0,3.0,3.0,54.0,95.0,GS0146,estimate_unspecified,,,False,False,False,True,True,False,False,107,Kaiser,2012
 RM0108,ott4930749,Cochliobus sativus,zhong2002,849.4,sex_averaged,,,158.0,27.0,15.0,104.0,33.4,GS0147,estimate_unspecified,1329.0,25.0,False,True,False,False,False,False,False,108,Zhong,2002
 RM0109,ott366250,Cocos nucifera,riedel2008,2739.0,sex_averaged,,,704.0,16.0,16.0,94.0,3107.106,GS0148,c_value,,1.138,False,False,False,True,True,False,False,109,Riedel,2009
@@ -144,7 +144,7 @@ RM0142,ott59086,Daphnia pulex,cristescu2006,1206.0,sex_averaged,,,115.0,12.0,12.
 RM0143,ott372836,Daucus carota,cavagnaro2014,635.1,sex_averaged,,,894.0,9.0,9.0,187.0,421.539,GS0185,c_value,,0.567,False,False,False,True,True,False,False,143,Cavagnaro,2014
 RM0144,ott171951,Dendrobium moniliforme,lu2012,1127.9,sex_averaged,,,165.0,17.0,19.0,,,,,1541.81,,False,False,False,True,False,False,False,144,Lu,2012
 RM0145,ott508208,Dendrobium nobile,feng2013,1474.0,sex_averaged,,,116.0,15.0,19.0,90.0,,,,1916.41,,False,False,False,True,False,False,False,145,Feng,2013
-RM0146,ott7046610,Dendrobium officinale,lu2012a,1210.9,sex_averaged,,,169.0,19.0,19.0,,,,,1687.52,,False,False,False,True,False,False,False,146,Lu,2012
+RM0146,ott7046610,Dendrobium officinale,lu2012a,1210.9,sex_averaged,,,169.0,19.0,19.0,,1104.26,GS0642,assembly_or_direct,1687.52,,False,False,False,True,False,False,False,146,Lu,2012
 RM0147,ott842200,Dianthus caryophyllus,yagi2013,978.3,sex_averaged,,,348.0,15.0,15.0,,616.14,GS0187,estimate_unspecified,,,False,False,False,True,True,False,False,147,Yagi,2013
 RM0148,ott3549,Dicentrarchus labrax,chistiakov2008,1373.1,sex_averaged,1380.0,1049.0,368.0,35.0,24.0,,762.84,GS0189,c_value,,,False,False,False,True,True,False,False,148,Chistiakov,2008
 RM0149,ott327730,Drosophila mediopunctata,laborda2011,453.8,sex_averaged,,,49.0,5.0,5.0,800.0,,,,,,True,False,False,False,False,False,False,149,Laborda,2012
@@ -204,7 +204,7 @@ RM0202,ott79347,Gossypium raimondii,wang2013,2325.0,sex_averaged,,,48958.0,13.0,
 RM0203,ott733231,Gossypium tomentosum,hou2013,3320.8,sex_averaged,,,1204.0,35.0,26.0,,2386.32,GS0266,estimate_unspecified,,,False,False,False,True,True,False,False,203,Hou,2013
 RM0204,ott780542,Haliotis diversicolor,ren2016,2190.1,sex_averaged,2197.8,1764.7,3717.0,16.0,16.0,131.0,1418.1,GS0267,c_value,2209.6,,False,False,False,True,True,False,False,204,Ren,2016
 RM0205,ott780532,Haliotis midae,vervalle2013,1038.0,sex_averaged,,,186.0,18.0,18.0,,1398.54,GS0268,c_value,1327.0,,False,False,False,True,True,False,False,205,Vervalle,2013
-RM0206,ott695282,Haliotis rubra,baranski2006,693.5,sex_averaged,766.0,621.0,122.0,17.0,,,,,,,,False,False,False,,False,False,False,206,Baranski,2006
+RM0206,ott695282,Haliotis rubra,baranski2006,693.5,sex_averaged,766.0,621.0,122.0,17.0,,,1378.27,GS0643,assembly_or_direct,,,False,False,False,,False,False,False,206,Baranski,2006
 RM0207,ott138490,Haplochromis chilotes,henning2014,1225.68,sex_averaged,,,1122.0,22.0,22.0,,1075.8,GS0269,estimate_unspecified,,,False,False,False,True,True,False,False,207,Henning,2017
 RM0208,ott685068,Haplochromis sauvagei,henning2017,1130.63,sex_averaged,,,867.0,22.0,22.0,,1075.8,GS0270,estimate_unspecified,,,False,False,False,True,True,False,False,208,Henning,2014
 RM0209,ott515712,Helianthus annuus,celik2016,2472.0,sex_averaged,,,817.0,17.0,17.0,93.0,2376.54,GS0271,estimate_unspecified,,,False,False,False,True,True,False,False,209,Celik,2016
@@ -283,8 +283,8 @@ RM0282,ott542509,Mus musculus,cox2009,1288.0,sex_averaged,,,,20.0,20.0,237.0,318
 RM0283,ott542509,Mus musculus,cox2009,1436.348,sex_averaged,1330.0,1279.0,9872.0,,20.0,,3182.52705882353,GS0367,c_value,,0.606862614719967,False,False,False,,False,True,False,283,Corbet-Detig,2015
 RM0284,ott207474,Musa acuminata,hippolyte2010,1197.0,sex_averaged,,,489.0,11.0,11.0,180.0,472.231,GS0369,estimate_unspecified,,,False,False,False,True,True,False,False,284,Hipplyte,2010
 RM0285,ott1011010,Musca domestica,feldmeyer2010,229.3,sex_averaged,,,35.0,5.0,5.0,236.0,929.1,GS0371,c_value,230.9,,True,False,False,False,False,False,False,285,Feldmeyer,2010
-RM0286,ott310482,Mustela vison,anistoroaei2007,690.0,sex_averaged,,,85.0,17.0,14.0,92.0,,,,,,False,False,False,True,False,False,False,286,Anistoroaei,2007
-RM0287,ott857565,Mycosphaerella fijiensis,manzosanchez2008,1879.0,sex_averaged,,,314.0,23.0,,,,,,4298.2,,False,False,False,,False,False,False,287,Manzo-Sanchez,2008
+RM0286,ott310482,Mustela vison,anistoroaei2007,690.0,sex_averaged,,,85.0,17.0,14.0,92.0,2447.19,GS0644,assembly_or_direct,,,False,False,False,True,False,False,False,286,Anistoroaei,2007
+RM0287,ott857565,Mycosphaerella fijiensis,manzosanchez2008,1879.0,sex_averaged,,,314.0,23.0,,,74.141,GS0645,assembly_or_direct,4298.2,,False,False,False,,False,False,False,287,Manzo-Sanchez,2008
 RM0288,ott5319573,Mycosphaerella graminicola,kema2002,1216.0,sex_averaged,,,223.0,23.0,21.0,68.0,39.7,GS0373,assembly_or_direct,,,False,False,False,True,True,False,False,288,Kema,2002
 RM0289,ott729592,Nasonia giraulti,diao2016,620.0,sex_averaged,,,92.0,5.0,5.0,475.0,283.607,GS0375,estimate_unspecified,,,False,False,False,True,True,False,False,289,Diao,2016
 RM0290,ott729593,Nasonia vitripennis,beukeboom2010,515.0,sex_averaged,,,36.0,5.0,5.0,,332.52,GS0377,c_value,,,True,False,False,False,False,False,False,290,Beukeboom,2010
@@ -330,7 +330,7 @@ RM0329,ott232467,Petunia axillaris,bossolini2011,970.0,sex_averaged,,,125.0,7.0,
 RM0330,ott5346507,Phaeosphaeria nodorum,malkus2009,1932.1,sex_averaged,,,276.0,21.0,17.0,152.0,37.1,GS0631,other_literature,,,False,False,False,True,True,False,False,330,Malkus,2009
 RM0331,ott808637,Phalloceros caudimaculatus,gutierrez2011,1477.0,sex_averaged,,,189.0,22.0,24.0,46.0,700.0,GS0426,estimate_unspecified,,,False,False,False,True,True,False,False,331,Gutierrez,2011
 RM0332,ott825707,Phaseolus vulgaris,song2015,1042.2,sex_averaged,,,7040.0,11.0,11.0,267.0,586.8,GS0428,estimate_unspecified,,,False,False,False,True,True,False,False,332,Song,2015
-RM0333,ott1090732,Philomachus pugnax,farrell2013,641.6,sex_averaged,,,58.0,7.0,40.0,381.0,,,,,,False,True,False,False,False,False,False,333,Farrell,2013
+RM0333,ott1090732,Philomachus pugnax,farrell2013,641.6,sex_averaged,,,58.0,7.0,40.0,381.0,1229.09,GS0646,assembly_or_direct,,,False,True,False,False,False,False,False,333,Farrell,2013
 RM0334,ott789008,Phoenix dactylifera,mathew2014,1293.0,sex_averaged,,,1200.0,18.0,18.0,,929.1,GS0430,estimate_unspecified,,,False,False,False,True,True,False,False,334,Mathew,2014
 RM0335,ott735973,Phycomyces blakesleeanus,chaudhary2013,1583.4,sex_averaged,,,134.0,12.0,,121.0,53.9392,GS0432,c_value,,,False,False,False,,False,False,False,335,Chaudhary,2013
 RM0336,ott821359,Physcomitrella patens,kamisugi2008,4410.0,sex_averaged,,,1420.0,31.0,27.0,188.0,477.948,GS0434,estimate_unspecified,,,False,False,False,True,True,False,False,336,Kamisugi,2008
@@ -379,13 +379,13 @@ RM0379,ott259054,Prunus persica,nunezlillo2015,389.2,sex_averaged,,,1837.0,8.0,8
 RM0380,ott769156,Prunus virginiana,wang2014,2089.0,sex_averaged,,,302.0,14.0,16.0,101.0,,,,,,False,False,False,True,False,False,False,380,Wang,2014
 RM0381,ott857565,Pseudocercospora fijiensis,arangoisaza2016,1416.0,sex_averaged,,,376.0,17.0,12.0,,74.1412,GS0488,estimate_unspecified,,,False,False,False,True,True,False,False,381,Arango_Isaza,2016
 RM0382,ott1075713,Pseudotsuga menziesii,ukrainetz2008,938.6,sex_averaged,,,,19.0,13.0,40.0,18630.9,GS0490,c_value,,1.961,False,False,False,,False,False,False,382,Ukrainetz,2008
-RM0383,ott561269,Pungitius pungitius,rastas2015,1980.74,sex_averaged,2335.72,1584.26,20054.0,21.0,21.0,284.0,,,,,,False,False,False,True,False,False,False,383,Rastas,2016
+RM0383,ott561269,Pungitius pungitius,rastas2015,1980.74,sex_averaged,2335.72,1584.26,20054.0,21.0,21.0,284.0,441.09,GS0647,assembly_or_direct,,,False,False,False,True,False,False,False,383,Rastas,2016
 RM0384,ott646814,Punica granatum,sarkhosh2012,1141.0,sex_averaged,,,1092.0,11.0,8.0,76.0,704.16,GS0491,estimate_unspecified,,,False,False,False,True,True,False,False,384,Harel-Beja,2015
 RM0385,ott411919,Pyrenophora teres,ellwood2010,2477.7,sex_averaged,,,243.0,25.0,9.0,,33.5833,GS0493,c_value,,,False,True,False,False,False,False,False,385,Ellwood,2010
 RM0386,ott314016,Pyropia haitanensis,xu2015,874.33,sex_averaged,,,740.0,5.0,5.0,,,,,,,False,False,False,True,False,False,False,386,Xu,2015
 RM0387,ott972654,Pyrus communis,wu2014,2243.4,sex_averaged,,,3241.0,17.0,17.0,,537.9,GS0494,estimate_unspecified,,,False,False,False,True,True,False,False,387,Wu,2014
 RM0388,ott443418,Pyrus pyrifolia,yamamoto2014,1039.0,sex_averaged,,,275.0,17.0,17.0,,,,,,,False,False,False,True,False,False,False,388,Yamamoto,2014
-RM0389,ott259068,Pyrus x,chen2014,1661.4,sex_averaged,,,743.0,17.0,,56.0,,,,,,False,False,False,,False,False,False,389,Chen,2015
+RM0389,ott259068,Pyrus x,chen2014,1661.4,sex_averaged,,,743.0,17.0,,56.0,508.551,GS0648,assembly_or_direct,,,False,False,False,,False,False,False,389,Chen,2015
 RM0390,ott791121,Quercus,bodenes2016,742.0,sex_averaged,,,4216.0,12.0,12.0,,909.5,GS0495,estimate_unspecified,,,False,False,False,True,True,False,False,390,Bodenes,2016
 RM0391,ott14718,Rana temporaria,cano2011,1698.8,sex_averaged,2089.8,1371.5,107.0,15.0,13.0,800.0,4169.21,GS0632,c_value,,,False,False,False,True,True,False,False,391,Cano,2011
 RM0392,ott359073,Raphanus sativus,mun2014,1538.0,sex_averaged,,,2637.0,9.0,9.0,93.0,978.0,GS0498,estimate_unspecified,,,False,False,False,True,True,False,False,392,Mun,2015
@@ -408,7 +408,7 @@ RM0408,ott335717,Scleropages formosus,shen2014,2218.3,sex_averaged,2301.8,2097.4
 RM0409,ott778695,Scophthalmus maximus,wang2015b,2622.09,sex_averaged,,,939.0,22.0,22.0,149.0,841.08,GS0519,c_value,,,False,False,False,True,True,False,False,409,Wang,2015
 RM0410,ott807488,Scophthalmus rhombus,hermida2014,739.4,sex_averaged,,,70.0,24.0,22.0,142.0,,,,,,False,False,False,True,False,False,False,410,Hermida,2014
 RM0411,ott1084541,Scylla paramamosain,ma2016,2746.4,sex_averaged,,,212.0,65.0,44.0,,1603.92,GS0520,c_value,5539.62,,False,False,False,True,True,False,False,411,Ma,2016
-RM0412,ott206127,Sebastes schlegelii,chu2014,1346.85,sex_averaged,1334.1,1359.6,435.0,23.0,24.0,,,,,,,False,False,False,True,False,False,False,412,Chu,2014
+RM0412,ott206127,Sebastes schlegelii,chu2014,1346.85,sex_averaged,1334.1,1359.6,435.0,23.0,24.0,,728.477,GS0649,assembly_or_direct,,,False,False,False,True,False,False,False,412,Chu,2014
 RM0413,ott553015,Secale cereale,milczarski2016,1593.0,sex_averaged,,,3397.0,7.0,7.0,,8097.84,GS0521,estimate_unspecified,,,False,False,False,True,True,False,False,413,Milczarski,2015
 RM0414,ott186469,Seriola quinqueradiata,aoki2015,1128.595,sex_averaged,1029.24,1227.95,1039.0,24.0,24.0,,811.74,GS0522,c_value,,,False,False,False,True,True,False,False,414,Aoki,2015
 RM0415,ott504628,Sesamum indicum,zhang2016b,2981.28,sex_averaged,,,3041.0,13.0,16.0,120.0,948.66,GS0524,estimate_unspecified,,,False,False,False,True,True,False,False,415,Zhang,2016
