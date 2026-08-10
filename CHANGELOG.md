@@ -45,3 +45,20 @@
   genotypic sex-determination column. Both rows removed.
 - The source `Habitat` column held two variables (habitat for free-living species, host type
   for parasites); these are separated into `habitat` and `host_type`.
+- Reference recovery (2026): the working file had 105 map records with no entry in the
+  published reference list. 103 now carry a reference (references.csv 353 → 451 rows;
+  484 of 486 maps referenced). Sources: Crossref matching, curator-supplied title lists,
+  the Corbett-Detig et al. 2015 supplement, supplied PDFs, and map-statistics matches;
+  every recovered row carries `match_confidence = recovered_2026` and a `review_note`
+  naming its evidence (audit trail in `docs/references_recovered_2026.csv`).
+- Final five recoveries came from curator-supplied PDFs and a map-statistics match:
+  Citrus unshiu (Shimada et al. 2014), Populus simonii (Mousavi et al. 2016, male map of
+  a paper already in the table), Pseudotsuga menziesii (Ukrainetz et al. 2008, confirming
+  the earlier best guess), Vigna subterranea (Ahmad et al. 2016), and Solanum habrochaites
+  (Geethanjali et al. 2011, an integrated chromosome-12 map of 16 SSRs spanning 118.7 cM —
+  the recorded "12 linkage groups" is evidently a transcription of chromosome 12).
+- Still unreferenced: RM0238 (Lateolabrax japonicus, Liu 2016 — no indexed match) and
+  RM0351 (Pinus sylvestris, "Lind 2007" — the full text of the closest candidate,
+  Yin et al. 2003, does not match the recorded statistics; 1468 cM equals a Table 1
+  genome-length estimate and 39 equals the paper's primer-combination count, so the
+  record may be a garbled transcription, but this cannot be confirmed).

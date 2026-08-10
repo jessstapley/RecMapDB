@@ -104,7 +104,7 @@ RM0102,ott1006251,Citrullus lanatus,reddy2014,1096.0,sex_averaged,,,10480.0,11.0
 RM0103,ott236255,Citrus clementina,ollitrault2012,1084.08,sex_averaged,,,517.0,,9.0,,469.44,GS0139,estimate_unspecified,,3.82954812967632,False,False,False,,False,True,False,103,Corbet-Detig,2015
 RM0104,ott236255,Citrus clementina,ollitrault2012,1084.1,sex_averaged,,,961.0,9.0,9.0,,301.365,GS0141,estimate_unspecified,,,False,False,False,True,True,False,False,104,Ollitrault,2012
 RM0105,ott3942433,Citrus sinensis,guo2015a,976.58,sex_averaged,,,1563.0,9.0,9.0,124.0,490.956,GS0143,c_value,,5.236,False,False,False,True,True,False,False,105,Guo,2015
-RM0106,ott1011450,Citrus unshiu,,990.9,sex_averaged,,,706.0,9.0,9.0,87.0,,,,,,False,False,False,True,False,False,True,106,Shimada,2014
+RM0106,ott1011450,Citrus unshiu,shimada2014,990.9,sex_averaged,,,706.0,9.0,9.0,87.0,,,,,,False,False,False,True,False,False,False,106,Shimada,2014
 RM0107,ott192116,Clunio marinus,kaiser2012,179.65,sex_averaged,167.2,192.1,344.0,3.0,3.0,54.0,95.0,GS0146,estimate_unspecified,,,False,False,False,True,True,False,False,107,Kaiser,2012
 RM0108,ott4930749,Cochliobus sativus,zhong2002,849.4,sex_averaged,,,158.0,27.0,15.0,104.0,33.4,GS0147,estimate_unspecified,1329.0,25.0,False,True,False,False,False,False,False,108,Zhong,2002
 RM0109,ott366250,Cocos nucifera,riedel2008,2739.0,sex_averaged,,,704.0,16.0,16.0,94.0,3107.106,GS0148,c_value,,1.138,False,False,False,True,True,False,False,109,Riedel,2009
@@ -365,7 +365,7 @@ RM0363,ott1030862,Populus alba,paolucci2010,3027.1,sex_averaged,,,322.0,19.0,19.
 RM0364,ott8867,Populus deltoides,mousavi2016,4067.16,sex_averaged,,,2012.0,19.0,19.0,150.0,500.0,GS0470,c_value,,4.579,False,False,False,True,True,False,False,364,Mousavi,2016
 RM0365,ott980995,Populus fremontii,woolbright2007,2030.6,sex_averaged,,,652.0,19.0,19.0,246.0,,,,,,False,False,False,True,False,False,False,365,Woolbright,2008
 RM0366,ott8848,Populus nigra,gaudet2008,2278.5,sex_averaged,2104.0,2453.0,368.0,20.0,19.0,92.0,514.0368,GS0471,c_value,,3.761,False,False,False,True,True,False,False,366,Gaudet,2008
-RM0367,ott980993,Populus simonii,,4356.04,sex_averaged,,,1430.0,19.0,19.0,150.0,,,,,,False,False,False,True,False,False,True,367,Mousavi,2016
+RM0367,ott980993,Populus simonii,mousavi2016,4356.04,sex_averaged,,,1430.0,19.0,19.0,150.0,,,,,,False,False,False,True,False,False,False,367,Mousavi,2016
 RM0368,ott839584,Populus tremula,pakull2009,1542.35,sex_averaged,1681.5,1403.2,344.0,32.0,19.0,61.0,469.44,GS0472,c_value,,1.408,False,False,False,True,True,False,False,368,Pakull,2009
 RM0369,ott8861,Populus trichocarpa,drost2009,2801.5,sex_averaged,,,411.0,,19.0,,489.0,GS0474,c_value,,7.83638001056187,False,False,False,,False,True,False,369,Corbet-Detig,2015
 RM0370,ott718120,Portunus trituberculatus,liu2012b,3519.45,sex_averaged,3521.3,3517.6,919.0,51.0,53.0,110.0,2259.18,GS0475,c_value,,,False,False,False,True,True,False,False,370,Liu,2012
@@ -380,7 +380,7 @@ RM0378,ott259054,Prunus persica,nunezlillo2015,484.3,sex_averaged,,,195.0,,8.0,,
 RM0379,ott259054,Prunus persica,nunezlillo2015,389.2,sex_averaged,,,1837.0,8.0,8.0,,273.84,GS0486,estimate_unspecified,,,False,False,False,True,True,False,False,379,Nunez-Lillo,2015
 RM0380,ott769156,Prunus virginiana,wang2014,2089.0,sex_averaged,,,302.0,14.0,16.0,101.0,,,,,,False,False,False,True,False,False,False,380,Wang,2014
 RM0381,ott857565,Pseudocercospora fijiensis,arangoisaza2016,1416.0,sex_averaged,,,376.0,17.0,12.0,,74.1412,GS0488,estimate_unspecified,,,False,False,False,True,True,False,False,381,Arango_Isaza,2016
-RM0382,ott1075713,Pseudotsuga menziesii,,938.6,sex_averaged,,,,19.0,13.0,40.0,18630.9,GS0490,c_value,,1.961,False,False,False,,False,False,True,382,Ukrainetz,2008
+RM0382,ott1075713,Pseudotsuga menziesii,ukrainetz2008,938.6,sex_averaged,,,,19.0,13.0,40.0,18630.9,GS0490,c_value,,1.961,False,False,False,,False,False,False,382,Ukrainetz,2008
 RM0383,ott561269,Pungitius pungitius,rastas2015,1980.74,sex_averaged,2335.72,1584.26,20054.0,21.0,21.0,284.0,,,,,,False,False,False,True,False,False,False,383,Rastas,2016
 RM0384,ott646814,Punica granatum,sarkhosh2012,1141.0,sex_averaged,,,1092.0,11.0,8.0,76.0,704.16,GS0491,estimate_unspecified,,,False,False,False,True,True,False,False,384,Harel-Beja,2015
 RM0385,ott411919,Pyrenophora teres,ellwood2010,2477.7,sex_averaged,,,243.0,25.0,9.0,,33.5833,GS0493,c_value,,,False,True,False,False,False,False,False,385,Ellwood,2010
@@ -420,7 +420,7 @@ RM0418,ott609504,Silene latifolia,bergero2013,671.1,sex_averaged,,,755.0,12.0,12
 RM0419,ott359058,Sinapis alba,javidfar2013,890.4,sex_averaged,,,264.0,12.0,12.0,,489.0,GS0529,estimate_unspecified,,,False,False,False,True,True,False,False,419,Javidfar,2013
 RM0420,ott532954,Siraitia grosvenorii,liu2011,1463.3,sex_averaged,,,199.0,25.0,14.0,,,,,,,False,True,False,False,False,False,False,420,Liu,2011
 RM0421,ott475230,Solanum bulbocastanum,iorizzo2014,645.0,sex_averaged,,,401.0,12.0,12.0,,,,,,,False,False,False,True,False,False,False,421,Iorizzo,2014
-RM0422,ott885264,Solanum habrochaites,,118.7,sex_averaged,,,16.0,12.0,12.0,,724.285,GS0531,estimate_unspecified,,,True,False,False,False,False,False,True,422,Geethanjali,2011
+RM0422,ott885264,Solanum habrochaites,geethanjali2011,118.7,sex_averaged,,,16.0,12.0,12.0,,724.285,GS0531,estimate_unspecified,,,True,False,False,False,False,False,False,422,Geethanjali,2011
 RM0423,ott378964,Solanum lycopersicum,viquezzamora2014,1297.3,sex_averaged,,,715.0,12.0,12.0,100.0,823.786,GS0533,estimate_unspecified,,,False,False,False,True,True,False,False,423,Viquez-Zamora,2014
 RM0424,ott494843,Solanum melongena,fukuoka2012,1285.5,sex_averaged,,,952.0,12.0,12.0,,958.44,GS0535,estimate_unspecified,,,False,False,False,True,True,False,False,424,Fukuoka,2012
 RM0425,ott1069768,Solanum pennellii,vandenoevervandenelsen2016,789.7,sex_averaged,,,208.0,11.0,12.0,131.0,926.426,GS0537,estimate_unspecified,,,False,False,False,True,True,False,False,425,vandenOever-vandenElsen,2016
@@ -470,7 +470,7 @@ RM0468,ott539544,Vicia faba,kaur2014,1216.8,sex_averaged,,,822.0,6.0,6.0,,17622.
 RM0469,ott1065959,Vigna angularis,liu2016d,1628.15,sex_averaged,,,2032.0,11.0,11.0,,537.9,GS0592,estimate_unspecified,,,False,False,False,True,True,False,False,469,Liu,2016
 RM0470,ott1065954,Vigna mungo,gupta2008,865.1,sex_averaged,,,428.0,11.0,11.0,104.0,537.9,GS0593,estimate_unspecified,,,False,False,False,True,True,False,False,470,Gupta,2008
 RM0471,ott806245,Vigna radiata,wang2016,732.9,sex_averaged,,,560.0,11.0,11.0,,894.87,GS0595,c_value,,0.584,False,False,False,True,True,False,False,471,Wang,2016
-RM0472,ott853659,Vigna subterranea,,608.3,sex_averaged,,,238.0,21.0,11.0,,880.2,GS0596,estimate_unspecified,,,False,True,False,False,False,False,True,472,Ahmad,2016
+RM0472,ott853659,Vigna subterranea,ahmad2016,608.3,sex_averaged,,,238.0,21.0,11.0,,880.2,GS0596,estimate_unspecified,,,False,True,False,False,False,False,False,472,Ahmad,2016
 RM0473,ott1065941,Vigna unguiculata,kongjaimun2012,852.4,sex_averaged,,,226.0,11.0,11.0,,586.8,GS0598,estimate_unspecified,,,False,False,False,True,True,False,False,473,Kongjaimun,2012
 RM0474,ott581960,Vigna vexillata,marubodee2015,973.9,sex_averaged,,,559.0,11.0,11.0,300.0,567.24,GS0599,estimate_unspecified,,,False,False,False,True,True,False,False,474,Marubodee,2015
 RM0475,ott805071,Vitis amurensis,liu2013c,1123.0,sex_averaged,,,228.0,21.0,19.0,94.0,489.0,GS0600,estimate_unspecified,,,False,False,False,True,True,False,False,475,Liu,2013
