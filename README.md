@@ -61,7 +61,7 @@ constraints and a description of every field.
 ## Contributing
 
 New records are welcome — a single map or a hundred. See `CONTRIBUTING.md`. The quickest
-route is the *Add a linkage map* issue form, which requires a GitHub account, or you can complete a template from (templates/submission_template.xlsx) and send it to the maintainer.
+route is the *Add a linkage map* issue form, which requires a GitHub account, or you can complete [the submission template](templates/submission_template.xlsx) and send it to the maintainer.
 
 Contributors are credited as authors on the citable dataset release.
 

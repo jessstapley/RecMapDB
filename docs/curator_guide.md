@@ -2,7 +2,21 @@
 
 A submitted issue form does not change the database by itself — it is a
 structured request. A curator turns it into rows, commits, and closes the
-issue. The steps, for a typical single-map submission:
+issue.
+
+**Most of this is automated.** From the repository root:
+
+    python scripts/issue_to_new_record.py <issue number>            # preview
+    python scripts/issue_to_new_record.py <issue number> --apply    # write
+
+The script fetches the issue, resolves the DOI (Crossref) and species (Open
+Tree of Life), builds the reference / species / genome-size / map rows with
+the quality flags computed, appends them, updates `n_map_records`, rebuilds
+the derived table and runs validation, then prints a commit message that
+references the issue. Review its output — especially any NEW SPECIES row,
+whose lineage should be checked — then commit, push, and close the issue.
+
+The manual steps it automates, for reference or for unusual cases:
 
 1. **Read the automated check comment** on the issue. It resolves the DOI
    against Crossref, the species against the Open Tree of Life, and
