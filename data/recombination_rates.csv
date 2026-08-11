@@ -481,3 +481,4 @@ RM0492,ott980993,Populus simonii,tong2020,5506.35,396.967,assembly_or_direct,mal
 RM0493,ott853659,Vigna subterranea,gao2022,1040.92,880.2,estimate_unspecified,sex_averaged,234.0,11.0,11.0,True,False,1.182595,94.629,4.4484,
 RM0494,ott3942433,Citrus sinensis,oliveira2007,1596.2,490.956,c_value,sex_averaged,55.0,5.0,9.0,True,False,3.251208,177.356,29.0218,
 RM0495,ott37136,Citrus reticulata,oliveira2007,1651.47,347.0,assembly_or_direct,sex_averaged,65.0,9.0,9.0,True,False,4.75928,183.497,25.4072,
+RM0496,ott906425,Zymoseptoria tritici,stapley2023,6202.55,39.7,assembly_or_direct,sex_averaged,32806.0,21.0,21.0,True,False,156.235516,295.36,0.1891,
