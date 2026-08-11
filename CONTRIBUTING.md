@@ -1,6 +1,6 @@
 # Contributing
 
-New records are welcome — a single map or a hundred. Pick the route that fits you.
+New records are welcome — a single map or many. Pick the route that fits you.
 
 ## If you use GitHub
 
