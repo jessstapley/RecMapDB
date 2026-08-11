@@ -4,7 +4,7 @@ New records are welcome — a single map or a hundred. Pick the route that fits 
 
 ## If you use GitHub
 
-### 1. The issue form (easiest — no git knowledge needed)
+### 1. Use the issue form (for one record)
 
 You need a (free) GitHub account, but nothing more: no fork, no clone, no command line.
 
