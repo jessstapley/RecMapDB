@@ -6,7 +6,7 @@
 Two companions land with it: `genome_sizes.csv` (683 estimates) and the derived
 `recombination_rates.csv` (430 rows).
 
-## The unit of observation is a map, not a species
+## The unit of observation is a map
 
 29 species have more than one published map. Each gets its own row, its own `map_id`, its
 own reference and its own quality flags. `Cynodon dactylon` is the clearest case: two maps
@@ -14,17 +14,12 @@ from the same 2010 study, one with n = 9 and 36 markers, one with n = 18 and 125
 a polyploid series, not a contradiction. The first fails the marker criterion; the second is
 the one that appeared in the published analysis.
 
-## The rate is derived, never stored
+## The rate is derived and can be updated
 
 `maps.csv` holds `map_length_cM` and `genome_size_mb`. It does **not** hold a recombination
 rate. That is computed in `recombination_rates.csv` by `scripts/build_derived.py`:
 
     recombination_rate_cM_per_Mb = map_length_cM / genome_size_mb
-
-The original file stored the rate as text, and 56 rows held the Excel error `#VALUE!` —
-every one of them a row with no genome size. Recomputing all 430 computable values
-reproduces the stored column **exactly** (zero disagreements above 1e-4), so the formula is
-confirmed and the stored column is redundant.
 
 `rate_as_published_cM_per_Mb` is retained separately: it is what the *source study* printed,
 useful for comparison, and it is not what the derived table computes.
