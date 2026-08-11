@@ -20,14 +20,14 @@ extended by the community.
 
 Still to come: `contributors.csv`. See `docs/recmapdb_plan.md` for the full design.
 
-## The headline quantity
+## Recombination rate updates as data is added or corrected
 
 Recombination rate is **not stored**. It is computed from what was measured:
 
     recombination_rate_cM_per_Mb = map_length_cM / genome_size_mb
 
 so a corrected genome size propagates automatically. `scripts/build_derived.py` rebuilds
-the derived table and CI fails if the committed version has drifted from its inputs.
+the derived table.
 
 To reproduce the published analysis: `maps[maps.passes_2017_criteria]`. All 353 records in
 the published supplement pass; records that fail are kept and flagged, not deleted.
@@ -60,7 +60,7 @@ constraints and a description of every field.
 
 ## Contributing
 
-New records are welcome — a single map or a hundred. See `CONTRIBUTING.md`. The quickest
+New records are welcome — a single map or many. See `CONTRIBUTING.md`. The quickest
 route is the *Add a linkage map* issue form, which requires a GitHub account, or you can complete [the submission template](templates/submission_template.xlsx) and send it to the maintainer.
 
 Contributors are credited as authors on the citable dataset release.
