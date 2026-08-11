@@ -1,7 +1,7 @@
 name: Check new record submission
 on:
   issues:
-    types: [opened, edited]
+    types: [opened, edited, labeled]
 
 permissions:
   issues: write
@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   check:
-    if: contains(github.event.issue.labels.*.name, 'new-record')
+    if: contains(github.event.issue.labels.*.name, 'new-record') || startsWith(github.event.issue.title, '[new record]')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
