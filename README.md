@@ -35,13 +35,13 @@ the published supplement pass; records that fail are kept and flagged, not delet
 ## Reading the data
 
 ```r
-refs <- read.csv("https://raw.githubusercontent.com/USER/recmapdb/main/data/references.csv")
-spp  <- read.csv("https://raw.githubusercontent.com/USER/recmapdb/main/data/species.csv")
+refs <- read.csv("https://raw.githubusercontent.com/jessstapley/RecMapDB/main/data/references.csv")
+spp  <- read.csv("https://raw.githubusercontent.com/jessstapley/RecMapDB/main/data/species.csv")
 ```
 
 ```python
 import pandas as pd
-spp = pd.read_csv("https://raw.githubusercontent.com/USER/recmapdb/main/data/species.csv")
+spp = pd.read_csv("https://raw.githubusercontent.com/jessstapley/RecMapDB/main/data/species.csv")
 ```
 
 Each table has a Frictionless Table Schema beside it (`*.schema.json`) giving types,

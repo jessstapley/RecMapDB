@@ -5,4 +5,6 @@ type: dataset
 authors:
   - family-names: Stapley
     given-names: Jessica
+repository-code: "https://github.com/jessstapley/RecMapDB"
+url: "https://github.com/jessstapley/RecMapDB"
 license: CC0-1.0
