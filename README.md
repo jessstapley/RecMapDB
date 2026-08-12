@@ -1,4 +1,4 @@
-# recmapdb — an open database of eukaryote recombination rates from linkage maps
+# RecMapDB — an open database of eukaryote recombination rates estimated from from linkage maps
 
 **Status: pre-release (v0.x). Schema may still change.**
 
@@ -20,7 +20,7 @@ extended by the community.
 
 Still to come: `contributors.csv`. See `docs/recmapdb_plan.md` for the full design.
 
-## The headline quantity
+## Estimate of Recombination Rate 
 
 Recombination rate is **not stored**. It is computed from what was measured:
 
