@@ -113,3 +113,19 @@ ready source for future trait expansion.
 
 `parasitic_or_pathogenic` and `invasive` agree exactly between `LinkageMapIinfo2.csv` and
 the published `SuppDat.csv` for all 353 overlapping species.
+
+## TRY-derived plant traits
+
+The plant trait columns (`plant_growth_form`, `woodiness`, `leaf_type`,
+`leaf_phenology`, `photosynthetic_pathway`, `leaf_compoundness`,
+`plant_life_form`) were compiled in part from the TRY Plant Trait Database
+(requests 3004 and 3053, received 2016-2017; contributing datasets include the
+Categorical Plant Traits Database, the Leaf Physiology Database, LEDA, the
+Global Woodiness Database, BIOME-BGC and the Ecological Flora of the British
+Isles). The 319 values that match the TRY extracts are individually marked:
+their `source` names TRY and their `source_citation` is Kattge et al. (2020,
+doi:10.1111/gcb.14904). These values are licensed CC BY 4.0 rather than CC0 —
+any product using them must cite Kattge et al. (2020). Redistribution here was
+confirmed by the TRY coordinator (August 2026). The remaining plant-trait
+values could not be matched to the TRY extracts and carry compilation
+provenance.

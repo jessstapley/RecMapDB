@@ -20,14 +20,14 @@ extended by the community.
 
 Still to come: `contributors.csv`. See `docs/recmapdb_plan.md` for the full design.
 
-## Recombination rate updates as data is added or corrected
+## The headline quantity
 
 Recombination rate is **not stored**. It is computed from what was measured:
 
     recombination_rate_cM_per_Mb = map_length_cM / genome_size_mb
 
 so a corrected genome size propagates automatically. `scripts/build_derived.py` rebuilds
-the derived table.
+the derived table and CI fails if the committed version has drifted from its inputs.
 
 To reproduce the published analysis: `maps[maps.passes_2017_criteria]`. All 353 records in
 the published supplement pass; records that fail are kept and flagged, not deleted.
@@ -60,10 +60,29 @@ constraints and a description of every field.
 
 ## Contributing
 
-New records are welcome — a single map or many. See `CONTRIBUTING.md`. The quickest
-route is the *Add a linkage map* issue form, which requires a GitHub account, or you can complete [the submission template](templates/submission_template.xlsx) and send it to the maintainer.
+New records are welcome — a single map or a hundred. See `CONTRIBUTING.md`. The quickest
+route is the *Add a linkage map* issue form, which needs no git knowledge.
 
 Contributors are credited as authors on the citable dataset release.
+
+## How to cite
+
+The database and the 2017 paper are separate citable objects. The paper describes the
+original compilation and analysis; the database has grown well beyond it (every record
+referenced, new maps and genome sizes added, ongoing community contributions), so analyses
+of the current data should cite the **versioned dataset release**:
+
+> Stapley, J. (2026). *RecMapDB: an open database of eukaryote recombination rates from
+> linkage maps* (v1.0.0) [Data set]. Zenodo. DOI to be minted at first release.
+
+and, for the origin of the compilation:
+
+> Stapley J, Feulner PGD, Johnston SE, Santure AW, Smadja CM (2017). Variation in
+> recombination frequency and distribution across eukaryotes: patterns and processes.
+> *Phil. Trans. R. Soc. B* 372:20160455. [doi:10.1098/rstb.2016.0455](https://doi.org/10.1098/rstb.2016.0455)
+
+Analyses that lean on particular maps should also cite the primary studies — every record
+carries its source DOI in `data/references.csv`.
 
 ## Provenance
 
@@ -73,4 +92,10 @@ Anyone can verify that the restructuring preserved the published values.
 
 ## Licence
 
-Data: CC0-1.0. Code: MIT. See `LICENSE` and `LICENSE-CODE`.
+Data: CC0-1.0, with one exception: trait values sourced from the [TRY Plant Trait
+Database](https://www.try-db.org) (individually marked in `species_traits.csv` by their
+`source` and `source_citation` fields) are **CC BY 4.0** and require attribution to
+Kattge et al. (2020) *Global Change Biology* 26:119-188,
+[doi:10.1111/gcb.14904](https://doi.org/10.1111/gcb.14904). Redistribution of these
+values was confirmed with the TRY coordinator (J. Kattge, pers. comm., August 2026).
+Code: MIT. See `LICENSE` and `LICENSE-CODE`.
