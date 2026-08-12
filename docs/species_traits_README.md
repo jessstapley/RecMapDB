@@ -8,8 +8,7 @@ Taxonomy and traits answer different questions and have different provenance.
 
 Taxonomy is a **resolved external fact** — one authority (Open Tree of Life), refreshable
 by re-running resolution, and applying uniformly to every row. Traits are **observations**:
-each has its own source, its own scoring scope, and its own uncertainty. Mixing them makes
-the second kind look as authoritative as the first.
+each has its own source, its own scoring scope, and its own uncertainty. 
 
 The practical consequence is that a trait's *absence* carries meaning that a wide table
 cannot express. Leaf phenology is not missing for *Gallus gallus* — it is not applicable.
