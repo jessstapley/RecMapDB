@@ -1,4 +1,4 @@
-# RecMapDB — an open database of eukaryote recombination rates estimated from from linkage maps
+# RecMapDB — an open database of eukaryote recombination rates estimated from linkage maps
 
 **Status: pre-release (v0.x). Schema may still change.**
 
@@ -60,8 +60,8 @@ constraints and a description of every field.
 
 ## Contributing
 
-New records are welcome — a single map or a hundred. See `CONTRIBUTING.md`. The quickest
-route is the *Add a linkage map* issue form, which needs no git knowledge.
+New records are welcome — a single map or many. See `CONTRIBUTING.md`. The quickest
+route is the *Add a linkage map* issue form, which requires a GitHub account, or you can complete [the submission template](templates/submission_template.xlsx) and send it to the maintainer.
 
 Contributors are credited as authors on the citable dataset release.
 

@@ -1,0 +1,43 @@
+{
+    "title": "RecMapDB: an open database of eukaryote recombination rates estimated from linkage maps",
+    "upload_type": "dataset",
+    "access_right": "open",
+    "license": "CC0-1.0",
+    "creators": [
+        {
+            "name": "Stapley, Jessica",
+            "affiliation": "ETH Zürich",
+            "orcid": "0000-0002-9138-5684"
+        }
+    ],
+    "description": "<p>Genome-wide recombination rates estimated from published linkage maps across eukaryotes. One row per linkage map per study; every record carries its source publication, and recombination rate (cM/Mb) is derived at build time from map length and genome size, never stored by hand. Seeded from the compilation in Stapley et al. (2017, Phil. Trans. R. Soc. B, doi:10.1098/rstb.2016.0455), substantially re-curated and extended, and designed to be extended by the community: see CONTRIBUTING.md in the repository.</p><p>Data are plain CSV with Frictionless Table Schemas. Data licence CC0-1.0, except trait values sourced from the TRY Plant Trait Database (marked in species_traits.csv), which are CC BY 4.0 and require citation of Kattge et al. (2020, doi:10.1111/gcb.14904). Code licence MIT.</p>",
+    "keywords": [
+        "recombination rate",
+        "linkage map",
+        "genetic map",
+        "crossover",
+        "genome size",
+        "comparative genomics",
+        "eukaryotes",
+        "database"
+    ],
+    "related_identifiers": [
+        {
+            "identifier": "10.1098/rstb.2016.0455",
+            "relation": "isDerivedFrom",
+            "resource_type": "publication-article",
+            "scheme": "doi"
+        },
+        {
+            "identifier": "10.1111/gcb.14904",
+            "relation": "cites",
+            "resource_type": "publication-article",
+            "scheme": "doi"
+        },
+        {
+            "identifier": "https://github.com/jessstapley/RecMapDB",
+            "relation": "isSupplementTo",
+            "scheme": "url"
+        }
+    ]
+}

@@ -1,10 +1,43 @@
 cff-version: 1.2.0
-title: "recmapdb: an open database of eukaryote recombination rates from linkage maps"
-message: "If you use this database, please cite it and the original studies."
+title: "RecMapDB: an open database of eukaryote recombination rates estimated from linkage maps"
+message: >-
+  If you use this database, please cite the versioned Zenodo release (DOI below
+  once minted) together with the original compilation paper, and the primary
+  studies your analysis draws on.
 type: dataset
 authors:
   - family-names: Stapley
     given-names: Jessica
+    orcid: "https://orcid.org/0000-0002-9138-5684"
+version: 1.0.0
+date-released: 2026-08-12
 repository-code: "https://github.com/jessstapley/RecMapDB"
 url: "https://github.com/jessstapley/RecMapDB"
 license: CC0-1.0
+references:
+  - type: article
+    title: "Variation in recombination frequency and distribution across eukaryotes: patterns and processes"
+    authors:
+      - family-names: Stapley
+        given-names: Jessica
+      - family-names: Feulner
+        given-names: Philine G. D.
+      - family-names: Johnston
+        given-names: Susan E.
+      - family-names: Santure
+        given-names: Anna W.
+      - family-names: Smadja
+        given-names: Carole M.
+    journal: "Philosophical Transactions of the Royal Society B: Biological Sciences"
+    volume: 372
+    year: 2017
+    doi: 10.1098/rstb.2016.0455
+  - type: article
+    title: "TRY plant trait database - enhanced coverage and open access"
+    authors:
+      - family-names: Kattge
+        given-names: Jens
+    journal: "Global Change Biology"
+    volume: 26
+    year: 2020
+    doi: 10.1111/gcb.14904
