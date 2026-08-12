@@ -1,12 +1,12 @@
-# Contributing
+# Contributions welcome
 
-New records are welcome — a single map or many. Pick the route that fits you.
+A single map or many, or genome size updates. 
 
 ## If you use GitHub
 
 ### 1. Use the issue form
 
-You need a (free) GitHub account, but nothing more: no fork, no clone, no command line.
+You need a (free) GitHub account
 
 Open a new issue, choose **Add a linkage map record**, fill in the form, submit.
 You need: a DOI, a species name, sex-averaged map length in cM, marker count, number of
@@ -27,8 +27,6 @@ advisory — a curator then reviews the record and enters it (see `docs/curator_
 Do not edit anything in `derived/` — those files are rebuilt automatically.
 
 ## If you don't use GitHub
-
-### 3. Send a spreadsheet
 
 No GitHub account required. Download
 [`templates/submission_template.xlsx`](templates/submission_template.xlsx), fill it in
