@@ -7,7 +7,7 @@ the seven tables in `docs/recmapdb_plan.md` §3.
 
 Every source species string was resolved against the **Open Tree of Life** taxonomy
 (TNRS `match_names`, then `taxon_info` with lineage), and **NCBI Taxonomy** was queried
-independently as a cross-check. Source taxonomy columns are retained beside the resolved
+independently as a cross-check. Matching species against **Open Tree of Life** facilitates analysis using a phylogenetic controlled model, as the phylogeny can be obtained from**Open Tree of Life**. Source taxonomy columns are retained beside the resolved
 values, so every change is auditable rather than silently applied.
 
 All 457 names now resolve: 456 automatically, plus `Pyrus x` handled by hand (see below).
