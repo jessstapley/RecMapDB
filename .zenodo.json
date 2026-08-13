@@ -35,6 +35,12 @@
             "scheme": "doi"
         },
         {
+            "identifier": "10.1038/sdata.2014.15",
+            "relation": "cites",
+            "resource_type": "publication-article",
+            "scheme": "doi"
+        },
+        {
             "identifier": "https://github.com/jessstapley/RecMapDB",
             "relation": "isSupplementTo",
             "scheme": "url"
