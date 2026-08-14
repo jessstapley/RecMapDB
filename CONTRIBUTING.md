@@ -28,7 +28,7 @@ Do not edit anything in `derived/` — those files are rebuilt automatically.
 
 ## If you don't use GitHub
 
-No GitHub account required. Download
+Download
 [`templates/submission_template.xlsx`](templates/submission_template.xlsx), fill it in
 (one row per map — the template contains instructions and a worked example), and email it
 to the maintainer. A curator will submit it for you. You will still be credited.
