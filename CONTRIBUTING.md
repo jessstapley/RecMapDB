@@ -45,6 +45,7 @@ to the maintainer. A curator will submit it for you. You will still be credited.
 
 ## Calculating sex-averaged maps
 For species with **undifferentiated sex chromosomes (homogametic)**: the sex-averaged map length = (female map legnth + male map length)/2. 
+
 For species with **differentiated sex chromosomes (XY,ZW,XO, a.k.a heterogametic)**: sex-averaged map length = sum of sex-averaged autosomes ((female map legnth + male map length)/2) + the length of the map for the homogemetic sex chromosome (Z,X).
 
 ## Credit
