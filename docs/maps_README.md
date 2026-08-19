@@ -14,6 +14,11 @@ from the same 2010 study, one with n = 9 and 36 markers, one with n = 18 and 125
 a polyploid series, not a contradiction. The first fails the marker criterion; the second is
 the one that appeared in the published analysis.
 
+## The sex-averaged map length 
+
+For species with undifferentiated sex chromosomes (homogametic): if you have a male and female specific map length the sex-averaged map length = (female map legnth + male map length)/2.
+For species with differentiated sex chromosomes (XY,ZW,XO, a.k.a heterogametic): sex-averaged = sum of sex-averaged autosomes ((female map legnth + male map length)/2) + the length of the map for the homogemetic sex chromosome (Z,X). 
+
 ## The rate is derived and can be updated
 
 `maps.csv` holds `map_length_cM` and `genome_size_mb`. It does **not** hold a recombination
