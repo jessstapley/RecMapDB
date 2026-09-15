@@ -2,7 +2,7 @@
 
 ## v1.0.0 — 2026-09-15
 
-First citable release: 494 linkage maps, 459 species, every record referenced.
+First citable release, archived at [doi:10.5281/zenodo.22769468](https://doi.org/10.5281/zenodo.22769468): 494 linkage maps, 459 species, every record referenced.
 
 ### Added
 - `data/maps.csv` (486 rows) — the core observation table, one row per linkage map per

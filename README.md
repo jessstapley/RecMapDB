@@ -1,5 +1,8 @@
 # RecMapDB — an open database of eukaryote recombination rates estimated from linkage maps
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22769468.svg)](https://doi.org/10.5281/zenodo.22769468)
+[![Data licence: CC0-1.0](https://img.shields.io/badge/data-CC0--1.0-blue.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+
 **Version 1.0.0** — first citable release. The schema is stable: tables and fields will
 be added, but existing fields will not change meaning without a new major version.
 
@@ -75,7 +78,10 @@ referenced, new maps and genome sizes added, ongoing community contributions), s
 of the current data should cite the **versioned dataset release**:
 
 > Stapley, J. (2026). *RecMapDB: an open database of eukaryote recombination rates from
-> linkage maps* (v1.0.0) [Data set]. Zenodo. DOI to be minted at first release.
+> linkage maps* (v1.0.0) [Data set]. Zenodo. [doi:10.5281/zenodo.22769468](https://doi.org/10.5281/zenodo.22769468)
+
+That DOI always resolves to the latest version; each release also has its own version
+DOI, shown on its Zenodo page, for citing an exact snapshot.
 
 and, for the origin of the compilation:
 

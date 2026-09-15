@@ -1,16 +1,16 @@
 cff-version: 1.2.0
 title: "RecMapDB: an open database of eukaryote recombination rates estimated from linkage maps"
 message: >-
-  If you use this database, please cite the versioned Zenodo release (DOI below
-  once minted) together with the original compilation paper, and the primary
-  studies your analysis draws on.
+  If you use this database, please cite the Zenodo release together with the
+  original compilation paper, and the primary studies your analysis draws on.
 type: dataset
 authors:
   - family-names: Stapley
     given-names: Jessica
     orcid: "https://orcid.org/0000-0002-9138-5684"
 version: 1.0.0
-date-released: 2026-08-12
+date-released: 2026-09-15
+doi: 10.5281/zenodo.22769468
 repository-code: "https://github.com/jessstapley/RecMapDB"
 url: "https://github.com/jessstapley/RecMapDB"
 license: CC0-1.0
