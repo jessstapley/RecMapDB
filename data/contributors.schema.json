@@ -1,0 +1,70 @@
+{
+  "name": "contributors",
+  "path": "contributors.csv",
+  "format": "csv",
+  "mediatype": "text/csv",
+  "encoding": "utf-8",
+  "title": "People who have contributed data or curation to the database",
+  "description": "One row per person. This table is the source of the author list on each citable Zenodo release: scripts/make_zenodo_metadata.py writes the `include_in_zenodo_authors` rows into .zenodo.json. Anyone who contributes a record is entitled to a row; a curator adds it if the contributor does not.",
+  "schema": {
+    "primaryKey": "contributor_id",
+    "fields": [
+      {
+        "name": "contributor_id",
+        "type": "string",
+        "description": "Stable slug, lowercase surname plus initial (e.g. stapley_j), suffixed on collision.",
+        "constraints": {
+          "required": true,
+          "unique": true,
+          "pattern": "^[a-z]+_[a-z]{1,3}[0-9]?$"
+        }
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "description": "Family, Given — the form used in the Zenodo author list and in references.csv.",
+        "constraints": {
+          "required": true
+        }
+      },
+      {
+        "name": "orcid",
+        "type": "string",
+        "description": "ORCID iD without the URL prefix. Optional: a contributor without one is still credited by name.",
+        "constraints": {
+          "pattern": "^[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{3}[0-9X]$"
+        }
+      },
+      {
+        "name": "affiliation",
+        "type": "string"
+      },
+      {
+        "name": "role",
+        "type": "string",
+        "description": "maintainer: runs the database. curator: reviews and merges submissions. contributor: supplied data.",
+        "constraints": {
+          "enum": ["maintainer", "curator", "contributor"]
+        }
+      },
+      {
+        "name": "contributions",
+        "type": "string",
+        "description": "What this person contributed, in words — map records, genome sizes, corrections, curation."
+      },
+      {
+        "name": "first_release",
+        "type": "string",
+        "description": "Release tag in which this person's contribution first appeared.",
+        "constraints": {
+          "pattern": "^v[0-9]+\\.[0-9]+\\.[0-9]+$"
+        }
+      },
+      {
+        "name": "include_in_zenodo_authors",
+        "type": "boolean",
+        "description": "False only if the contributor has asked not to appear in the dataset author list."
+      }
+    ]
+  }
+}

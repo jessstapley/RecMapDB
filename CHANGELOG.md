@@ -1,6 +1,8 @@
 # Changelog
 
-## Unreleased
+## v1.0.0 — 2026-09-15
+
+First citable release: 494 linkage maps, 459 species, every record referenced.
 
 ### Added
 - `data/maps.csv` (486 rows) — the core observation table, one row per linkage map per
@@ -128,3 +130,7 @@
   table 447 -> 482 rows; new rates span 0.05 (Lilium) to 38.2 cM/Mb (Agaricus
   subrufescens), all plausible for their taxa. 11 map records now remain without a
   genome size; current sources have nothing for those species.
+- `data/contributors.csv` — people credited as authors on citable releases, with
+  `scripts/make_zenodo_metadata.py` writing the `include_in_zenodo_authors` rows into
+  `.zenodo.json`. This makes the credit promise in CONTRIBUTING.md mechanical rather
+  than manual.

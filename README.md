@@ -1,6 +1,7 @@
 # RecMapDB — an open database of eukaryote recombination rates estimated from linkage maps
 
-**Status: pre-release (v0.x). Schema may still change.**
+**Version 1.0.0** — first citable release. The schema is stable: tables and fields will
+be added, but existing fields will not change meaning without a new major version.
 
 Genome-wide recombination rate estimated from published linkage maps, across eukaryotes.
 Seeded from the compilation in Stapley et al. (2017) *Phil. Trans. R. Soc. B*
@@ -11,14 +12,15 @@ extended by the community.
 
 | File | Rows | Description |
 |---|---|---|
-| `data/maps.csv` | 493 | **The core table.** One row per linkage map per study |
+| `data/maps.csv` | 494 | **The core table.** One row per linkage map per study |
 | `data/species.csv` | 459 | Taxa resolved against Open Tree of Life, cross-checked against NCBI |
-| `data/references.csv` | 458 | Source publications, 97% with resolved DOIs; every map referenced |
-| `data/genome_sizes.csv` | 683 | Genome-size estimates with method; 450 in use, covering 447 of 459 species |
+| `data/references.csv` | 459 | Source publications, 97% with resolved DOIs; every map referenced |
+| `data/genome_sizes.csv` | 684 | Genome-size estimates with method; 451 in use, covering 447 of 459 species |
 | `data/species_traits.csv` | 3,071 | Species traits in long format, 163 with a primary citation |
-| `data/recombination_rates.csv` | 482 | **Derived** — rebuilt from maps and genome sizes; do not edit |
+| `data/recombination_rates.csv` | 483 | **Derived** — rebuilt from maps and genome sizes; do not edit |
+| `data/contributors.csv` | 1 | People credited as authors on the citable release |
 
-Still to come: `contributors.csv`. See `docs/recmapdb_plan.md` for the full design.
+See `docs/recmapdb_plan.md` for the full design.
 
 ## Estimate of Recombination Rate 
 

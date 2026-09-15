@@ -1,0 +1,2 @@
+contributor_id,name,orcid,affiliation,role,contributions,first_release,include_in_zenodo_authors
+stapley_j,"Stapley, Jessica",0000-0002-9138-5684,ETH Zürich,maintainer,"Original compilation (Stapley et al. 2017); database design, curation and maintenance",v1.0.0,True
